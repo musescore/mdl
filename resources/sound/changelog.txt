@@ -1,0 +1,19 @@
+v0.4.1
+ . Added accented metronome to MDL_BassLine.sfz
+
+v0.4
+ . Combined 3 cymbal lines into single SFZ file.
+ . Added extra percussion sounds (cymbals, agogo, cowbell, etc.) to tenor line and bass line.
+ . Use 18" crash cymbal in snare and tenor lines instead of 16"
+ . Slight volume boost to cymbals and hi-hat in snare and tenor lines.
+
+v0.3
+ . Tightened up the timing for all group drums.
+ . Added velocity-based filtering for all articulations that only have one sampled velocity to create a more realistic, mellower sound at lower velocities.
+ . Fixed low Agogo not playing in Zerberus.
+ . Fixed cymbals in snareline instrument to be single, not group samples.
+ . SnareLine: improved the sound of the rim shots.
+ . Tenor and TenorLine: tuned tenors down to match VDL pitch.
+ . Added MDL_DrumSet instrument.
+ . Drum set "snares off" regions are currently disabled since Zerberus doesn't support key switches.
+ . Several tweaks were made to overall balance.
