@@ -30,6 +30,7 @@ myzip = zipfile.ZipFile(zipPath, mode='w')
 recursive_zip(myzip, os.path.abspath('resources/instruments'), "instruments")
 recursive_zip(myzip, os.path.abspath('resources/sfzs'), "sfzs")
 recursive_zip(myzip, os.path.abspath('resources/templates'), "templates")
+recursive_zip(myzip, os.path.abspath('resources/workspaces'), "workspaces")
 myzip.write('resources/metadata.json', 'metadata.json')
 myzip.close()
 
