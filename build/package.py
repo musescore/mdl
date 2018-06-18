@@ -2,7 +2,7 @@ import json
 import zipfile
 import os
 import hashlib
-
+import shutil
 
 def recursive_zip(zipf, directory, folder=""):
     zipf.write(directory, folder)
@@ -15,6 +15,7 @@ def recursive_zip(zipf, directory, folder=""):
 
 
 outdir = "out"
+shutil.rmtree(outdir, ignore_errors=True)
 os.makedirs(outdir)
 
 ## read metadata.json
