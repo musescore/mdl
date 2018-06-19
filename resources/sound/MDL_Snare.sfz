@@ -5,82 +5,65 @@
 // **  S. Christian Collins   **
 // *****************************
 
-// *****************
-// ** Stick Click **
-// *****************
-<group> key=c2  lovel=1  hivel=94  loop_mode=one_shot
-fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
-<region> sample=MDL_samples/snare/stick_click_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2  volume=-3
-<region> sample=MDL_samples/snare/stick_click_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2  volume=-3
-<region> sample=MDL_samples/snare/stick_click_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2  volume=2
-<region> sample=MDL_samples/snare/stick_click_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=2
+// *********
+// ** Hit **
+// *********
+<group> key=f#5  lovel=1  hivel=94  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=2000  fil_veltrack=8000
+<region> sample=MDL_samples/snare/hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/hit_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/hit_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/snare/hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=3
 
-<group> key=c2  lovel=95  hivel=127  loop_mode=one_shot
-<region> sample=MDL_samples/snare/stick_click_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2  volume=-3
-<region> sample=MDL_samples/snare/stick_click_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2  volume=-3
-<region> sample=MDL_samples/snare/stick_click_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2  volume=2
-<region> sample=MDL_samples/snare/stick_click_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=2
+<group> key=f#5  lovel=95  hivel=127  loop_mode=one_shot
+<region> sample=MDL_samples/snare/hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/hit_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/hit_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/snare/hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=3
 
 // **************
-// ** Hand Hit **
+// ** Rim Shot **
 // **************
-<group> key=f2  lovel=1  hivel=94  loop_mode=one_shot
-fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
-<region> sample=MDL_samples/snare/hand_1.ogg  seq_position=1  seq_length=4
-<region> sample=MDL_samples/snare/hand_3.ogg  seq_position=2  seq_length=4
-<region> sample=MDL_samples/snare/hand_2.ogg  seq_position=3  seq_length=4
-<region> sample=MDL_samples/snare/hand_4.ogg  seq_position=4  seq_length=4
+<group> key=f5  lovel=1  hivel=94  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
+<region> sample=MDL_samples/snare/rim_shot_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/rim_shot_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/rim_shot_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/snare/rim_shot_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 
-<group> key=f2  lovel=95  hivel=127  loop_mode=one_shot
-<region> sample=MDL_samples/snare/hand_1.ogg  seq_position=1  seq_length=4
-<region> sample=MDL_samples/snare/hand_3.ogg  seq_position=2  seq_length=4
-<region> sample=MDL_samples/snare/hand_2.ogg  seq_position=3  seq_length=4
-<region> sample=MDL_samples/snare/hand_4.ogg  seq_position=4  seq_length=4
+<group> key=f5  lovel=95  hivel=127  loop_mode=one_shot
+<region> sample=MDL_samples/snare/rim_shot_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/rim_shot_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/rim_shot_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/snare/rim_shot_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 
-// ***********
-// ** Shell **
-// ***********
-<group> key=f#2  lovel=1  hivel=94  loop_mode=one_shot
-fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
-<region> sample=MDL_samples/snare/shell_1.ogg  seq_position=1  seq_length=4
-<region> sample=MDL_samples/snare/shell_3.ogg  seq_position=2  seq_length=4
-<region> sample=MDL_samples/snare/shell_2.ogg  seq_position=3  seq_length=4
-<region> sample=MDL_samples/snare/shell_4.ogg  seq_position=4  seq_length=4
+// *****************
+// ** Double Shot **
+// *****************
+<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
+<region> sample=MDL_samples/snare/double_shot_1.ogg  seq_position=1  seq_length=2  volume=6
+<region> sample=MDL_samples/snare/double_shot_2.ogg  seq_position=2  seq_length=2  volume=6
 
-<group> key=f#2  lovel=95  hivel=127  loop_mode=one_shot
-<region> sample=MDL_samples/snare/shell_1.ogg  seq_position=1  seq_length=4
-<region> sample=MDL_samples/snare/shell_3.ogg  seq_position=2  seq_length=4
-<region> sample=MDL_samples/snare/shell_2.ogg  seq_position=3  seq_length=4
-<region> sample=MDL_samples/snare/shell_4.ogg  seq_position=4  seq_length=4
+<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot
+<region> sample=MDL_samples/snare/double_shot_1.ogg  seq_position=1  seq_length=2  volume=6
+<region> sample=MDL_samples/snare/double_shot_2.ogg  seq_position=2  seq_length=2  volume=6
 
-// **********
-// ** Rods **
-// **********
-<group> key=f4  loop_mode=one_shot
-fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
-<region> lovel=1    hivel=59  sample=MDL_samples/snare/rod1_1.ogg  volume=4
-<region> lovel=60   hivel=94  sample=MDL_samples/snare/rod1_3.ogg  seq_position=1  seq_length=3
-<region> lovel=60   hivel=94  sample=MDL_samples/snare/rod1_2.ogg  seq_position=2  seq_length=3
-<region> lovel=60   hivel=94  sample=MDL_samples/snare/rod1_4.ogg  seq_position=3  seq_length=3
+// ***************
+// ** Ping Shot **
+// ***************
+<group> key=a5  lovel=1  hivel=94  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
+<region> sample=MDL_samples/snare/ping_shot_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/ping_shot_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/ping_shot_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/snare/ping_shot_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 
-<group> key=f4  lovel=95  hivel=127  loop_mode=one_shot
-<region> lovel=95   hivel=127  sample=MDL_samples/snare/rod1_3.ogg  seq_position=1  seq_length=3
-<region> lovel=95   hivel=127  sample=MDL_samples/snare/rod1_2.ogg  seq_position=2  seq_length=3
-<region> lovel=95   hivel=127  sample=MDL_samples/snare/rod1_4.ogg  seq_position=3  seq_length=3
-
-// ************
-// ** Dreads **
-// ************
-<group> key=f#4  lovel=1  hivel=94  loop_mode=one_shot  ampeg_attack=0.007
-fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
-<region> lovel=1    hivel=59   sample=MDL_samples/snare/dread1_1.ogg  volume=9
-<region> lovel=60   hivel=99   sample=MDL_samples/snare/dread1_3.ogg  seq_position=1  seq_length=2  volume=3
-<region> lovel=60   hivel=99   sample=MDL_samples/snare/dread1_4.ogg  seq_position=2  seq_length=2  volume=3
-
-<group> key=f#4  lovel=1  hivel=94  loop_mode=one_shot
-<region> lovel=100  hivel=127  sample=MDL_samples/snare/dread1_3.ogg  seq_position=1  seq_length=2  volume=-3
-<region> lovel=100  hivel=127  sample=MDL_samples/snare/dread1_4.ogg  seq_position=2  seq_length=2  volume=-3
-<region> lovel=100  hivel=127  sample=MDL_samples/snare/dread1_2.ogg  volume=-3
+<group> key=a5  lovel=95  hivel=127  loop_mode=one_shot
+<region> sample=MDL_samples/snare/ping_shot_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/ping_shot_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/snare/ping_shot_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/snare/ping_shot_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 
 // ****************
 // ** Stick Shot **
@@ -97,6 +80,22 @@ fil_type=lpf_1p  cutoff=3000  fil_veltrack=8000
 <region> sample=MDL_samples/snare/stick_shot_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/snare/stick_shot_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2  volume=-3
 <region> sample=MDL_samples/snare/stick_shot_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=3
+
+// ***************
+// ** Rim Knock **
+// ***************
+<group> key=d5  lovel=1  hivel=94  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=2000  fil_veltrack=8000
+<region> sample=MDL_samples/snare/rim_knock_1.ogg  seq_position=1  seq_length=4
+<region> sample=MDL_samples/snare/rim_knock_3.ogg  seq_position=2  seq_length=4
+<region> sample=MDL_samples/snare/rim_knock_2.ogg  seq_position=3  seq_length=4
+<region> sample=MDL_samples/snare/rim_knock_4.ogg  seq_position=4  seq_length=4
+
+<group> key=d5  lovel=95  hivel=127  loop_mode=one_shot
+<region> sample=MDL_samples/snare/rim_knock_1.ogg  seq_position=1  seq_length=4
+<region> sample=MDL_samples/snare/rim_knock_3.ogg  seq_position=2  seq_length=4
+<region> sample=MDL_samples/snare/rim_knock_2.ogg  seq_position=3  seq_length=4
+<region> sample=MDL_samples/snare/rim_knock_4.ogg  seq_position=4  seq_length=4
 
 // *********
 // ** Rim **
@@ -115,82 +114,6 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/snare/rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 
 // ***************
-// ** Rim Knock **
-// ***************
-<group> key=d5  lovel=1  hivel=94  loop_mode=one_shot
-fil_type=lpf_1p  cutoff=2000  fil_veltrack=8000
-<region> sample=MDL_samples/snare/rim_knock_1.ogg  seq_position=1  seq_length=4
-<region> sample=MDL_samples/snare/rim_knock_3.ogg  seq_position=2  seq_length=4
-<region> sample=MDL_samples/snare/rim_knock_2.ogg  seq_position=3  seq_length=4
-<region> sample=MDL_samples/snare/rim_knock_4.ogg  seq_position=4  seq_length=4
-
-<group> key=d5  lovel=95  hivel=127  loop_mode=one_shot
-<region> sample=MDL_samples/snare/rim_knock_1.ogg  seq_position=1  seq_length=4
-<region> sample=MDL_samples/snare/rim_knock_3.ogg  seq_position=2  seq_length=4
-<region> sample=MDL_samples/snare/rim_knock_2.ogg  seq_position=3  seq_length=4
-<region> sample=MDL_samples/snare/rim_knock_4.ogg  seq_position=4  seq_length=4
-
-// *****************
-// ** Double Shot **
-// *****************
-<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot
-fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
-<region> sample=MDL_samples/snare/double_shot_1.ogg  seq_position=1  seq_length=2  volume=6
-<region> sample=MDL_samples/snare/double_shot_2.ogg  seq_position=2  seq_length=2  volume=6
-
-<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot
-<region> sample=MDL_samples/snare/double_shot_1.ogg  seq_position=1  seq_length=2  volume=6
-<region> sample=MDL_samples/snare/double_shot_2.ogg  seq_position=2  seq_length=2  volume=6
-
-// **************
-// ** Rim Shot **
-// **************
-<group> key=f5  lovel=1  hivel=94  loop_mode=one_shot
-fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
-<region> sample=MDL_samples/snare/rim_shot_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/rim_shot_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/rim_shot_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
-<region> sample=MDL_samples/snare/rim_shot_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
-
-<group> key=f5  lovel=95  hivel=127  loop_mode=one_shot
-<region> sample=MDL_samples/snare/rim_shot_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/rim_shot_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/rim_shot_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
-<region> sample=MDL_samples/snare/rim_shot_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
-
-// *********
-// ** Hit **
-// *********
-<group> key=f#5  lovel=1  hivel=94  loop_mode=one_shot
-fil_type=lpf_1p  cutoff=2000  fil_veltrack=8000
-<region> sample=MDL_samples/snare/hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/hit_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/hit_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
-<region> sample=MDL_samples/snare/hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=3
-
-<group> key=f#5  lovel=95  hivel=127  loop_mode=one_shot
-<region> sample=MDL_samples/snare/hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/hit_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/hit_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
-<region> sample=MDL_samples/snare/hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=3
-
-// ***************
-// ** Ping Shot **
-// ***************
-<group> key=a5  lovel=1  hivel=94  loop_mode=one_shot
-fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
-<region> sample=MDL_samples/snare/ping_shot_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/ping_shot_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/ping_shot_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
-<region> sample=MDL_samples/snare/ping_shot_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
-
-<group> key=a5  lovel=95  hivel=127  loop_mode=one_shot
-<region> sample=MDL_samples/snare/ping_shot_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/ping_shot_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
-<region> sample=MDL_samples/snare/ping_shot_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
-<region> sample=MDL_samples/snare/ping_shot_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
-
-// ***************
 // ** Backstick **
 // ***************
 <group> key=a#5  lovel=1  hivel=94  loop_mode=one_shot
@@ -205,6 +128,83 @@ fil_type=lpf_1p  cutoff=2000  fil_veltrack=8000
 <region> sample=MDL_samples/snare/backstick_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/snare/backstick_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/snare/backstick_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=2.5
+
+// **********
+// ** Rods **
+// **********
+<group> key=f4  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> lovel=1    hivel=59  sample=MDL_samples/snare/rod1_1.ogg  volume=4
+<region> lovel=60   hivel=94  sample=MDL_samples/snare/rod1_3.ogg  seq_position=1  seq_length=3
+<region> lovel=60   hivel=94  sample=MDL_samples/snare/rod1_2.ogg  seq_position=2  seq_length=3
+<region> lovel=60   hivel=94  sample=MDL_samples/snare/rod1_4.ogg  seq_position=3  seq_length=3
+
+<group> key=f4  lovel=95  hivel=127  loop_mode=one_shot
+<region> lovel=95   hivel=127  sample=MDL_samples/snare/rod1_3.ogg  seq_position=1  seq_length=3
+<region> lovel=95   hivel=127  sample=MDL_samples/snare/rod1_2.ogg  seq_position=2  seq_length=3
+<region> lovel=95   hivel=127  sample=MDL_samples/snare/rod1_4.ogg  seq_position=3  seq_length=3
+
+// ************
+// ** Brushes **
+// ************
+<group> key=f#4  lovel=1  hivel=94  loop_mode=one_shot  ampeg_attack=0.007
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> lovel=1    hivel=59   sample=MDL_samples/snare/dread1_1.ogg  volume=9
+<region> lovel=60   hivel=99   sample=MDL_samples/snare/dread1_3.ogg  seq_position=1  seq_length=2  volume=3
+<region> lovel=60   hivel=99   sample=MDL_samples/snare/dread1_4.ogg  seq_position=2  seq_length=2  volume=3
+
+<group> key=f#4  lovel=1  hivel=94  loop_mode=one_shot
+<region> lovel=100  hivel=127  sample=MDL_samples/snare/dread1_3.ogg  seq_position=1  seq_length=2  volume=-3
+<region> lovel=100  hivel=127  sample=MDL_samples/snare/dread1_4.ogg  seq_position=2  seq_length=2  volume=-3
+<region> lovel=100  hivel=127  sample=MDL_samples/snare/dread1_2.ogg  volume=-3
+
+// **************
+// ** Hand Hit **
+// **************
+<group> key=f2  lovel=1  hivel=94  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> sample=MDL_samples/snare/hand_1.ogg  seq_position=1  seq_length=4
+<region> sample=MDL_samples/snare/hand_3.ogg  seq_position=2  seq_length=4
+<region> sample=MDL_samples/snare/hand_2.ogg  seq_position=3  seq_length=4
+<region> sample=MDL_samples/snare/hand_4.ogg  seq_position=4  seq_length=4
+
+<group> key=f2  lovel=95  hivel=127  loop_mode=one_shot
+<region> sample=MDL_samples/snare/hand_1.ogg  seq_position=1  seq_length=4
+<region> sample=MDL_samples/snare/hand_3.ogg  seq_position=2  seq_length=4
+<region> sample=MDL_samples/snare/hand_2.ogg  seq_position=3  seq_length=4
+<region> sample=MDL_samples/snare/hand_4.ogg  seq_position=4  seq_length=4
+
+// *****************
+// ** Stick Click **
+// *****************
+<group> key=c2  lovel=1  hivel=94  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> sample=MDL_samples/snare/stick_click_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2  volume=-3
+<region> sample=MDL_samples/snare/stick_click_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2  volume=-3
+<region> sample=MDL_samples/snare/stick_click_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2  volume=2
+<region> sample=MDL_samples/snare/stick_click_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=2
+
+<group> key=c2  lovel=95  hivel=127  loop_mode=one_shot
+<region> sample=MDL_samples/snare/stick_click_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2  volume=-3
+<region> sample=MDL_samples/snare/stick_click_3.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2  volume=-3
+<region> sample=MDL_samples/snare/stick_click_2.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2  volume=2
+<region> sample=MDL_samples/snare/stick_click_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2  volume=2
+
+// ***********
+// ** Shell **
+// ***********
+<group> key=f#2  lovel=1  hivel=94  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> sample=MDL_samples/snare/shell_1.ogg  seq_position=1  seq_length=4
+<region> sample=MDL_samples/snare/shell_3.ogg  seq_position=2  seq_length=4
+<region> sample=MDL_samples/snare/shell_2.ogg  seq_position=3  seq_length=4
+<region> sample=MDL_samples/snare/shell_4.ogg  seq_position=4  seq_length=4
+
+<group> key=f#2  lovel=95  hivel=127  loop_mode=one_shot
+<region> sample=MDL_samples/snare/shell_1.ogg  seq_position=1  seq_length=4
+<region> sample=MDL_samples/snare/shell_3.ogg  seq_position=2  seq_length=4
+<region> sample=MDL_samples/snare/shell_2.ogg  seq_position=3  seq_length=4
+<region> sample=MDL_samples/snare/shell_4.ogg  seq_position=4  seq_length=4
 
 // ***************
 // ** Dry Crush **

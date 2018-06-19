@@ -16,25 +16,145 @@
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
-            <Drum pitch="33">
+             <Drum pitch="71">
                 <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleLeftWhite</whole>
-                    <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteShapeTriangleLeftBlack</quarter>
-                    <breve>noteShapeTriangleLeftWhite</breve>
-                </noteheads>
-                <line>7</line>
+                <line>3</line>
                 <voice>0</voice>
-                <name>Metronome</name>
+                <name>Hit</name>
                 <stem>1</stem>
+                <shortcut>A</shortcut>
                 <variants>
-                    <variant pitch="34">
-                        <articulation>sforzato</articulation>
+                    <variant pitch="83">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="83">
+                        <tremolo>buzzroll</tremolo>
                     </variant>
                 </variants>
             </Drum>
-            <Drum pitch="35">
+            <Drum pitch="72">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadXOrnate</whole>
+                    <half>noteheadXOrnate</half>
+                    <quarter>noteheadXOrnate</quarter>
+                    <breve>noteheadXOrnate</breve>
+                </noteheads>
+                <line>3</line>
+                <voice>0</voice>
+                <name>Rim Shot</name>
+                <stem>1</stem>
+                <shortcut>B</shortcut>
+            </Drum>
+            <Drum pitch="76">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadXOrnateEllipse</whole>
+                    <half>noteheadXOrnateEllipse</half>
+                    <quarter>noteheadXOrnateEllipse</quarter>
+                    <breve>noteheadXOrnateEllipse</breve>
+                </noteheads>
+                <line>3</line>
+                <voice>0</voice>
+                <name>Double Shot</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="74">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadRoundWhiteWithDot</whole>
+                    <half>noteheadRoundWhiteWithDot</half>
+                    <quarter>noteheadRoundWhiteWithDot</quarter>
+                    <breve>noteheadRoundWhiteWithDot</breve>
+                </noteheads>
+                <line>3</line>
+                <voice>0</voice>
+                <name>Ping Shot</name>
+                <stem>1</stem>
+                <shortcut>C</shortcut>
+            </Drum>
+            <Drum pitch="66">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashedWhole2</whole>
+                    <half>noteheadSlashedHalf2</half>
+                    <quarter>noteheadSlashedBlack2</quarter>
+                    <breve>noteheadSlashedDoubleWhole2</breve>
+                </noteheads>
+                <line>3</line>
+                <voice>0</voice>
+                <name>Stick Shot</name>
+                <stem>1</stem>
+                <shortcut>D</shortcut>
+            </Drum>
+            <Drum pitch="68">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashedWhole1</whole>
+                    <half>noteheadSlashedHalf1</half>
+                    <quarter>noteheadSlashedBlack1</quarter>
+                    <breve>noteheadSlashedDoubleWhole1</breve>
+                </noteheads>
+                <line>3</line>
+                <voice>0</voice>
+                <name>Rim Knock</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="69">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadXWhole</whole>
+                    <half>noteheadXHalf</half>
+                    <quarter>noteheadXBlack</quarter>
+                    <breve>noteheadXDoubleWhole</breve>
+                </noteheads>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Rim</name>
+                <stem>1</stem>
+                <shortcut>E</shortcut>
+            </Drum>
+            <Drum pitch="70">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteShapeTriangleRoundWhite</whole>
+                    <half>noteShapeTriangleRoundWhite</half>
+                    <quarter>noteheadTriangleRoundDownBlack</quarter>
+                    <breve>noteShapeTriangleRoundWhite</breve>
+                </noteheads>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Backstick/Visual</name>
+                <stem>1</stem>
+                <shortcut>F</shortcut>
+            </Drum>
+             <Drum pitch="65">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadDiamondWhole</whole>
+                    <half>noteheadDiamondHalf</half>
+                    <quarter>noteheadDiamondBlack</quarter>
+                    <breve>noteheadDiamondDoubleWhole</breve>
+                </noteheads>
+                <line>3</line>
+                <voice>0</voice>
+                <name>Rods</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="67">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadTriangleUpWhole</whole>
+                    <half>noteheadTriangleUpHalf</half>
+                    <quarter>noteheadTriangleUpBlack</quarter>
+                    <breve>noteheadTriangleUpDoubleWhole</breve>
+                </noteheads>
+                <line>3</line>
+                <voice>0</voice>
+                <name>Brushes</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="47">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadPlusWhole</whole>
@@ -42,62 +162,9 @@
                     <quarter>noteheadPlusBlack</quarter>
                     <breve>noteheadPlusDoubleWhole</breve>
                 </noteheads>
-                <line>1</line>
+                <line>3</line>
                 <voice>0</voice>
-                <name>Hand Clap</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="36">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleLeftWhite</whole>
-                    <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteheadSquareBlack</quarter>
-                    <breve>noteShapeTriangleLeftWhite</breve>
-                </noteheads>
-                <line>6</line>
-                <voice>0</voice>
-                <name>Sticks In</name>
-                <stem>1</stem>
-                <shortcut>D</shortcut>
-            </Drum>
-            <Drum pitch="37">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadTriangleDownWhole</whole>
-                    <half>noteheadTriangleDownHalf</half>
-                    <quarter>noteheadTriangleDownBlack</quarter>
-                    <breve>noteheadTriangleDownDoubleWhole</breve>
-                </noteheads>
-                <line>6</line>
-                <voice>0</voice>
-                <name>Dut</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="38">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadMoonWhite</whole>
-                    <half>noteheadMoonWhite</half>
-                    <quarter>noteheadMoonBlack</quarter>
-                    <breve>noteheadMoonWhite</breve>
-                </noteheads>
-                <line>6</line>
-                <voice>0</voice>
-                <name>Shell</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="39">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadTriangleDownWhole</whole>
-                    <half>noteheadTriangleDownHalf</half>
-                    <quarter>noteheadTriangleDownBlack</quarter>
-                    <breve>noteheadTriangleDownDoubleWhole</breve>
-                </noteheads>
-                <line>6</line>
-                <voice>0</voice>
-                <name>Dut Unison</name>
+                <name>Hand Hit</name>
                 <stem>1</stem>
             </Drum>
             <Drum pitch="40">
@@ -112,7 +179,33 @@
                 <voice>0</voice>
                 <name>Stick Click</name>
                 <stem>1</stem>
-                <shortcut>C</shortcut>
+                <shortcut>G</shortcut>
+            </Drum>
+             <Drum pitch="36">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteShapeTriangleLeftWhite</whole>
+                    <half>noteShapeTriangleLeftWhite</half>
+                    <quarter>noteheadSquareBlack</quarter>
+                    <breve>noteShapeTriangleLeftWhite</breve>
+                </noteheads>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Sticks In</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="38">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadMoonWhite</whole>
+                    <half>noteheadMoonWhite</half>
+                    <quarter>noteheadMoonBlack</quarter>
+                    <breve>noteheadMoonWhite</breve>
+                </noteheads>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Shells</name>
+                <stem>1</stem>
             </Drum>
             <Drum pitch="41">
                 <head>0</head>
@@ -127,7 +220,54 @@
                 <name>Harness Hit</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="42">
+            <Drum pitch="48">
+                <head>1</head>
+                <line>-2</line>
+                <voice>0</voice>
+                <name>Crash Cymbal</name>
+                <stem>2</stem>
+            </Drum>
+            <Drum pitch="52">
+                <head>1</head>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Ride Cymbal</name>
+                <stem>2</stem>
+                <variants>
+                    <variant pitch="49">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <tremolo>r32</tremolo>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="50">
+                <head>2</head>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Ride Cymbal Bell</name>
+                <stem>2</stem>
+            </Drum>
+            <Drum pitch="53">
+                <head>1</head>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Hi-Hat (closed)</name>
+                <stem>2</stem>
+                <variants>
+                    <variant pitch="51">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>ouvert</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+             <Drum pitch="42">
                 <head>7</head>
                 <line>1</line>
                 <voice>0</voice>
@@ -168,7 +308,33 @@
                 <name>Agogo Hi</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="47">
+             <Drum pitch="37">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadTriangleDownWhole</whole>
+                    <half>noteheadTriangleDownHalf</half>
+                    <quarter>noteheadTriangleDownBlack</quarter>
+                    <breve>noteheadTriangleDownDoubleWhole</breve>
+                </noteheads>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Dut</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="39">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadTriangleDownWhole</whole>
+                    <half>noteheadTriangleDownHalf</half>
+                    <quarter>noteheadTriangleDownBlack</quarter>
+                    <breve>noteheadTriangleDownDoubleWhole</breve>
+                </noteheads>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Dut Unison</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="35">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadPlusWhole</whole>
@@ -176,191 +342,28 @@
                     <quarter>noteheadPlusBlack</quarter>
                     <breve>noteheadPlusDoubleWhole</breve>
                 </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Hand Hit</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="48">
-                <head>1</head>
-                <line>-2</line>
-                <voice>0</voice>
-                <name>Crash Cymbal</name>
-                <stem>2</stem>
-            </Drum>
-            <Drum pitch="50">
-                <head>2</head>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Ride Cymbal Bell</name>
-                <stem>2</stem>
-            </Drum>
-            <Drum pitch="52">
-                <head>1</head>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Ride Cymbal</name>
-                <stem>2</stem>
-                <variants>
-                    <variant pitch="49">
-                        <tremolo>r16</tremolo>
-                    </variant>
-                    <variant pitch="49">
-                        <tremolo>r32</tremolo>
-                    </variant>
-                </variants>
-            </Drum>
-            <Drum pitch="53">
-                <head>1</head>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Hi-Hat (closed)</name>
-                <stem>2</stem>
-                <variants>
-                    <variant pitch="51">
-                        <tremolo>r16</tremolo>
-                    </variant>
-                    <variant pitch="51">
-                        <tremolo>r32</tremolo>
-                    </variant>
-                    <variant pitch="57">
-                        <articulation>ouvert</articulation>
-                    </variant>
-                </variants>
-            </Drum>
-            <Drum pitch="65">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadDiamondWhole</whole>
-                    <half>noteheadDiamondHalf</half>
-                    <quarter>noteheadDiamondBlack</quarter>
-                    <breve>noteheadDiamondDoubleWhole</breve>
-                </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Rods</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="66">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadSlashedWhole2</whole>
-                    <half>noteheadSlashedHalf2</half>
-                    <quarter>noteheadSlashedBlack2</quarter>
-                    <breve>noteheadSlashedDoubleWhole2</breve>
-                </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Stick Shot</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="67">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadTriangleUpWhole</whole>
-                    <half>noteheadTriangleUpHalf</half>
-                    <quarter>noteheadTriangleUpBlack</quarter>
-                    <breve>noteheadTriangleUpDoubleWhole</breve>
-                </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Dreads</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="68">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadSlashedWhole1</whole>
-                    <half>noteheadSlashedHalf1</half>
-                    <quarter>noteheadSlashedBlack1</quarter>
-                    <breve>noteheadSlashedDoubleWhole1</breve>
-                </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Rim Knock</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="69">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXWhole</whole>
-                    <half>noteheadXHalf</half>
-                    <quarter>noteheadXBlack</quarter>
-                    <breve>noteheadXDoubleWhole</breve>
-                </noteheads>
                 <line>1</line>
                 <voice>0</voice>
-                <name>Rim</name>
+                <name>Hand Clap</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="70">
+            <Drum pitch="33">
                 <head>0</head>
                 <noteheads>
-                    <whole>noteShapeTriangleRoundWhite</whole>
-                    <half>noteShapeTriangleRoundWhite</half>
-                    <quarter>noteheadTriangleRoundDownBlack</quarter>
-                    <breve>noteShapeTriangleRoundWhite</breve>
+                    <whole>noteShapeTriangleLeftWhite</whole>
+                    <half>noteShapeTriangleLeftWhite</half>
+                    <quarter>noteShapeTriangleLeftBlack</quarter>
+                    <breve>noteShapeTriangleLeftWhite</breve>
                 </noteheads>
-                <line>2</line>
+                <line>7</line>
                 <voice>0</voice>
-                <name>Backstick/Visual</name>
+                <name>Metronome</name>
                 <stem>1</stem>
-            </Drum>
-            <Drum pitch="71">
-                <head>0</head>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Hit</name>
-                <stem>1</stem>
-                <shortcut>A</shortcut>
                 <variants>
-                    <variant pitch="83">
-                        <tremolo>r16</tremolo>
-                    </variant>
-                    <variant pitch="83">
-                        <tremolo>buzzroll</tremolo>
+                    <variant pitch="34">
+                        <articulation>sforzato</articulation>
                     </variant>
                 </variants>
-            </Drum>
-            <Drum pitch="72">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXOrnate</whole>
-                    <half>noteheadXOrnate</half>
-                    <quarter>noteheadXOrnate</quarter>
-                    <breve>noteheadXOrnate</breve>
-                </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Rim Shot</name>
-                <stem>1</stem>
-                <shortcut>B</shortcut>
-            </Drum>
-            <Drum pitch="76">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXOrnateEllipse</whole>
-                    <half>noteheadXOrnateEllipse</half>
-                    <quarter>noteheadXOrnateEllipse</quarter>
-                    <breve>noteheadXOrnateEllipse</breve>
-                </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Double Shot</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="74">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadRoundWhiteWithDot</whole>
-                    <half>noteheadRoundWhiteWithDot</half>
-                    <quarter>noteheadRoundWhiteWithDot</quarter>
-                    <breve>noteheadRoundWhiteWithDot</breve>
-                </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Ping Shot</name>
-                <stem>1</stem>
             </Drum>
             <Articulation>
                 <velocity>100</velocity>
@@ -379,7 +382,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -406,222 +409,6 @@
             <stafftype staffTypePreset="perc1Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
-            <Drum pitch="33">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleLeftWhite</whole>
-                    <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteShapeTriangleLeftBlack</quarter>
-                    <breve>noteShapeTriangleLeftWhite</breve>
-                </noteheads>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Metronome</name>
-                <stem>1</stem>
-                <variants>
-                    <variant pitch="34">
-                        <articulation>sforzato</articulation>
-                    </variant>
-                </variants>
-            </Drum>
-            <Drum pitch="35">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadPlusWhole</whole>
-                    <half>noteheadPlusHalf</half>
-                    <quarter>noteheadPlusBlack</quarter>
-                    <breve>noteheadPlusDoubleWhole</breve>
-                </noteheads>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Hand Clap</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="36">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleLeftWhite</whole>
-                    <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteheadSquareBlack</quarter>
-                    <breve>noteShapeTriangleLeftWhite</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Sticks In</name>
-                <stem>1</stem>
-                <shortcut>D</shortcut>
-            </Drum>
-            <Drum pitch="37">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadTriangleDownWhole</whole>
-                    <half>noteheadTriangleDownHalf</half>
-                    <quarter>noteheadTriangleDownBlack</quarter>
-                    <breve>noteheadTriangleUpDoubleWhole</breve>
-                </noteheads>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Dut</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="38">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadMoonWhite</whole>
-                    <half>noteheadMoonWhite</half>
-                    <quarter>noteheadMoonBlack</quarter>
-                    <breve>noteheadMoonWhite</breve>
-                </noteheads>
-                <line>2</line>
-                <voice>0</voice>
-                <name>Shell</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="39">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadTriangleDownWhole</whole>
-                    <half>noteheadTriangleDownHalf</half>
-                    <quarter>noteheadTriangleDownBlack</quarter>
-                    <breve>noteheadTriangleDownDoubleWhole</breve>
-                </noteheads>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Dut Unison</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="40">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXWhole</whole>
-                    <half>noteheadXHalf</half>
-                    <quarter>noteheadXBlack</quarter>
-                    <breve>noteheadMoonBlack</breve>
-                </noteheads>
-                <line>-2</line>
-                <voice>0</voice>
-                <name>Stick Click</name>
-                <stem>1</stem>
-                <shortcut>C</shortcut>
-            </Drum>
-            <Drum pitch="41">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadCircleSlash</whole>
-                    <half>noteheadCircleSlash</half>
-                    <quarter>noteheadCircleSlash</quarter>
-                    <breve>noteheadCircleSlash</breve>
-                </noteheads>
-                <line>2</line>
-                <voice>0</voice>
-                <name>Harness Hit</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="42">
-                <head>7</head>
-                <line>1</line>
-                <voice>0</voice>
-                <name>Cowbell</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="47">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadPlusWhole</whole>
-                    <half>noteheadPlusHalf</half>
-                    <quarter>noteheadPlusBlack</quarter>
-                    <breve>noteheadPlusDoubleWhole</breve>
-                </noteheads>
-                <line>1</line>
-                <voice>0</voice>
-                <name>Hand Hit</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="48">
-                <head>1</head>
-                <line>-2</line>
-                <voice>0</voice>
-                <name>Crash Cymbal</name>
-                <stem>2</stem>
-            </Drum>
-            <Drum pitch="65">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadDiamondWhole</whole>
-                    <half>noteheadDiamondHalf</half>
-                    <quarter>noteheadDiamondBlack</quarter>
-                    <breve>noteheadDiamondDoubleWhole</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Rods</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="66">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadSlashedWhole2</whole>
-                    <half>noteheadSlashedHalf2</half>
-                    <quarter>noteheadSlashedBlack2</quarter>
-                    <breve>noteheadSlashedDoubleWhole2</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Stick Shot</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="67">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadTriangleUpWhole</whole>
-                    <half>noteheadTriangleUpHalf</half>
-                    <quarter>noteheadTriangleUpBlack</quarter>
-                    <breve>noteheadTriangleUpDoubleWhole</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Brushes</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="68">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadSlashedWhole1</whole>
-                    <half>noteheadSlashedHalf1</half>
-                    <quarter>noteheadSlashedBlack1</quarter>
-                    <breve>noteheadSlashedDoubleWhole1</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Rim Knock</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="69">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXWhole</whole>
-                    <half>noteheadXHalf</half>
-                    <quarter>noteheadXBlack</quarter>
-                    <breve>noteheadXDoubleWhole</breve>
-                </noteheads>
-                <line>2</line>
-                <voice>0</voice>
-                <name>Rim</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="70">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleRoundWhite</whole>
-                    <half>noteShapeTriangleRoundWhite</half>
-                    <quarter>noteheadTriangleRoundDownBlack</quarter>
-                    <breve>noteShapeTriangleRoundWhite</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Backstick/Visual</name>
-                <stem>1</stem>
-            </Drum>
             <Drum pitch="71">
                 <head>0</head>
                 <line>0</line>
@@ -652,19 +439,6 @@
                 <stem>1</stem>
                 <shortcut>B</shortcut>
             </Drum>
-            <Drum pitch="74">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadRoundWhiteWithDot</whole>
-                    <half>noteheadRoundWhiteWithDot</half>
-                    <quarter>noteheadRoundWhiteWithDot</quarter>
-                    <breve>noteheadRoundWhiteWithDot</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Ping Shot</name>
-                <stem>1</stem>
-            </Drum>
             <Drum pitch="76">
                 <head>0</head>
                 <noteheads>
@@ -678,7 +452,224 @@
                 <name>Double Shot</name>
                 <stem>1</stem>
             </Drum>
-            <clef>PERC</clef>
+            <Drum pitch="74">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadRoundWhiteWithDot</whole>
+                    <half>noteheadRoundWhiteWithDot</half>
+                    <quarter>noteheadRoundWhiteWithDot</quarter>
+                    <breve>noteheadRoundWhiteWithDot</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Ping Shot</name>
+                <stem>1</stem>
+                <shortcut>C</shortcut>
+            </Drum>
+            <Drum pitch="66">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashedWhole2</whole>
+                    <half>noteheadSlashedHalf2</half>
+                    <quarter>noteheadSlashedBlack2</quarter>
+                    <breve>noteheadSlashedDoubleWhole2</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Stick Shot</name>
+                <stem>1</stem>
+                <shortcut>D</shortcut>
+            </Drum>
+            <Drum pitch="68">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashedWhole1</whole>
+                    <half>noteheadSlashedHalf1</half>
+                    <quarter>noteheadSlashedBlack1</quarter>
+                    <breve>noteheadSlashedDoubleWhole1</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Rim Knock</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="69">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadXWhole</whole>
+                    <half>noteheadXHalf</half>
+                    <quarter>noteheadXBlack</quarter>
+                    <breve>noteheadXDoubleWhole</breve>
+                </noteheads>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Rim</name>
+                <stem>1</stem>
+                <shortcut>E</shortcut>
+            </Drum>
+            <Drum pitch="70">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteShapeTriangleRoundWhite</whole>
+                    <half>noteShapeTriangleRoundWhite</half>
+                    <quarter>noteheadTriangleRoundDownBlack</quarter>
+                    <breve>noteShapeTriangleRoundWhite</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Backstick/Visual</name>
+                <stem>1</stem>
+                <shortcut>F</shortcut>
+            </Drum>
+            <Drum pitch="65">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadDiamondWhole</whole>
+                    <half>noteheadDiamondHalf</half>
+                    <quarter>noteheadDiamondBlack</quarter>
+                    <breve>noteheadDiamondDoubleWhole</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Rods</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="67">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadTriangleUpWhole</whole>
+                    <half>noteheadTriangleUpHalf</half>
+                    <quarter>noteheadTriangleUpBlack</quarter>
+                    <breve>noteheadTriangleUpDoubleWhole</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Brushes</name>
+                <stem>1</stem>
+            </Drum>
+             <Drum pitch="47">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadPlusWhole</whole>
+                    <half>noteheadPlusHalf</half>
+                    <quarter>noteheadPlusBlack</quarter>
+                    <breve>noteheadPlusDoubleWhole</breve>
+                </noteheads>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Hand Hit</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="40">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadXWhole</whole>
+                    <half>noteheadXHalf</half>
+                    <quarter>noteheadXBlack</quarter>
+                    <breve>noteheadMoonBlack</breve>
+                </noteheads>
+                <line>-2</line>
+                <voice>0</voice>
+                <name>Stick Click</name>
+                <stem>1</stem>
+                <shortcut>G</shortcut>
+            </Drum>
+            <Drum pitch="36">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteShapeTriangleLeftWhite</whole>
+                    <half>noteShapeTriangleLeftWhite</half>
+                    <quarter>noteheadSquareBlack</quarter>
+                    <breve>noteShapeTriangleLeftWhite</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Sticks In</name>
+                <stem>1</stem>
+            </Drum>    
+            <Drum pitch="38">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadMoonWhite</whole>
+                    <half>noteheadMoonWhite</half>
+                    <quarter>noteheadMoonBlack</quarter>
+                    <breve>noteheadMoonWhite</breve>
+                </noteheads>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Shells</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="41">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadCircleSlash</whole>
+                    <half>noteheadCircleSlash</half>
+                    <quarter>noteheadCircleSlash</quarter>
+                    <breve>noteheadCircleSlash</breve>
+                </noteheads>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Harness Hit</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="37">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadTriangleDownWhole</whole>
+                    <half>noteheadTriangleDownHalf</half>
+                    <quarter>noteheadTriangleDownBlack</quarter>
+                    <breve>noteheadTriangleUpDoubleWhole</breve>
+                </noteheads>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Dut</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="39">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadTriangleDownWhole</whole>
+                    <half>noteheadTriangleDownHalf</half>
+                    <quarter>noteheadTriangleDownBlack</quarter>
+                    <breve>noteheadTriangleDownDoubleWhole</breve>
+                </noteheads>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Dut Unison</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="35">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadPlusWhole</whole>
+                    <half>noteheadPlusHalf</half>
+                    <quarter>noteheadPlusBlack</quarter>
+                    <breve>noteheadPlusDoubleWhole</breve>
+                </noteheads>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Hand Clap</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="33">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteShapeTriangleLeftWhite</whole>
+                    <half>noteShapeTriangleLeftWhite</half>
+                    <quarter>noteShapeTriangleLeftBlack</quarter>
+                    <breve>noteShapeTriangleLeftWhite</breve>
+                </noteheads>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Metronome</name>
+                <stem>1</stem>
+                <variants>
+                    <variant pitch="34">
+                        <articulation>sforzato</articulation>
+                    </variant>
+                </variants>
+            </Drum>
             <Articulation>
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
@@ -693,18 +684,18 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>67</gateTime>
+                <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
-                <velocity>120</velocity>
-                <gateTime>67</gateTime>
+                <velocity>127</velocity>
+                <gateTime>80</gateTime>
             </Articulation>
             <Articulation name="sforzato">
-                <velocity>120</velocity>
+                <velocity>127</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Channel>
@@ -715,7 +706,7 @@
             </Channel>
             <genre>marching</genre>
         </Instrument>
-        <Instrument id="mdl-snareline-a">
+        <Instrument id="mdl-snaresolo-a">
             <longName>MDL Snare A</longName>
             <shortName>Snares</shortName>
             <description>MDL Snareline A</description>
@@ -723,223 +714,7 @@
             <stafftype staffTypePreset="perc1Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
-            <Drum pitch="33">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleLeftWhite</whole>
-                    <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteShapeTriangleLeftBlack</quarter>
-                    <breve>noteShapeTriangleLeftWhite</breve>
-                </noteheads>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Metronome</name>
-                <stem>1</stem>
-                <variants>
-                    <variant pitch="34">
-                        <articulation>sforzato</articulation>
-                    </variant>
-                </variants>
-            </Drum>
-            <Drum pitch="35">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadPlusWhole</whole>
-                    <half>noteheadPlusHalf</half>
-                    <quarter>noteheadPlusBlack</quarter>
-                    <breve>noteheadPlusDoubleWhole</breve>
-                </noteheads>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Hand Clap</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="36">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleLeftWhite</whole>
-                    <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteheadSquareBlack</quarter>
-                    <breve>noteShapeTriangleLeftWhite</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Sticks In</name>
-                <stem>1</stem>
-                <shortcut>D</shortcut>
-            </Drum>
-            <Drum pitch="37">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadTriangleDownWhole</whole>
-                    <half>noteheadTriangleDownHalf</half>
-                    <quarter>noteheadTriangleDownBlack</quarter>
-                    <breve>noteheadTriangleUpDoubleWhole</breve>
-                </noteheads>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Dut</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="38">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadMoonWhite</whole>
-                    <half>noteheadMoonWhite</half>
-                    <quarter>noteheadMoonBlack</quarter>
-                    <breve>noteheadMoonWhite</breve>
-                </noteheads>
-                <line>2</line>
-                <voice>0</voice>
-                <name>Shell</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="39">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadTriangleDownWhole</whole>
-                    <half>noteheadTriangleDownHalf</half>
-                    <quarter>noteheadTriangleDownBlack</quarter>
-                    <breve>noteheadTriangleDownDoubleWhole</breve>
-                </noteheads>
-                <line>-1</line>
-                <voice>0</voice>
-                <name>Dut Unison</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="40">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXWhole</whole>
-                    <half>noteheadXHalf</half>
-                    <quarter>noteheadXBlack</quarter>
-                    <breve>noteheadMoonBlack</breve>
-                </noteheads>
-                <line>-2</line>
-                <voice>0</voice>
-                <name>Stick Click</name>
-                <stem>1</stem>
-                <shortcut>C</shortcut>
-            </Drum>
-            <Drum pitch="41">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadCircleSlash</whole>
-                    <half>noteheadCircleSlash</half>
-                    <quarter>noteheadCircleSlash</quarter>
-                    <breve>noteheadCircleSlash</breve>
-                </noteheads>
-                <line>2</line>
-                <voice>0</voice>
-                <name>Harness Hit</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="42">
-                <head>7</head>
-                <line>1</line>
-                <voice>0</voice>
-                <name>Cowbell</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="47">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadPlusWhole</whole>
-                    <half>noteheadPlusHalf</half>
-                    <quarter>noteheadPlusBlack</quarter>
-                    <breve>noteheadPlusDoubleWhole</breve>
-                </noteheads>
-                <line>1</line>
-                <voice>0</voice>
-                <name>Hand Hit</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="48">
-                <head>1</head>
-                <line>-2</line>
-                <voice>0</voice>
-                <name>Crash Cymbal</name>
-                <stem>2</stem>
-            </Drum>
-            <Drum pitch="65">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadDiamondWhole</whole>
-                    <half>noteheadDiamondHalf</half>
-                    <quarter>noteheadDiamondBlack</quarter>
-                    <breve>noteheadDiamondDoubleWhole</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Rods</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="66">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadSlashedWhole2</whole>
-                    <half>noteheadSlashedHalf2</half>
-                    <quarter>noteheadSlashedBlack2</quarter>
-                    <breve>noteheadSlashedDoubleWhole2</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Stick Shot</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="67">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadTriangleUpWhole</whole>
-                    <half>noteheadTriangleUpHalf</half>
-                    <quarter>noteheadTriangleUpBlack</quarter>
-                    <breve>noteheadTriangleUpDoubleWhole</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Brushes</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="68">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadSlashedWhole1</whole>
-                    <half>noteheadSlashedHalf1</half>
-                    <quarter>noteheadSlashedBlack1</quarter>
-                    <breve>noteheadSlashedDoubleWhole1</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Rim Knock</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="69">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXWhole</whole>
-                    <half>noteheadXHalf</half>
-                    <quarter>noteheadXBlack</quarter>
-                    <breve>noteheadXDoubleWhole</breve>
-                </noteheads>
-                <line>2</line>
-                <voice>0</voice>
-                <name>Rim</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="70">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleRoundWhite</whole>
-                    <half>noteShapeTriangleRoundWhite</half>
-                    <quarter>noteheadTriangleRoundDownBlack</quarter>
-                    <breve>noteShapeTriangleRoundWhite</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Backstick/Visual</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="71">
+             <Drum pitch="71">
                 <head>0</head>
                 <line>0</line>
                 <voice>0</voice>
@@ -969,19 +744,6 @@
                 <stem>1</stem>
                 <shortcut>B</shortcut>
             </Drum>
-            <Drum pitch="74">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadRoundWhiteWithDot</whole>
-                    <half>noteheadRoundWhiteWithDot</half>
-                    <quarter>noteheadRoundWhiteWithDot</quarter>
-                    <breve>noteheadRoundWhiteWithDot</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Ping Shot</name>
-                <stem>1</stem>
-            </Drum>
             <Drum pitch="76">
                 <head>0</head>
                 <noteheads>
@@ -995,7 +757,224 @@
                 <name>Double Shot</name>
                 <stem>1</stem>
             </Drum>
-            <clef>PERC</clef>
+            <Drum pitch="74">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadRoundWhiteWithDot</whole>
+                    <half>noteheadRoundWhiteWithDot</half>
+                    <quarter>noteheadRoundWhiteWithDot</quarter>
+                    <breve>noteheadRoundWhiteWithDot</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Ping Shot</name>
+                <stem>1</stem>
+                <shortcut>C</shortcut>
+            </Drum>
+            <Drum pitch="66">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashedWhole2</whole>
+                    <half>noteheadSlashedHalf2</half>
+                    <quarter>noteheadSlashedBlack2</quarter>
+                    <breve>noteheadSlashedDoubleWhole2</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Stick Shot</name>
+                <stem>1</stem>
+                <shortcut>D</shortcut>
+            </Drum>
+            <Drum pitch="68">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashedWhole1</whole>
+                    <half>noteheadSlashedHalf1</half>
+                    <quarter>noteheadSlashedBlack1</quarter>
+                    <breve>noteheadSlashedDoubleWhole1</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Rim Knock</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="69">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadXWhole</whole>
+                    <half>noteheadXHalf</half>
+                    <quarter>noteheadXBlack</quarter>
+                    <breve>noteheadXDoubleWhole</breve>
+                </noteheads>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Rim</name>
+                <stem>1</stem>
+                <shortcut>E</shortcut>
+            </Drum>
+            <Drum pitch="70">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteShapeTriangleRoundWhite</whole>
+                    <half>noteShapeTriangleRoundWhite</half>
+                    <quarter>noteheadTriangleRoundDownBlack</quarter>
+                    <breve>noteShapeTriangleRoundWhite</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Backstick/Visual</name>
+                <stem>1</stem>
+                <shortcut>F</shortcut>
+            </Drum>
+            <Drum pitch="65">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadDiamondWhole</whole>
+                    <half>noteheadDiamondHalf</half>
+                    <quarter>noteheadDiamondBlack</quarter>
+                    <breve>noteheadDiamondDoubleWhole</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Rods</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="67">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadTriangleUpWhole</whole>
+                    <half>noteheadTriangleUpHalf</half>
+                    <quarter>noteheadTriangleUpBlack</quarter>
+                    <breve>noteheadTriangleUpDoubleWhole</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Brushes</name>
+                <stem>1</stem>
+            </Drum>
+             <Drum pitch="47">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadPlusWhole</whole>
+                    <half>noteheadPlusHalf</half>
+                    <quarter>noteheadPlusBlack</quarter>
+                    <breve>noteheadPlusDoubleWhole</breve>
+                </noteheads>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Hand Hit</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="40">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadXWhole</whole>
+                    <half>noteheadXHalf</half>
+                    <quarter>noteheadXBlack</quarter>
+                    <breve>noteheadMoonBlack</breve>
+                </noteheads>
+                <line>-2</line>
+                <voice>0</voice>
+                <name>Stick Click</name>
+                <stem>1</stem>
+                <shortcut>G</shortcut>
+            </Drum>
+            <Drum pitch="36">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteShapeTriangleLeftWhite</whole>
+                    <half>noteShapeTriangleLeftWhite</half>
+                    <quarter>noteheadSquareBlack</quarter>
+                    <breve>noteShapeTriangleLeftWhite</breve>
+                </noteheads>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Sticks In</name>
+                <stem>1</stem>
+            </Drum>    
+            <Drum pitch="38">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadMoonWhite</whole>
+                    <half>noteheadMoonWhite</half>
+                    <quarter>noteheadMoonBlack</quarter>
+                    <breve>noteheadMoonWhite</breve>
+                </noteheads>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Shells</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="41">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadCircleSlash</whole>
+                    <half>noteheadCircleSlash</half>
+                    <quarter>noteheadCircleSlash</quarter>
+                    <breve>noteheadCircleSlash</breve>
+                </noteheads>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Harness Hit</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="37">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadTriangleDownWhole</whole>
+                    <half>noteheadTriangleDownHalf</half>
+                    <quarter>noteheadTriangleDownBlack</quarter>
+                    <breve>noteheadTriangleUpDoubleWhole</breve>
+                </noteheads>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Dut</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="39">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadTriangleDownWhole</whole>
+                    <half>noteheadTriangleDownHalf</half>
+                    <quarter>noteheadTriangleDownBlack</quarter>
+                    <breve>noteheadTriangleDownDoubleWhole</breve>
+                </noteheads>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Dut Unison</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="35">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadPlusWhole</whole>
+                    <half>noteheadPlusHalf</half>
+                    <quarter>noteheadPlusBlack</quarter>
+                    <breve>noteheadPlusDoubleWhole</breve>
+                </noteheads>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Hand Clap</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="33">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteShapeTriangleLeftWhite</whole>
+                    <half>noteShapeTriangleLeftWhite</half>
+                    <quarter>noteShapeTriangleLeftBlack</quarter>
+                    <breve>noteShapeTriangleLeftWhite</breve>
+                </noteheads>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Metronome</name>
+                <stem>1</stem>
+                <variants>
+                    <variant pitch="34">
+                        <articulation>sforzato</articulation>
+                    </variant>
+                </variants>
+            </Drum>
             <Articulation>
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
@@ -1010,18 +989,18 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>67</gateTime>
+                <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
-                <velocity>120</velocity>
-                <gateTime>67</gateTime>
+                <velocity>127</velocity>
+                <gateTime>80</gateTime>
             </Articulation>
             <Articulation name="sforzato">
-                <velocity>120</velocity>
+                <velocity>127</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Channel>
