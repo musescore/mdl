@@ -709,12 +709,12 @@
         <Instrument id="mdl-snaresolo-a">
             <longName>MDL Snare A</longName>
             <shortName>Snares</shortName>
-            <description>MDL Snareline A</description>
+            <description>MDL Snare A</description>
             <musicXMLid>drum.snare-drum</musicXMLid>
             <stafftype staffTypePreset="perc1Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
-             <Drum pitch="71">
+             <Drum pitch="78">
                 <head>0</head>
                 <line>0</line>
                 <voice>0</voice>
@@ -730,7 +730,7 @@
                     </variant>
                 </variants>
             </Drum>
-            <Drum pitch="72">
+            <Drum pitch="77">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadXOrnate</whole>
@@ -757,7 +757,7 @@
                 <name>Double Shot</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="74">
+            <Drum pitch="81">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadRoundWhiteWithDot</whole>
@@ -771,7 +771,7 @@
                 <stem>1</stem>
                 <shortcut>C</shortcut>
             </Drum>
-            <Drum pitch="66">
+            <Drum pitch="72">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadSlashedWhole2</whole>
@@ -785,7 +785,7 @@
                 <stem>1</stem>
                 <shortcut>D</shortcut>
             </Drum>
-            <Drum pitch="68">
+            <Drum pitch="74">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadSlashedWhole1</whole>
@@ -798,7 +798,7 @@
                 <name>Rim Knock</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="69">
+            <Drum pitch="73">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadXWhole</whole>
@@ -812,7 +812,7 @@
                 <stem>1</stem>
                 <shortcut>E</shortcut>
             </Drum>
-            <Drum pitch="70">
+            <Drum pitch="82">
                 <head>0</head>
                 <noteheads>
                     <whole>noteShapeTriangleRoundWhite</whole>
@@ -839,7 +839,7 @@
                 <name>Rods</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="67">
+            <Drum pitch="66">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadTriangleUpWhole</whole>
@@ -852,7 +852,7 @@
                 <name>Brushes</name>
                 <stem>1</stem>
             </Drum>
-             <Drum pitch="47">
+             <Drum pitch="41">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadPlusWhole</whole>
@@ -865,7 +865,7 @@
                 <name>Hand Hit</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="40">
+            <Drum pitch="36">
                 <head>0</head>
                 <noteheads>
                     <whole>noteheadXWhole</whole>
