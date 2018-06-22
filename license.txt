@@ -1,0 +1,18 @@
+** WIP ***
+
+MuseScore Drumline
+License: Creative Commons 0 (CC0)
+
+Sample programming by S. Christian Collins
+Samples used include:
+ . Original samples recorded by Amir Oosman and S. Christian Collins.
+ . NSA Drumkit by Dean
+ . VCSL
+ . VSCO2
+
+To the extent possible under law, the person who associated CC0 with
+MuseScore Drumline has waived all copyright and related or neighboring rights
+to MuseScore Drumline.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
