@@ -19,7 +19,7 @@ shutil.rmtree(outdir, ignore_errors=True)
 os.makedirs(outdir)
 
 ## read metadata.json
-md_file = open("resources/metadata.json", "r+")
+md_file = open("../resources/metadata.json", "r+")
 md = json.load(md_file)
 md_file.close()
 extensionId = md['id']
@@ -28,11 +28,11 @@ extensionId = md['id']
 zipName = extensionId + '.muxt'
 zipPath = os.path.join(outdir, zipName)
 myzip = zipfile.ZipFile(zipPath, mode='w')
-recursive_zip(myzip, os.path.abspath('resources/instruments'), "instruments")
-recursive_zip(myzip, os.path.abspath('resources/sfzs'), "sfzs")
-recursive_zip(myzip, os.path.abspath('resources/templates'), "templates")
-recursive_zip(myzip, os.path.abspath('resources/workspaces'), "workspaces")
-myzip.write('resources/metadata.json', 'metadata.json')
+recursive_zip(myzip, os.path.abspath('../resources/instruments'), "instruments")
+recursive_zip(myzip, os.path.abspath('../resources/sound'), "sfzs")
+recursive_zip(myzip, os.path.abspath('../resources/templates'), "templates")
+recursive_zip(myzip, os.path.abspath('../resources/workspaces'), "workspaces")
+myzip.write('../resources/metadata.json', 'metadata.json')
 myzip.close()
 
 # compute zip size
@@ -44,7 +44,7 @@ hashf = hashlib.sha1()
 hashf.update(f.read())
 f.close()
 h = str(hashf.hexdigest())
-print h
+print(h)
 
 ### create details.json
 data = {}
