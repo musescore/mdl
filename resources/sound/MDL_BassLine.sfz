@@ -8,7 +8,7 @@
 // ****************
 // ** Solo "Dut" **
 // ****************
-<group> key=d#1  loop_mode=one_shot  group_volume=5
+<group> key=d#1  loop_mode=one_shot  group_volume=10
 <region> sample=MDL_samples/snare_group/dut_single_1.ogg  seq_position=1  seq_length=3
 <region> sample=MDL_samples/snare_group/dut_single_2.ogg  seq_position=2  seq_length=3  volume=3
 <region> sample=MDL_samples/snare_group/dut_single_3.ogg  seq_position=3  seq_length=3  volume=4.5
@@ -16,21 +16,21 @@
 // *****************
 // ** Group "Dut" **
 // *****************
-<group> key=e1  loop_mode=one_shot  group_volume=5
+<group> key=e1  loop_mode=one_shot  group_volume=10
 <region> sample=MDL_samples/snare_group/dut_group_1.ogg  seq_position=1  seq_length=2
 <region> sample=MDL_samples/snare_group/dut_group_2.ogg  seq_position=2  seq_length=2
 
 // ***************
 // ** Metronome **
 // ***************
-<group> loop_mode=one_shot  group_volume=5
+<group> loop_mode=one_shot  group_volume=10
 <region> key=a1   sample=MDL_samples/auxiliary/metronome_1.ogg
 <region> key=a#1  sample=MDL_samples/auxiliary/metronome_2.ogg
 
 // ***************
 // ** Hand Clap **
 // ***************
-<group> key=b1  lovel=1  hivel=94  loop_mode=one_shot
+<group> key=b1  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
 fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 <region> sample=MDL_samples/auxiliary/clap1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=3
 <region> sample=MDL_samples/auxiliary/clap2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=3
@@ -39,7 +39,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 <region> sample=MDL_samples/auxiliary/clap5.ogg  lorand=0.0  hirand=0.5  seq_position=3  seq_length=3
 <region> sample=MDL_samples/auxiliary/clap6.ogg  lorand=0.5  hirand=1.0  seq_position=3  seq_length=3
 
-<group> key=b1  lovel=95  hivel=127  loop_mode=one_shot
+<group> key=b1  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
 <region> sample=MDL_samples/auxiliary/clap1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=3
 <region> sample=MDL_samples/auxiliary/clap2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=3
 <region> sample=MDL_samples/auxiliary/clap3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=3
@@ -47,10 +47,22 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 <region> sample=MDL_samples/auxiliary/clap5.ogg  lorand=0.0  hirand=0.5  seq_position=3  seq_length=3
 <region> sample=MDL_samples/auxiliary/clap6.ogg  lorand=0.5  hirand=1.0  seq_position=3  seq_length=3
 
+// ********************
+// ** Ribbon Crasher **
+// ********************
+<group> key=a1  loop_mode=one_shot  group_volume=15
+<region> lovel=1   hivel=45   sample=MDL_samples/auxiliary/ribbon_crasher_P2.ogg   seq_position=1  seq_length=2  volume=5
+<region> lovel=1   hivel=45   sample=MDL_samples/auxiliary/ribbon_crasher_P1.ogg   seq_position=2  seq_length=2  volume=3
+<region> lovel=46  hivel=78   sample=MDL_samples/auxiliary/ribbon_crasher_MP.ogg   seq_position=1  seq_length=2  volume=1.5
+<region> lovel=46  hivel=78   sample=MDL_samples/auxiliary/ribbon_crasher_MF.ogg   seq_position=2  seq_length=2  volume=1
+<region> lovel=79  hivel=127  sample=MDL_samples/auxiliary/ribbon_crasher_F.ogg    seq_position=1  seq_length=3  volume=-1
+<region> lovel=79  hivel=127  sample=MDL_samples/auxiliary/ribbon_crasher_FF1.ogg  seq_position=2  seq_length=3  volume=0
+<region> lovel=79  hivel=127  sample=MDL_samples/auxiliary/ribbon_crasher_FF2.ogg  seq_position=3  seq_length=3  volume=0
+
 // ********************************
 // ** Unison Sustained Buzz Roll **
 // ********************************
-<group> key=c2  ampeg_release=0.5  group_volume=-4
+<group> key=c2  ampeg_release=0.5  group_volume=4
 <region> lovel=70  hivel=127  sample=MDL_samples/bass_group/roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=21664  loop_end=75718
 <region> lovel=1   hivel=69   sample=MDL_samples/bass_group/roll_flat_P_looped.ogg  volume=12
@@ -60,61 +72,61 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // ** Sustained Buzz Roll **
 // *************************
 // Drum 10
-<group> key=c#2  ampeg_release=0.5  pan=-27  group_volume=-2
+<group> key=c#2  ampeg_release=0.5  pan=-27  group_volume=2
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/6_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=12322  loop_end=82532
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/6_roll_flat_P_looped.ogg  volume=12
   loop_mode=loop_continuous  loop_start=17707  loop_end=118066
 // Drum 9
-<group> key=d2  ampeg_release=0.5  pan=-21  group_volume=-4
+<group> key=d2  ampeg_release=0.5  pan=-21  group_volume=4
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/5_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=12007  loop_end=70402
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/5_roll_flat_P_looped.ogg  volume=12
   loop_mode=loop_continuous  loop_start=17440  loop_end=117769
 // Drum 8
-<group> key=d#2  ampeg_release=0.5  pan=-15  group_volume=-4  transpose=3
+<group> key=d#2  ampeg_release=0.5  pan=-15  group_volume=4  transpose=3
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/5_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=12007  loop_end=70402
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/5_roll_flat_P_looped.ogg  volume=12
   loop_mode=loop_continuous  loop_start=17440  loop_end=117769
 // Drum 7
-<group> key=e2  ampeg_release=0.5  pan=-9  group_volume=-6
+<group> key=e2  ampeg_release=0.5  pan=-9  group_volume=6
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/4_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=22872  loop_end=66572
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/4_roll_flat_P_looped.ogg  volume=12
   loop_mode=loop_continuous  loop_start=17699  loop_end=134203
 // Drum 6
-<group> key=f2  ampeg_release=0.5  pan=-3  group_volume=-6  transpose=2
+<group> key=f2  ampeg_release=0.5  pan=-3  group_volume=6  transpose=2
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/4_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=22872  loop_end=66572
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/4_roll_flat_P_looped.ogg  volume=12
   loop_mode=loop_continuous  loop_start=17699  loop_end=134203
 // Drum 5
-<group> key=f#2  ampeg_release=0.5  pan=3  group_volume=-8  transpose=-2
+<group> key=f#2  ampeg_release=0.5  pan=3  group_volume=8  transpose=-2
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/3_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=22798  loop_end=79216
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/3_roll_flat_P_looped.ogg  volume=12
   loop_mode=loop_continuous  loop_start=28915  loop_end=131883
 // Drum 4
-<group> key=g2  ampeg_release=0.5  pan=9  group_volume=-8
+<group> key=g2  ampeg_release=0.5  pan=9  group_volume=8
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/3_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=22798  loop_end=79216
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/3_roll_flat_P_looped.ogg  volume=12
   loop_mode=loop_continuous  loop_start=28915  loop_end=131883
 // Drum 3
-<group> key=g#2  ampeg_release=0.5  pan=15  group_volume=-10
+<group> key=g#2  ampeg_release=0.5  pan=15  group_volume=20
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/2_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=5740  loop_end=61192
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/2_roll_flat_P_looped.ogg  volume=12
   loop_mode=loop_continuous  loop_start=27934  loop_end=128414
 // Drum 2
-<group> key=a2  ampeg_release=0.5  pan=21  group_volume=-10  transpose=2
+<group> key=a2  ampeg_release=0.5  pan=21  group_volume=20  transpose=2
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/2_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=5740  loop_end=61192
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/2_roll_flat_P_looped.ogg  volume=12
   loop_mode=loop_continuous  loop_start=27934  loop_end=128414
 // Drum 1
-<group> key=a#2  ampeg_release=0.5  pan=27  group_volume=-6
+<group> key=a#2  ampeg_release=0.5  pan=27  group_volume=6
 <region> lovel=70  hivel=127  sample=MDL_samples/bass/1_roll_flat_F_looped.ogg
   loop_mode=loop_continuous  loop_start=16770  loop_end=73365
 <region> lovel=1   hivel=69   sample=MDL_samples/bass/1_roll_flat_P_looped.ogg  volume=12
@@ -412,70 +424,70 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // ** Hits **
 // **********
 // Drum 10
-<group> key=c#4  lovel=1  hivel=94  ampeg_release=5  pan=-27
-fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+<group> key=c#4  lovel=1  hivel=94  ampeg_release=5  pan=-27  group_volume=20
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000 
 <region> sample=MDL_samples/bass/6_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/6_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/6_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/6_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 9
-<group> key=d4  lovel=1  hivel=94  ampeg_release=5  pan=-21
+<group> key=d4  lovel=1  hivel=94  ampeg_release=5  pan=-21  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 8
-<group> key=d#4  lovel=1  hivel=94  ampeg_release=5  pan=-15  transpose=3
+<group> key=d#4  lovel=1  hivel=94  ampeg_release=5  pan=-15  transpose=3  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 7
-<group> key=e4  lovel=1  hivel=94  loop_mode=one_shot  pan=-9  group_volume=2
+<group> key=e4  lovel=1  hivel=94  loop_mode=one_shot  pan=-9  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 6
-<group> key=f4  lovel=1  hivel=94  loop_mode=one_shot  pan=-3  group_volume=2  transpose=2
+<group> key=f4  lovel=1  hivel=94  loop_mode=one_shot  pan=-3  group_volume=20  transpose=2
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 5
-<group> key=f#4  lovel=1  hivel=94  loop_mode=one_shot  pan=3  group_volume=2  transpose=-2
+<group> key=f#4  lovel=1  hivel=94  loop_mode=one_shot  pan=3  group_volume=20  transpose=-2
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 4
-<group> key=g4  lovel=1  hivel=94  loop_mode=one_shot  pan=9  group_volume=2
+<group> key=g4  lovel=1  hivel=94  loop_mode=one_shot  pan=9  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 3
-<group> key=g#4  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=1
+<group> key=g#4  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 2
-<group> key=a4  lovel=1  hivel=94  loop_mode=one_shot  pan=21  group_volume=1  transpose=2
+<group> key=a4  lovel=1  hivel=94  loop_mode=one_shot  pan=21  group_volume=20  transpose=2
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 1
-<group> key=a#4  lovel=1  hivel=94  loop_mode=one_shot  pan=27
+<group> key=a#4  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
@@ -483,61 +495,61 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 
 // Drum 10
-<group> key=c#4  lovel=95  hivel=127  ampeg_release=5  pan=-27
+<group> key=c#4  lovel=95  hivel=127  ampeg_release=5  pan=-27  group_volume=20
 <region> sample=MDL_samples/bass/6_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/6_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/6_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/6_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 9
-<group> key=d4  lovel=95  hivel=127  ampeg_release=5  pan=-21
+<group> key=d4  lovel=95  hivel=127  ampeg_release=5  pan=-21  group_volume=20
 <region> sample=MDL_samples/bass/5_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 8
-<group> key=d#4  lovel=95  hivel=127  ampeg_release=5  pan=-15  transpose=3
+<group> key=d#4  lovel=95  hivel=127  ampeg_release=5  pan=-15  transpose=3  group_volume=20
 <region> sample=MDL_samples/bass/5_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 7
-<group> key=e4  lovel=95  hivel=127  loop_mode=one_shot  pan=-9  group_volume=2
+<group> key=e4  lovel=95  hivel=127  loop_mode=one_shot  pan=-9  group_volume=20 
 <region> sample=MDL_samples/bass/4_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 6
-<group> key=f4  lovel=95  hivel=127  loop_mode=one_shot  pan=-3  group_volume=2  transpose=2
+<group> key=f4  lovel=95  hivel=127  loop_mode=one_shot  pan=-3  group_volume=20  transpose=2
 <region> sample=MDL_samples/bass/4_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 5
-<group> key=f#4  lovel=95  hivel=127  loop_mode=one_shot  pan=3  group_volume=2  transpose=-2
+<group> key=f#4  lovel=95  hivel=127  loop_mode=one_shot  pan=3  group_volume=20  transpose=-2
 <region> sample=MDL_samples/bass/3_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 4
-<group> key=g4  lovel=95  hivel=127  loop_mode=one_shot  pan=9  group_volume=2
+<group> key=g4  lovel=95  hivel=127  loop_mode=one_shot  pan=9  group_volume=20
 <region> sample=MDL_samples/bass/3_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 3
-<group> key=g#4  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=1
+<group> key=g#4  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=20
 <region> sample=MDL_samples/bass/2_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 2
-<group> key=a4  lovel=95  hivel=127  loop_mode=one_shot  pan=21  group_volume=1  transpose=2
+<group> key=a4  lovel=95  hivel=127  loop_mode=one_shot  pan=21  group_volume=20  transpose=2
 <region> sample=MDL_samples/bass/2_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 1
-<group> key=a#4  lovel=95  hivel=127  loop_mode=one_shot  pan=27
+<group> key=a#4  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=20
 <region> sample=MDL_samples/bass/1_hit_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_hit_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_hit_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
@@ -547,35 +559,35 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // ** Unison Rims **
 // *****************
 // Drum 9
-<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=-2
+<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_rim_3.ogg  seq_position=1  seq_length=4  delay=0.01
 <region> sample=MDL_samples/bass/5_rim_1.ogg  seq_position=2  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/5_rim_4.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/5_rim_2.ogg  seq_position=4  seq_length=4  delay=0.016
 // Drum 7
-<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=-2
+<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_rim_1.ogg  seq_position=1  seq_length=4  delay=0.009
 <region> sample=MDL_samples/bass/4_rim_3.ogg  seq_position=2  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/4_rim_2.ogg  seq_position=3  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/4_rim_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 4
-<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=0  group_volume=-2
+<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=0  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_rim_1.ogg  seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/3_rim_2.ogg  seq_position=2  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/3_rim_3.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/3_rim_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=-2
+<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_rim_3.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/2_rim_4.ogg  seq_position=2  seq_length=4  delay=0.005
 <region> sample=MDL_samples/bass/2_rim_2.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/2_rim_1.ogg  seq_position=4  seq_length=4  delay=0.01
 // Drum 1
-<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=-2
+<group> key=c5  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_rim_1.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/1_rim_3.ogg  seq_position=2  seq_length=4  delay=0
@@ -583,31 +595,31 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_rim_4.ogg  seq_position=4  seq_length=4  delay=0.009
 
 // Drum 9
-<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=-2
+<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=20
 <region> sample=MDL_samples/bass/5_rim_3.ogg  seq_position=1  seq_length=4  delay=0.01
 <region> sample=MDL_samples/bass/5_rim_1.ogg  seq_position=2  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/5_rim_4.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/5_rim_2.ogg  seq_position=4  seq_length=4  delay=0.016
 // Drum 7
-<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=-2
+<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=20
 <region> sample=MDL_samples/bass/4_rim_1.ogg  seq_position=1  seq_length=4  delay=0.009
 <region> sample=MDL_samples/bass/4_rim_3.ogg  seq_position=2  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/4_rim_2.ogg  seq_position=3  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/4_rim_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 4
-<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=0  group_volume=-2
+<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=0  group_volume=20
 <region> sample=MDL_samples/bass/3_rim_1.ogg  seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/3_rim_2.ogg  seq_position=2  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/3_rim_3.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/3_rim_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=-2
+<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=20
 <region> sample=MDL_samples/bass/2_rim_3.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/2_rim_4.ogg  seq_position=2  seq_length=4  delay=0.005
 <region> sample=MDL_samples/bass/2_rim_2.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/2_rim_1.ogg  seq_position=4  seq_length=4  delay=0.01
 // Drum 1
-<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=-2
+<group> key=c5  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=20
 <region> sample=MDL_samples/bass/1_rim_1.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/1_rim_3.ogg  seq_position=2  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/1_rim_2.ogg  seq_position=3  seq_length=4  delay=0.016
@@ -617,70 +629,70 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 // ** Rims **
 // **********
 // Drum 10
-<group> key=c#5  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=-2  transpose=-4
+<group> key=c#5  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=20  transpose=-4
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 9
-<group> key=d5  lovel=1  hivel=94  loop_mode=one_shot  pan=-21  group_volume=-2
+<group> key=d5  lovel=1  hivel=94  loop_mode=one_shot  pan=-21  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 8
-<group> key=d#5  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=-2  transpose=3
+<group> key=d#5  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=20  transpose=3
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 7
-<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  pan=-9  group_volume=-2
+<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  pan=-9  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 6
-<group> key=f5  lovel=1  hivel=94  loop_mode=one_shot  pan=-3  group_volume=-2  transpose=2
+<group> key=f5  lovel=1  hivel=94  loop_mode=one_shot  pan=-3  group_volume=20  transpose=2
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 5
-<group> key=f#5  lovel=1  hivel=94  loop_mode=one_shot  pan=3  group_volume=-2  transpose=-2
+<group> key=f#5  lovel=1  hivel=94  loop_mode=one_shot  pan=3  group_volume=20  transpose=-2
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 4
-<group> key=g5  lovel=1  hivel=94  loop_mode=one_shot  pan=9  group_volume=-2
+<group> key=g5  lovel=1  hivel=94  loop_mode=one_shot  pan=9  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 3
-<group> key=g#5  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=-2
+<group> key=g#5  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 2
-<group> key=a5  lovel=1  hivel=94  loop_mode=one_shot  pan=21  group_volume=-2  transpose=2
+<group> key=a5  lovel=1  hivel=94  loop_mode=one_shot  pan=21  group_volume=20  transpose=2
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 1
-<group> key=a#5  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=-2
+<group> key=a#5  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
@@ -688,61 +700,61 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 
 // Drum 10
-<group> key=c#5  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=-2  transpose=-4
+<group> key=c#5  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=20  transpose=-4
 <region> sample=MDL_samples/bass/5_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 9
-<group> key=d5  lovel=95  hivel=127  loop_mode=one_shot  pan=-21  group_volume=-2
+<group> key=d5  lovel=95  hivel=127  loop_mode=one_shot  pan=-21  group_volume=20
 <region> sample=MDL_samples/bass/5_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 8
-<group> key=d#5  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=-2  transpose=3
+<group> key=d#5  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=20  transpose=3
 <region> sample=MDL_samples/bass/5_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 7
-<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  pan=-9  group_volume=-2
+<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  pan=-9  group_volume=20
 <region> sample=MDL_samples/bass/4_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 6
-<group> key=f5  lovel=95  hivel=127  loop_mode=one_shot  pan=-3  group_volume=-2  transpose=2
+<group> key=f5  lovel=95  hivel=127  loop_mode=one_shot  pan=-3  group_volume=20  transpose=2
 <region> sample=MDL_samples/bass/4_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 5
-<group> key=f#5  lovel=95  hivel=127  loop_mode=one_shot  pan=3  group_volume=-2  transpose=-2
+<group> key=f#5  lovel=95  hivel=127  loop_mode=one_shot  pan=3  group_volume=20  transpose=-2
 <region> sample=MDL_samples/bass/3_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 4
-<group> key=g5  lovel=95  hivel=127  loop_mode=one_shot  pan=9  group_volume=-2
+<group> key=g5  lovel=95  hivel=127  loop_mode=one_shot  pan=9  group_volume=20
 <region> sample=MDL_samples/bass/3_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 3
-<group> key=g#5  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=-2
+<group> key=g#5  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=20
 <region> sample=MDL_samples/bass/2_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 2
-<group> key=a5  lovel=95  hivel=127  loop_mode=one_shot  pan=21  group_volume=-2  transpose=2
+<group> key=a5  lovel=95  hivel=127  loop_mode=one_shot  pan=21  group_volume=20  transpose=2
 <region> sample=MDL_samples/bass/2_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 1
-<group> key=a#5  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=-2
+<group> key=a#5  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=20
 <region> sample=MDL_samples/bass/1_rim_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_rim_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_rim_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
@@ -752,35 +764,35 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 // ** Unison Sticks-in **
 // **********************
 // Drum 9
-<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=-3
+<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_sticks_in_3.ogg  seq_position=1  seq_length=4  delay=0.01
 <region> sample=MDL_samples/bass/5_sticks_in_1.ogg  seq_position=2  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/5_sticks_in_4.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/5_sticks_in_2.ogg  seq_position=4  seq_length=4  delay=0.016
 // Drum 7
-<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=-3
+<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_sticks_in_1.ogg  seq_position=1  seq_length=4  delay=0.009
 <region> sample=MDL_samples/bass/4_sticks_in_3.ogg  seq_position=2  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/4_sticks_in_2.ogg  seq_position=3  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/4_sticks_in_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 4
-<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=0  group_volume=-3
+<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=0  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_sticks_in_1.ogg  seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/3_sticks_in_2.ogg  seq_position=2  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/3_sticks_in_3.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/3_sticks_in_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=-3
+<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_sticks_in_3.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/2_sticks_in_4.ogg  seq_position=2  seq_length=4  delay=0.005
 <region> sample=MDL_samples/bass/2_sticks_in_2.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/2_sticks_in_1.ogg  seq_position=4  seq_length=4  delay=0.01
 // Drum 1
-<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=-3
+<group> key=c6  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_sticks_in_1.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/1_sticks_in_3.ogg  seq_position=2  seq_length=4  delay=0
@@ -788,31 +800,31 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_sticks_in_4.ogg  seq_position=4  seq_length=4  delay=0.009
 
 // Drum 9
-<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=-3
+<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=20
 <region> sample=MDL_samples/bass/5_sticks_in_3.ogg  seq_position=1  seq_length=4  delay=0.01
 <region> sample=MDL_samples/bass/5_sticks_in_1.ogg  seq_position=2  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/5_sticks_in_4.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/5_sticks_in_2.ogg  seq_position=4  seq_length=4  delay=0.016
 // Drum 7
-<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=-3
+<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=20
 <region> sample=MDL_samples/bass/4_sticks_in_1.ogg  seq_position=1  seq_length=4  delay=0.009
 <region> sample=MDL_samples/bass/4_sticks_in_3.ogg  seq_position=2  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/4_sticks_in_2.ogg  seq_position=3  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/4_sticks_in_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 4
-<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=0  group_volume=-3
+<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=0  group_volume=20
 <region> sample=MDL_samples/bass/3_sticks_in_1.ogg  seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/3_sticks_in_2.ogg  seq_position=2  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/3_sticks_in_3.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/3_sticks_in_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=-3
+<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=20
 <region> sample=MDL_samples/bass/2_sticks_in_3.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/2_sticks_in_4.ogg  seq_position=2  seq_length=4  delay=0.005
 <region> sample=MDL_samples/bass/2_sticks_in_2.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/2_sticks_in_1.ogg  seq_position=4  seq_length=4  delay=0.01
 // Drum 1
-<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=-3
+<group> key=c6  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=20
 <region> sample=MDL_samples/bass/1_sticks_in_1.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/1_sticks_in_3.ogg  seq_position=2  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/1_sticks_in_2.ogg  seq_position=3  seq_length=4  delay=0.016
@@ -822,70 +834,70 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 // ** Sticks In **
 // ***************
 // Drum 10
-<group> key=c#6  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=-3  transpose=-4
+<group> key=c#6  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=20  transpose=-4
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 9
-<group> key=d6  lovel=1  hivel=94  loop_mode=one_shot  pan=-21  group_volume=-3
+<group> key=d6  lovel=1  hivel=94  loop_mode=one_shot  pan=-21  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 8
-<group> key=d#6  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=-3  transpose=3
+<group> key=d#6  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=20  transpose=3
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 7
-<group> key=e6  lovel=1  hivel=94  loop_mode=one_shot  pan=-9  group_volume=-3
+<group> key=e6  lovel=1  hivel=94  loop_mode=one_shot  pan=-9  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 6
-<group> key=f6  lovel=1  hivel=94  loop_mode=one_shot  pan=-3  group_volume=-3  transpose=2
+<group> key=f6  lovel=1  hivel=94  loop_mode=one_shot  pan=-3  group_volume=20  transpose=2
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 5
-<group> key=f#6  lovel=1  hivel=94  loop_mode=one_shot  pan=3  group_volume=-3  transpose=-2
+<group> key=f#6  lovel=1  hivel=94  loop_mode=one_shot  pan=3  group_volume=20  transpose=-2
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 4
-<group> key=g6  lovel=1  hivel=94  loop_mode=one_shot  pan=9  group_volume=-3
+<group> key=g6  lovel=1  hivel=94  loop_mode=one_shot  pan=9  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 3
-<group> key=g#6  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=-3
+<group> key=g#6  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 2
-<group> key=a6  lovel=1  hivel=94  loop_mode=one_shot  pan=21  group_volume=-3  transpose=2
+<group> key=a6  lovel=1  hivel=94  loop_mode=one_shot  pan=21  group_volume=20  transpose=2
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 1
-<group> key=a#6  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=-3
+<group> key=a#6  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
@@ -893,61 +905,61 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 
 // Drum 10
-<group> key=c#6  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=-3  transpose=-4
+<group> key=c#6  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=20  transpose=-4
 <region> sample=MDL_samples/bass/5_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 9
-<group> key=d6  lovel=95  hivel=127  loop_mode=one_shot  pan=-21  group_volume=-3
+<group> key=d6  lovel=95  hivel=127  loop_mode=one_shot  pan=-21  group_volume=20
 <region> sample=MDL_samples/bass/5_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 8
-<group> key=d#6  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=-3  transpose=3
+<group> key=d#6  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=20  transpose=3
 <region> sample=MDL_samples/bass/5_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 7
-<group> key=e6  lovel=95  hivel=127  loop_mode=one_shot  pan=-9  group_volume=-3
+<group> key=e6  lovel=95  hivel=127  loop_mode=one_shot  pan=-9  group_volume=20
 <region> sample=MDL_samples/bass/4_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 6
-<group> key=f6  lovel=95  hivel=127  loop_mode=one_shot  pan=-3  group_volume=-3  transpose=2
+<group> key=f6  lovel=95  hivel=127  loop_mode=one_shot  pan=-3  group_volume=20  transpose=2
 <region> sample=MDL_samples/bass/4_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 5
-<group> key=f#6  lovel=95  hivel=127  loop_mode=one_shot  pan=3  group_volume=-3  transpose=-2
+<group> key=f#6  lovel=95  hivel=127  loop_mode=one_shot  pan=3  group_volume=20 transpose=-2
 <region> sample=MDL_samples/bass/3_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 4
-<group> key=g6  lovel=95  hivel=127  loop_mode=one_shot  pan=9  group_volume=-3
+<group> key=g6  lovel=95  hivel=127  loop_mode=one_shot  pan=9  group_volume=20
 <region> sample=MDL_samples/bass/3_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 3
-<group> key=g#6  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=-3
+<group> key=g#6  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=20
 <region> sample=MDL_samples/bass/2_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 2
-<group> key=a6  lovel=95  hivel=127  loop_mode=one_shot  pan=21  group_volume=-3  transpose=2
+<group> key=a6  lovel=95  hivel=127  loop_mode=one_shot  pan=21  group_volume=20  transpose=2
 <region> sample=MDL_samples/bass/2_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 1
-<group> key=a#6  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=-3
+<group> key=a#6  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=20
 <region> sample=MDL_samples/bass/1_sticks_in_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_sticks_in_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_sticks_in_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
@@ -956,7 +968,7 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 // *************************
 // ** Unison Mallet Click **
 // *************************
-<group> key=b6  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
+<group> key=b6  lovel=1  hivel=94  loop_mode=one_shot  group_volume=20
 fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/bass/stick_click_2.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -979,7 +991,7 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 <region> sample=MDL_samples/bass/stick_click_2.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.017
 <region> sample=MDL_samples/bass/stick_click_3.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.011
 
-<group> key=b6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
+<group> key=b6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=20
 // RR1
 <region> sample=MDL_samples/bass/stick_click_2.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/stick_click_3.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1005,35 +1017,35 @@ fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
 // ** Unison Hand Mute **
 // **********************
 // Drum 9
-<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=-27
+<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_hand_mute_3.ogg  seq_position=1  seq_length=4  delay=0.01
 <region> sample=MDL_samples/bass/5_hand_mute_1.ogg  seq_position=2  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/5_hand_mute_4.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/5_hand_mute_2.ogg  seq_position=4  seq_length=4  delay=0.016
 // Drum 7
-<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=-15
+<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_hand_mute_1.ogg  seq_position=1  seq_length=4  delay=0.009
 <region> sample=MDL_samples/bass/4_hand_mute_3.ogg  seq_position=2  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/4_hand_mute_2.ogg  seq_position=3  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/4_hand_mute_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 4
-<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=0
+<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=0  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_hand_mute_1.ogg  seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/3_hand_mute_2.ogg  seq_position=2  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/3_hand_mute_3.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/3_hand_mute_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=15
+<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_hand_mute_3.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/2_hand_mute_4.ogg  seq_position=2  seq_length=4  delay=0.005
 <region> sample=MDL_samples/bass/2_hand_mute_2.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/2_hand_mute_1.ogg  seq_position=4  seq_length=4  delay=0.01
 // Drum 1
-<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=27
+<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_hand_mute_1.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/1_hand_mute_3.ogg  seq_position=2  seq_length=4  delay=0
@@ -1041,31 +1053,31 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_hand_mute_4.ogg  seq_position=4  seq_length=4  delay=0.009
 
 // Drum 9
-<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=-27
+<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=20
 <region> sample=MDL_samples/bass/5_hand_mute_3.ogg  seq_position=1  seq_length=4  delay=0.01
 <region> sample=MDL_samples/bass/5_hand_mute_1.ogg  seq_position=2  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/5_hand_mute_4.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/5_hand_mute_2.ogg  seq_position=4  seq_length=4  delay=0.016
 // Drum 7
-<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=-15
+<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=20
 <region> sample=MDL_samples/bass/4_hand_mute_1.ogg  seq_position=1  seq_length=4  delay=0.009
 <region> sample=MDL_samples/bass/4_hand_mute_3.ogg  seq_position=2  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/4_hand_mute_2.ogg  seq_position=3  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/4_hand_mute_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 4
-<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=0
+<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=0  group_volume=20
 <region> sample=MDL_samples/bass/3_hand_mute_1.ogg  seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/bass/3_hand_mute_2.ogg  seq_position=2  seq_length=4  delay=0.006
 <region> sample=MDL_samples/bass/3_hand_mute_3.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/3_hand_mute_4.ogg  seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=15
+<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=20
 <region> sample=MDL_samples/bass/2_hand_mute_3.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/2_hand_mute_4.ogg  seq_position=2  seq_length=4  delay=0.005
 <region> sample=MDL_samples/bass/2_hand_mute_2.ogg  seq_position=3  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/2_hand_mute_1.ogg  seq_position=4  seq_length=4  delay=0.01
 // Drum 1
-<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=27
+<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=20
 <region> sample=MDL_samples/bass/1_hand_mute_1.ogg  seq_position=1  seq_length=4  delay=0.015
 <region> sample=MDL_samples/bass/1_hand_mute_3.ogg  seq_position=2  seq_length=4  delay=0
 <region> sample=MDL_samples/bass/1_hand_mute_2.ogg  seq_position=3  seq_length=4  delay=0.016
@@ -1075,70 +1087,70 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // ** Hand Mute **
 // ***************
 // Drum 10
-<group> key=c#7  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  transpose=-4
+<group> key=c#7  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  transpose=-4  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 9
-<group> key=d7  lovel=1  hivel=94  loop_mode=one_shot  pan=-21
+<group> key=d7  lovel=1  hivel=94  loop_mode=one_shot  pan=-21  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 8
-<group> key=d#7  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  transpose=3
+<group> key=d#7  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  transpose=3  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/5_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 7
-<group> key=e7  lovel=1  hivel=94  loop_mode=one_shot  pan=-9
+<group> key=e7  lovel=1  hivel=94  loop_mode=one_shot  pan=-9  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 6
-<group> key=f7  lovel=1  hivel=94  loop_mode=one_shot  pan=-3  transpose=2
+<group> key=f7  lovel=1  hivel=94  loop_mode=one_shot  pan=-3  transpose=2  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/4_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 5
-<group> key=f#7  lovel=1  hivel=94  loop_mode=one_shot  pan=3  transpose=-2
+<group> key=f#7  lovel=1  hivel=94  loop_mode=one_shot  pan=3  transpose=-2  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 4
-<group> key=g7  lovel=1  hivel=94  loop_mode=one_shot  pan=9
+<group> key=g7  lovel=1  hivel=94  loop_mode=one_shot  pan=9  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/3_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 3
-<group> key=g#7  lovel=1  hivel=94  loop_mode=one_shot  pan=15
+<group> key=g#7  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 2
-<group> key=a7  lovel=1  hivel=94  loop_mode=one_shot  pan=21  transpose=2
+<group> key=a7  lovel=1  hivel=94  loop_mode=one_shot  pan=21  transpose=2  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/2_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 1
-<group> key=a#7  lovel=1  hivel=94  loop_mode=one_shot  pan=27
+<group> key=a#7  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=20
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
@@ -1146,61 +1158,61 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/bass/1_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 
 // Drum 10
-<group> key=c#7  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  transpose=-4
+<group> key=c#7  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  transpose=-4  group_volume=20
 <region> sample=MDL_samples/bass/5_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 9
-<group> key=d7  lovel=95  hivel=127  loop_mode=one_shot  pan=-21
+<group> key=d7  lovel=95  hivel=127  loop_mode=one_shot  pan=-21  group_volume=20
 <region> sample=MDL_samples/bass/5_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 8
-<group> key=d#7  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  transpose=3
+<group> key=d#7  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  transpose=3  group_volume=20
 <region> sample=MDL_samples/bass/5_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/5_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 7
-<group> key=e7  lovel=95  hivel=127  loop_mode=one_shot  pan=-9
+<group> key=e7  lovel=95  hivel=127  loop_mode=one_shot  pan=-9  group_volume=20
 <region> sample=MDL_samples/bass/4_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 6
-<group> key=f7  lovel=95  hivel=127  loop_mode=one_shot  pan=-3  transpose=2
+<group> key=f7  lovel=95  hivel=127  loop_mode=one_shot  pan=-3  transpose=2  group_volume=20
 <region> sample=MDL_samples/bass/4_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/4_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 5
-<group> key=f#7  lovel=95  hivel=127  loop_mode=one_shot  pan=3  transpose=-2
+<group> key=f#7  lovel=95  hivel=127  loop_mode=one_shot  pan=3  transpose=-2  group_volume=20
 <region> sample=MDL_samples/bass/3_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 4
-<group> key=g7  lovel=95  hivel=127  loop_mode=one_shot  pan=9
+<group> key=g7  lovel=95  hivel=127  loop_mode=one_shot  pan=9  group_volume=20
 <region> sample=MDL_samples/bass/3_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/3_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 3
-<group> key=g#7  lovel=95  hivel=127  loop_mode=one_shot  pan=15
+<group> key=g#7  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=20
 <region> sample=MDL_samples/bass/2_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 2
-<group> key=a7  lovel=95  hivel=127  loop_mode=one_shot  pan=21  transpose=2
+<group> key=a7  lovel=95  hivel=127  loop_mode=one_shot  pan=21  transpose=2  group_volume=20
 <region> sample=MDL_samples/bass/2_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_4.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
 <region> sample=MDL_samples/bass/2_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
 // Drum 1
-<group> key=a#7  lovel=95  hivel=127  loop_mode=one_shot  pan=27
+<group> key=a#7  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=20
 <region> sample=MDL_samples/bass/1_hand_mute_1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_hand_mute_2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
 <region> sample=MDL_samples/bass/1_hand_mute_3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2

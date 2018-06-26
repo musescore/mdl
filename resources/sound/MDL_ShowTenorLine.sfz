@@ -1,0 +1,302 @@
+// *****************************
+// ** MuseScore Drumline v1.0 **
+// **   Show Tenor Line       **
+// **   SFZ programming by    **
+// **  S. Christian Collins   **
+// *****************************
+<global>
+sw_lokey=c1  sw_hikey=d1  sw_default=c1
+
+// ***********
+// ** Tom 6 **
+// ***********
+<group> key=f2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=-15  group=3  off_by=3
+<region> lovel=0    hivel=37   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom6/1_mono.ogg
+<region> lovel=38   hivel=72   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom6/2_mono.ogg
+<region> lovel=73   hivel=101  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom6/3_mono.ogg
+<region> lovel=102  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom6/4_mono.ogg
+
+
+// ***********
+// ** Tom 5 **
+// ***********
+<group> key=g2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=-9  group=4  off_by=4
+<region> lovel=0    hivel=22   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom5/1_mono.ogg
+<region> lovel=23   hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom5/2_mono.ogg
+<region> lovel=45   hivel=66   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom5/3_mono.ogg
+<region> lovel=67   hivel=88   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom5/4_mono.ogg
+<region> lovel=89   hivel=110  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom5/5_mono.ogg
+<region> lovel=111  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom5/6_mono.ogg
+
+// ***********
+// ** Tom 4 **
+// ***********
+<group> key=a2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=-3  group_volume=-1  group=5  off_by=5
+<region> lovel=0    hivel=22   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom4/1_mono.ogg
+<region> lovel=23   hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom4/2_mono.ogg
+<region> lovel=45   hivel=66   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom4/3_mono.ogg
+<region> lovel=67   hivel=88   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom4/4_mono.ogg
+<region> lovel=89   hivel=110  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom4/5_mono.ogg
+<region> lovel=111  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom4/6_mono.ogg
+
+// ***********
+// ** Tom 3 **
+// ***********
+<group> key=b2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=3  group_volume=-2  group=6  off_by=6
+<region> lovel=0    hivel=17   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/1_mono.ogg
+<region> lovel=18   hivel=35   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/2_mono.ogg
+<region> lovel=36   hivel=53   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/3_mono.ogg
+<region> lovel=54   hivel=70   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/4_mono.ogg
+<region> lovel=71   hivel=97   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/5_mono.ogg
+  loop_mode=loop_continuous  loop_start=86270  loop_end=92894
+  ampeg_hold=2.1  ampeg_decay=15  ampeg_sustain=0  ampeg_release=15
+<region> lovel=98   hivel=114  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/6_mono.ogg
+<region> lovel=115  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/7_mono.ogg
+
+// ***********
+// ** Tom 2 **
+// ***********
+<group> key=c3  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=9  group_volume=-3  group=7  off_by=7
+<region> lovel=0   hivel=24   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom2/1_mono.ogg
+<region> lovel=25  hivel=48   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom2/2_mono.ogg
+<region> lovel=49  hivel=70   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom2/3_mono.ogg
+<region> lovel=71  hivel=94   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom2/4_mono.ogg
+<region> lovel=95  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom2/5_mono.ogg
+
+// ***********
+// ** Tom 1 **
+// ***********
+<group> key=d3  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=15  group_volume=-4  group=8  off_by=8
+<region> lovel=0   hivel=24   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/1_mono.ogg
+<region> lovel=25  hivel=48   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/2_mono.ogg
+<region> lovel=49  hivel=70   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/3_mono.ogg
+<region> lovel=71  hivel=94   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/4_mono.ogg
+<region> lovel=95  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/5_mono.ogg  volume=4
+
+// ***************
+// ** Tom 6 Rim **
+// ***************
+<group> key=f4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-4  pan=-15  transpose=-2  tune=-20
+  ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr1_mono.ogg  seq_position=1  volume=12
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr2_mono.ogg  seq_position=2  volume=12
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomL_rimS_v4_rr1_mono.ogg  seq_position=1
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomL_rimS_v4_rr2_mono.ogg  seq_position=2
+
+// ***************
+// ** Tom 5 Rim **
+// ***************
+<group> key=g4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-4  pan=-9
+  ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr1_mono.ogg  seq_position=1  volume=12
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr2_mono.ogg  seq_position=2  volume=12
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomL_rimS_v4_rr1_mono.ogg  seq_position=1
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomL_rimS_v4_rr2_mono.ogg  seq_position=2
+
+// ***************
+// ** Tom 4 Rim **
+// ***************
+<group> key=a4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-4  pan=-3  transpose=2  tune=20
+  ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr1_mono.ogg  seq_position=1  volume=12
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr2_mono.ogg  seq_position=2  volume=12
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomL_rimS_v4_rr1_mono.ogg  seq_position=1
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomL_rimS_v4_rr2_mono.ogg  seq_position=2
+
+// ***************
+// ** Tom 3 Rim **
+// ***************
+<group> key=b4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-4  pan=3
+  ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr1_mono.ogg  seq_position=1  volume=13
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr2_mono.ogg  seq_position=2  volume=13
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomH_rimS_v4_rr1_mono.ogg  seq_position=1
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomH_rimS_v4_rr2_mono.ogg  seq_position=2
+
+// ***************
+// ** Tom 2 Rim **
+// ***************
+<group> key=c5  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-4  pan=9  transpose=4  tune=50
+  ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
+  fil_type=lpf_1p  cutoff=9000
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr1_mono.ogg  seq_position=1  volume=13
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr2_mono.ogg  seq_position=2  volume=13
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomH_rimS_v4_rr1_mono.ogg  seq_position=1
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomH_rimS_v4_rr2_mono.ogg  seq_position=2
+
+// ***************
+// ** Tom 1 Rim **
+// ***************
+<group> key=d5  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-4  pan=15  transpose=8  tune=20
+  ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
+  fil_type=lpf_1p  cutoff=9000
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr1_mono.ogg  seq_position=1  volume=13
+<region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr2_mono.ogg  seq_position=2  volume=13
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomH_rimS_v4_rr1_mono.ogg  seq_position=1
+<region> lovel=70  hivel=127  sample=MDL_samples/drumset/VCSL/TomH_rimS_v4_rr2_mono.ogg  seq_position=2
+
+// *************************
+// ** Unison Mallet Click **
+// *************************
+<group> key=b6  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+// RR1
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=30   tune=7   seq_position=1  seq_length=4  delay=0.007
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=30   tune=7   seq_position=1  seq_length=4  delay=0.01
+// RR2
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=-30  tune=0   seq_position=2  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=0    tune=-7  seq_position=2  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=30   tune=7   seq_position=2  seq_length=4  delay=0.002
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=30   tune=7   seq_position=2  seq_length=4  delay=0.014
+// RR3
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=-30  tune=0   seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=0    tune=-7  seq_position=3  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=30   tune=7   seq_position=3  seq_length=4  delay=0.003
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=30   tune=7   seq_position=3  seq_length=4  delay=0.008
+// RR4
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=-30  tune=0   seq_position=4  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.017
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.011
+
+<group> key=b6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+// RR1
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=30   tune=7   seq_position=1  seq_length=4  delay=0.007
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=30   tune=7   seq_position=1  seq_length=4  delay=0.01
+// RR2
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=-30  tune=0   seq_position=2  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=0    tune=-7  seq_position=2  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=30   tune=7   seq_position=2  seq_length=4  delay=0.002
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=30   tune=7   seq_position=2  seq_length=4  delay=0.014
+// RR3
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=-30  tune=0   seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=0    tune=-7  seq_position=3  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=30   tune=7   seq_position=3  seq_length=4  delay=0.003
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=30   tune=7   seq_position=3  seq_length=4  delay=0.008
+// RR4
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=-30  tune=0   seq_position=4  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.017
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.011
+
+// *****************
+// ** Unison Rims **
+// *****************
+// Drum 9
+<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  pan=-27  group_volume=10
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> sample=MDL_samples/bass/5_rim_3.ogg  seq_position=1  seq_length=4  delay=0.01
+<region> sample=MDL_samples/bass/5_rim_1.ogg  seq_position=2  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/5_rim_4.ogg  seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/5_rim_2.ogg  seq_position=4  seq_length=4  delay=0.016
+// Drum 7
+<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  pan=-15  group_volume=10
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> sample=MDL_samples/bass/4_rim_1.ogg  seq_position=1  seq_length=4  delay=0.009
+<region> sample=MDL_samples/bass/4_rim_3.ogg  seq_position=2  seq_length=4  delay=0.011
+<region> sample=MDL_samples/bass/4_rim_2.ogg  seq_position=3  seq_length=4  delay=0.006
+<region> sample=MDL_samples/bass/4_rim_4.ogg  seq_position=4  seq_length=4  delay=0
+// Drum 4
+<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  pan=0  group_volume=10
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> sample=MDL_samples/bass/3_rim_1.ogg  seq_position=1  seq_length=4  delay=0.011
+<region> sample=MDL_samples/bass/3_rim_2.ogg  seq_position=2  seq_length=4  delay=0.006
+<region> sample=MDL_samples/bass/3_rim_3.ogg  seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/3_rim_4.ogg  seq_position=4  seq_length=4  delay=0
+// Drum 3
+<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  pan=15  group_volume=10
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> sample=MDL_samples/bass/2_rim_3.ogg  seq_position=1  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/2_rim_4.ogg  seq_position=2  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/2_rim_2.ogg  seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/2_rim_1.ogg  seq_position=4  seq_length=4  delay=0.01
+// Drum 1
+<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  pan=27  group_volume=10
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+<region> sample=MDL_samples/bass/1_rim_1.ogg  seq_position=1  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/1_rim_3.ogg  seq_position=2  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/1_rim_2.ogg  seq_position=3  seq_length=4  delay=0.016
+<region> sample=MDL_samples/bass/1_rim_4.ogg  seq_position=4  seq_length=4  delay=0.009
+
+// Drum 9
+<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  pan=-27  group_volume=10
+<region> sample=MDL_samples/bass/5_rim_3.ogg  seq_position=1  seq_length=4  delay=0.01
+<region> sample=MDL_samples/bass/5_rim_1.ogg  seq_position=2  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/5_rim_4.ogg  seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/5_rim_2.ogg  seq_position=4  seq_length=4  delay=0.016
+// Drum 7
+<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  pan=-15  group_volume=10
+<region> sample=MDL_samples/bass/4_rim_1.ogg  seq_position=1  seq_length=4  delay=0.009
+<region> sample=MDL_samples/bass/4_rim_3.ogg  seq_position=2  seq_length=4  delay=0.011
+<region> sample=MDL_samples/bass/4_rim_2.ogg  seq_position=3  seq_length=4  delay=0.006
+<region> sample=MDL_samples/bass/4_rim_4.ogg  seq_position=4  seq_length=4  delay=0
+// Drum 4
+<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  pan=0  group_volume=10
+<region> sample=MDL_samples/bass/3_rim_1.ogg  seq_position=1  seq_length=4  delay=0.011
+<region> sample=MDL_samples/bass/3_rim_2.ogg  seq_position=2  seq_length=4  delay=0.006
+<region> sample=MDL_samples/bass/3_rim_3.ogg  seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/3_rim_4.ogg  seq_position=4  seq_length=4  delay=0
+// Drum 3
+<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  pan=15  group_volume=10
+<region> sample=MDL_samples/bass/2_rim_3.ogg  seq_position=1  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/2_rim_4.ogg  seq_position=2  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/2_rim_2.ogg  seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/2_rim_1.ogg  seq_position=4  seq_length=4  delay=0.01
+// Drum 1
+<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  pan=27  group_volume=10
+<region> sample=MDL_samples/bass/1_rim_1.ogg  seq_position=1  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/1_rim_3.ogg  seq_position=2  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/1_rim_2.ogg  seq_position=3  seq_length=4  delay=0.016
+<region> sample=MDL_samples/bass/1_rim_4.ogg  seq_position=4  seq_length=4  delay=0.009
+
+// *************************
+// ** Unison Mallet Click **
+// *************************
+<group> key=b6  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+fil_type=lpf_1p  cutoff=1500  fil_veltrack=8000
+// RR1
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=30   tune=7   seq_position=1  seq_length=4  delay=0.007
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=30   tune=7   seq_position=1  seq_length=4  delay=0.01
+// RR2
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=-30  tune=0   seq_position=2  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=0    tune=-7  seq_position=2  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=30   tune=7   seq_position=2  seq_length=4  delay=0.002
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=30   tune=7   seq_position=2  seq_length=4  delay=0.014
+// RR3
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=-30  tune=0   seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=0    tune=-7  seq_position=3  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=30   tune=7   seq_position=3  seq_length=4  delay=0.003
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=30   tune=7   seq_position=3  seq_length=4  delay=0.008
+// RR4
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=-30  tune=0   seq_position=4  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.017
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.011
+
+<group> key=b6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+// RR1
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=30   tune=7   seq_position=1  seq_length=4  delay=0.007
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=30   tune=7   seq_position=1  seq_length=4  delay=0.01
+// RR2
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=-30  tune=0   seq_position=2  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=0    tune=-7  seq_position=2  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=30   tune=7   seq_position=2  seq_length=4  delay=0.002
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=30   tune=7   seq_position=2  seq_length=4  delay=0.014
+// RR3
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=-30  tune=0   seq_position=3  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=0    tune=-7  seq_position=3  seq_length=4  delay=0.015
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=30   tune=7   seq_position=3  seq_length=4  delay=0.003
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=30   tune=7   seq_position=3  seq_length=4  delay=0.008
+// RR4
+<region> sample=MDL_samples/bass/stick_click_4.ogg  pan=-30  tune=0   seq_position=4  seq_length=4  delay=0
+<region> sample=MDL_samples/bass/stick_click_1.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.005
+<region> sample=MDL_samples/bass/stick_click_2.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.017
+<region> sample=MDL_samples/bass/stick_click_3.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.011
