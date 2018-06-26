@@ -281,7 +281,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 <group> key=e3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  group_volume=10  pan=-40
 <region>  lovel=1    hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/China/tip1.ogg
 <region>  lovel=45   hivel=69   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/China/tip2.ogg
-<region>  lovel=70   hivel=104  sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/China/tip2.oggamp_veltrack=0
+<region>  lovel=70   hivel=104  sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/China/tip2.ogg amp_veltrack=0
 <region>  lovel=70   hivel=80   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/China/crash.ogg
   fil_type=lpf_1p  cutoff=200  fil_veltrack=9600
 <region>  lovel=81   hivel=92   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/China/crash.ogg
