@@ -1,5 +1,5 @@
 // *****************************
-// ** MuseScore Drumline v1.0 **
+// ** MuseScore Drumline v0.5 **
 // **        TenorLine        **
 // **   SFZ programming by    **
 // **  S. Christian Collins   **
@@ -8,14 +8,14 @@
 // ***************
 // ** Metronome **
 // ***************
-<group> loop_mode=one_shot  group_volume=10
+<group> loop_mode=one_shot  group_volume=5
 <region> key=a0   sample=MDL_samples/auxiliary/metronome_1.ogg
 <region> key=a#0  sample=MDL_samples/auxiliary/metronome_2.ogg
 
 // ***************
 // ** Hand Clap **
 // ***************
-<group> key=b0  lovel=1  hivel=94  loop_mode=one_shot   group_volume=10
+<group> key=b0  lovel=1  hivel=94  loop_mode=one_shot
 fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 <region> sample=MDL_samples/auxiliary/clap1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=3
 <region> sample=MDL_samples/auxiliary/clap2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=3
@@ -24,7 +24,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 <region> sample=MDL_samples/auxiliary/clap5.ogg  lorand=0.0  hirand=0.5  seq_position=3  seq_length=3
 <region> sample=MDL_samples/auxiliary/clap6.ogg  lorand=0.5  hirand=1.0  seq_position=3  seq_length=3
 
-<group> key=b0  lovel=95  hivel=127  loop_mode=one_shot   group_volume=10
+<group> key=b0  lovel=95  hivel=127  loop_mode=one_shot
 <region> sample=MDL_samples/auxiliary/clap1.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=3
 <region> sample=MDL_samples/auxiliary/clap2.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=3
 <region> sample=MDL_samples/auxiliary/clap3.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=3
@@ -35,7 +35,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // ****************
 // ** Solo "Dut" **
 // ****************
-<group> key=d#1  loop_mode=one_shot  group_volume=10
+<group> key=d#1  loop_mode=one_shot  group_volume=5
 <region> sample=MDL_samples/snare_group/dut_single_1.ogg  seq_position=1  seq_length=3
 <region> sample=MDL_samples/snare_group/dut_single_2.ogg  seq_position=2  seq_length=3  volume=3
 <region> sample=MDL_samples/snare_group/dut_single_3.ogg  seq_position=3  seq_length=3  volume=4.5
@@ -43,21 +43,21 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // *****************
 // ** Group "Dut" **
 // *****************
-<group> key=e1  loop_mode=one_shot  group_volume=10
+<group> key=e1  loop_mode=one_shot  group_volume=5
 <region> sample=MDL_samples/snare_group/dut_group_1.ogg  seq_position=1  seq_length=2
 <region> sample=MDL_samples/snare_group/dut_group_2.ogg  seq_position=2  seq_length=2
 
 // ********************
 // ** Agogo Bell Low **
 // ********************
-<group> key=f1  loop_mode=one_shot  group_volume=25
+<group> key=f1  loop_mode=one_shot  group_volume=10
 <region> lovel=1   hivel=69   sample=MDL_samples/auxiliary/agogo_low_P.ogg  volume=9
 <region> lovel=70  hivel=127  sample=MDL_samples/auxiliary/agogo_low_F.ogg  volume=0
 
 // *********************
 // ** Agogo Bell High **
 // ********************
-<group> key=f#1  loop_mode=one_shot  group_volume=25
+<group> key=f#1  loop_mode=one_shot  group_volume=10
 <region> lovel=1   hivel=59   sample=MDL_samples/auxiliary/agogo_high_P.ogg  volume=11
 <region> lovel=60  hivel=89   sample=MDL_samples/auxiliary/agogo_high_M.ogg  volume=3
 <region> lovel=90  hivel=127  sample=MDL_samples/auxiliary/agogo_high_F.ogg  volume=0
@@ -65,7 +65,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // ***************
 // ** Jam Block **
 // ***************
-<group> key=g1  loop_mode=one_shot  group_volume=25
+<group> key=g1  loop_mode=one_shot  group_volume=9
 <region> lovel=1   hivel=59    sample=MDL_samples/auxiliary/wood_click_PP_rr1.ogg  seq_position=1  seq_length=3  volume=23
 <region> lovel=1   hivel=59    sample=MDL_samples/auxiliary/wood_click_PP_rr2.ogg  seq_position=2  seq_length=3  volume=23
 <region> lovel=1   hivel=59    sample=MDL_samples/auxiliary/wood_click_PP_rr3.ogg  seq_position=3  seq_length=3  volume=23
@@ -77,7 +77,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // *************
 // ** Cowbell **
 // *************
-<group> key=g#1  loop_mode=one_shot  group_volume=20
+<group> key=g#1  loop_mode=one_shot  group_volume=1
 <region> lovel=1    hivel=59   sample=MDL_samples/auxiliary/cowbell_P.ogg  volume=20
 <region> lovel=60   hivel=99   sample=MDL_samples/auxiliary/cowbell_M.ogg  volume=15
 <region> lovel=100  hivel=127  sample=MDL_samples/auxiliary/cowbell_F.ogg  volume=10
@@ -85,7 +85,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // ********************
 // ** Ribbon Crasher **
 // ********************
-<group> key=a1  loop_mode=one_shot  group_volume=15
+<group> key=a1  loop_mode=one_shot  group_volume=6
 <region> lovel=1   hivel=45   sample=MDL_samples/auxiliary/ribbon_crasher_P2.ogg   seq_position=1  seq_length=2  volume=5
 <region> lovel=1   hivel=45   sample=MDL_samples/auxiliary/ribbon_crasher_P1.ogg   seq_position=2  seq_length=2  volume=3
 <region> lovel=46  hivel=78   sample=MDL_samples/auxiliary/ribbon_crasher_MP.ogg   seq_position=1  seq_length=2  volume=1.5
@@ -97,7 +97,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // *******************
 // ** Hi-Hat Closed **
 // *******************
-<group> key=c2  loop_mode=one_shot  seq_length=2  group_volume=10  group=1  pan=2
+<group> key=c2  loop_mode=one_shot  seq_length=2  volume=-9  group=1  pan=2
 <region> lovel=1   hivel=32   sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Closed1a.ogg  seq_position=1
 <region> lovel=1   hivel=32   sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Closed1b.ogg  seq_position=2
 <region> lovel=33  hivel=55   sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Closed2a.ogg  seq_position=1
@@ -110,7 +110,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // *****************
 // ** Hi-Hat Open **
 // *****************
-<group> key=c#2  loop_mode=one_shot  ampeg_release=0.3  off_mode=normal  group=2  off_by=1  seq_length=2  group_volume=10  pan=2
+<group> key=c#2  loop_mode=one_shot  ampeg_release=0.3  off_mode=normal  group=2  off_by=1  seq_length=2  volume=-6  pan=2
 <region> lovel=1    hivel=100  sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Open1a.ogg  seq_position=1
 <region> lovel=1    hivel=100  sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Open1b.ogg  seq_position=2
 <region> lovel=101  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Open2a.ogg  seq_position=1
@@ -119,7 +119,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // **********************
 // ** Ride Cymbal Edge **
 // **********************
-<group> key=d2  ampeg_release=20  seq_length=2  pan=-3.5  group_volume=10
+<group> key=d2  ampeg_release=20  seq_length=2  pan=-3.5  group_volume=-2
 <region> lovel=1   hivel=49   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bow1.ogg   seq_position=1
 <region> lovel=1   hivel=49   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/edge1.ogg  seq_position=2
 <region> lovel=50  hivel=98   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bow2.ogg   seq_position=1
@@ -130,7 +130,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // **********************
 // ** Ride Cymbal Bell **
 // **********************
-<group> key=d#2  ampeg_release=20  pan=-3.5  group_volume=10
+<group> key=d#2  ampeg_release=20  pan=-3.5  group_volume=-2
 <region> lovel=1   hivel=49   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bell1.ogg
 <region> lovel=50  hivel=98   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bell2.ogg
 <region> lovel=99  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bell3.ogg
@@ -138,7 +138,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // ***************
 // ** 18" Crash **
 // ***************
-<group> key=e2  ampeg_release=20  pan=3.5  group_volume=10
+<group> key=e2  ampeg_release=20  pan=3.5  group_volume=-2
 <region>  lovel=1    hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/18/tip1.ogg
 <region>  lovel=45   hivel=69   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/18/tip2.ogg
 <region>  lovel=70   hivel=104  sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/18/tip2.ogg   volume=-12  amp_veltrack=0
@@ -153,7 +153,7 @@ fil_type=lpf_1p  cutoff=2500  fil_veltrack=8000
 // ***************
 // ** Stand Hit **
 // ***************
-<group> key=g#2  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=g#2  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
 fil_type=lpf_1p  cutoff=1400  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/stand_hit_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.014
@@ -172,7 +172,7 @@ fil_type=lpf_1p  cutoff=1400  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/stand_hit_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.017
 <region> sample=MDL_samples/tenor/stand_hit_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.01
 
-<group> key=g#2  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=g#2  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/stand_hit_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.014
 <region> sample=MDL_samples/tenor/stand_hit_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -193,7 +193,7 @@ fil_type=lpf_1p  cutoff=1400  fil_veltrack=8000
 // ******************
 // ** Mallet Click **
 // ******************
-<group> key=a2  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=a2  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-10
 fil_type=lpf_1p  cutoff=1400  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/mallet_click_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -212,7 +212,7 @@ fil_type=lpf_1p  cutoff=1400  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/mallet_click_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.005
 <region> sample=MDL_samples/tenor/mallet_click_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.017
 
-<group> key=a2  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=a2  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-10
 // RR1
 <region> sample=MDL_samples/tenor/mallet_click_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/mallet_click_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -233,7 +233,7 @@ fil_type=lpf_1p  cutoff=1400  fil_veltrack=8000
 // ***************
 // ** Sticks In **
 // ***************
-<group> key=a#2  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=a#2  lovel=1  hivel=94  loop_mode=one_shot
 fil_type=lpf_1p  cutoff=1200  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sticks_in_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.014
@@ -252,7 +252,7 @@ fil_type=lpf_1p  cutoff=1200  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sticks_in_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.017
 <region> sample=MDL_samples/tenor/sticks_in_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.01
 
-<group> key=a#2  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=a#2  lovel=95  hivel=127  loop_mode=one_shot
 // RR1
 <region> sample=MDL_samples/tenor/sticks_in_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.014
 <region> sample=MDL_samples/tenor/sticks_in_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -273,7 +273,7 @@ fil_type=lpf_1p  cutoff=1200  fil_veltrack=8000
 // ***************************
 // ** Double Stop on Shells **
 // ***************************
-<group> key=b2  lovel=1  hivel=94  loop_mode=one_shot group_volume=10
+<group> key=b2  lovel=1  hivel=94  loop_mode=one_shot
 fil_type=lpf_1p  cutoff=1200  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/double_stop_shells_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -292,7 +292,7 @@ fil_type=lpf_1p  cutoff=1200  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/double_stop_shells_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/double_stop_shells_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 
-<group> key=b2  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=b2  lovel=95  hivel=127  loop_mode=one_shot
 // RR1
 <region> sample=MDL_samples/tenor/double_stop_shells_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/double_stop_shells_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -314,7 +314,7 @@ fil_type=lpf_1p  cutoff=1200  fil_veltrack=8000
 // ** Dry Crush (short) **
 // ***********************
 // Drum 4
-<group> key=c3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-3  group_volume=10
+<group> key=c3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-3
 fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_crush_short_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -333,7 +333,7 @@ fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_crush_short_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/4_crush_short_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 3
-<group> key=c#3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-2  group_volume=10
+<group> key=c#3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-2
 fil_type=lpf_1p  cutoff=633  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/3_crush_short_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -352,7 +352,7 @@ fil_type=lpf_1p  cutoff=633  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_crush_short_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_crush_short_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=d3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-1  group_volume=10
+<group> key=d3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-1
 fil_type=lpf_1p  cutoff=666  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/2_crush_short_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -371,7 +371,7 @@ fil_type=lpf_1p  cutoff=666  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_crush_short_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/2_crush_short_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 1
-<group> key=d#3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=10
+<group> key=d#3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-1
 fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/1_crush_short_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -390,7 +390,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_crush_short_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/1_crush_short_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Spock 2
-<group> key=e3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=10
+<group> key=e3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-4
 fil_type=lpf_1p  cutoff=733  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp2_crush_short_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -409,7 +409,7 @@ fil_type=lpf_1p  cutoff=733  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_crush_short_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/sp2_crush_short_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 1
-<group> key=f3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=10
+<group> key=f3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-4
 fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp1_crush_short_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -429,7 +429,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp1_crush_short_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 
 // Drum 4
-<group> key=c3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-3  group_volume=10
+<group> key=c3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_crush_short_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/4_crush_short_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -447,7 +447,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_crush_short_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/4_crush_short_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 3
-<group> key=c#3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-2  group_volume=10
+<group> key=c#3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-2
 // RR1
 <region> sample=MDL_samples/tenor/3_crush_short_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/3_crush_short_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -465,7 +465,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_crush_short_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_crush_short_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=d3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-1  group_volume=10
+<group> key=d3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-1
 // RR1
 <region> sample=MDL_samples/tenor/2_crush_short_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/2_crush_short_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -483,7 +483,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_crush_short_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/2_crush_short_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 1
-<group> key=d#3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=10
+<group> key=d#3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-1
 // RR1
 <region> sample=MDL_samples/tenor/1_crush_short_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/1_crush_short_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -501,7 +501,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_crush_short_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/1_crush_short_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Spock 2
-<group> key=e3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=10
+<group> key=e3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp2_crush_short_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/sp2_crush_short_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -519,7 +519,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_crush_short_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/sp2_crush_short_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 1
-<group> key=f3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=10
+<group> key=f3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp1_crush_short_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp1_crush_short_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -541,7 +541,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 // ** Fat Crush (long) **
 // **********************
 // Drum 4
-<group> key=f#3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-3  group_volume=10
+<group> key=f#3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-3
 fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_crush_long_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -560,7 +560,7 @@ fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_crush_long_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_crush_long_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=g3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-2  group_volume=10
+<group> key=g3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-2
 fil_type=lpf_1p  cutoff=633  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/3_crush_long_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -579,7 +579,7 @@ fil_type=lpf_1p  cutoff=633  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_crush_long_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_crush_long_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=g#3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-1  group_volume=10
+<group> key=g#3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-1
 fil_type=lpf_1p  cutoff=666  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/2_crush_long_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -598,7 +598,7 @@ fil_type=lpf_1p  cutoff=666  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_crush_long_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/2_crush_long_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 1
-<group> key=a3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=10
+<group> key=a3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-1
 fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/1_crush_long_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -617,7 +617,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_crush_long_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/1_crush_long_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 2
-<group> key=a#3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=10
+<group> key=a#3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-4
 fil_type=lpf_1p  cutoff=733  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp2_crush_long_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -636,7 +636,7 @@ fil_type=lpf_1p  cutoff=733  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_crush_long_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/sp2_crush_long_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Spock 1
-<group> key=b3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=10
+<group> key=b3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-4
 fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp1_crush_long_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -656,7 +656,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp1_crush_long_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 
 // Drum 4
-<group> key=f#3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-3  group_volume=10
+<group> key=f#3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_crush_long_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/4_crush_long_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -674,7 +674,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_crush_long_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_crush_long_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=g3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-2  group_volume=10
+<group> key=g3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-2
 // RR1
 <region> sample=MDL_samples/tenor/3_crush_long_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/3_crush_long_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -692,7 +692,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_crush_long_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_crush_long_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=g#3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-1  group_volume=10
+<group> key=g#3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-1
 // RR1
 <region> sample=MDL_samples/tenor/2_crush_long_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/2_crush_long_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -710,7 +710,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_crush_long_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/2_crush_long_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 1
-<group> key=a3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=10
+<group> key=a3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-1
 // RR1
 <region> sample=MDL_samples/tenor/1_crush_long_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/1_crush_long_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -728,7 +728,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_crush_long_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/1_crush_long_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 2
-<group> key=a#3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=10
+<group> key=a#3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp2_crush_long_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp2_crush_long_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -746,7 +746,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_crush_long_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/sp2_crush_long_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Spock 1
-<group> key=b3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=10
+<group> key=b3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp1_crush_long_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp1_crush_long_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -768,7 +768,7 @@ fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
 // ** Hits **
 // **********
 // Drum 4
-<group> key=c4  lovel=1  hivel=104  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=c4  lovel=1  hivel=104  ampeg_release=3  transpose=-3
 fil_type=lpf_1p  cutoff=100  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_hit_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -787,7 +787,7 @@ fil_type=lpf_1p  cutoff=100  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_hit_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/4_hit_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 3
-<group> key=c#4  lovel=1  hivel=104  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=c#4  lovel=1  hivel=104  ampeg_release=3  transpose=-2
 fil_type=lpf_1p  cutoff=133  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/3_hit_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -806,7 +806,7 @@ fil_type=lpf_1p  cutoff=133  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_hit_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_hit_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=d4  lovel=1  hivel=104  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=d4  lovel=1  hivel=104  ampeg_release=4  transpose=-1
 fil_type=lpf_1p  cutoff=166  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/2_hit_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -825,7 +825,7 @@ fil_type=lpf_1p  cutoff=166  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_hit_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/2_hit_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 1
-<group> key=d#4  lovel=1  hivel=104  loop_mode=one_shot  group_volume=10
+<group> key=d#4  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-1
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/1_hit_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -844,7 +844,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_hit_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/1_hit_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Spock 2
-<group> key=e4  lovel=1  hivel=104  loop_mode=one_shot  group_volume=10
+<group> key=e4  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-4
 fil_type=lpf_1p  cutoff=233  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp2_hit_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -863,7 +863,7 @@ fil_type=lpf_1p  cutoff=233  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_hit_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/sp2_hit_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 1
-<group> key=f4  lovel=1  hivel=104  loop_mode=one_shot  group_volume=10
+<group> key=f4  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-4
 fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp1_hit_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -883,7 +883,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp1_hit_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 
 // Drum 4
-<group> key=c4  lovel=105  hivel=127  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=c4  lovel=105  hivel=127  ampeg_release=3  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_hit_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/4_hit_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -901,7 +901,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_hit_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/4_hit_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 3
-<group> key=c#4  lovel=105  hivel=127  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=c#4  lovel=105  hivel=127  ampeg_release=3  transpose=-2
 // RR1
 <region> sample=MDL_samples/tenor/3_hit_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/3_hit_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -919,7 +919,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_hit_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_hit_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=d4  lovel=105  hivel=127  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=d4  lovel=105  hivel=127  ampeg_release=4  transpose=-1
 // RR1
 <region> sample=MDL_samples/tenor/2_hit_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/2_hit_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -937,7 +937,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_hit_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/2_hit_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 1
-<group> key=d#4  lovel=105  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=d#4  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-1
 // RR1
 <region> sample=MDL_samples/tenor/1_hit_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/1_hit_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -955,7 +955,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_hit_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/1_hit_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Spock 2
-<group> key=e4  lovel=105  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=e4  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp2_hit_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/sp2_hit_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -973,7 +973,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_hit_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/sp2_hit_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 1
-<group> key=f4  lovel=105  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=f4  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp1_hit_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp1_hit_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -995,7 +995,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 // ** Sustained Buzz Roll **
 // *************************
 // Drum 4
-<group> key=f#4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=10  transpose=-3
+<group> key=f#4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=-1  transpose=-3
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/4_roll_flat_F_looped_L.ogg  pan=-30  tune=-15  offset=10000  delay=0.025
   loop_mode=loop_continuous  loop_start=22031  loop_end=80691
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/4_roll_flat_F_looped_R.ogg  pan=30   tune=15
@@ -1005,7 +1005,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> lovel=1   hivel=84   sample=MDL_samples/tenor/4_roll_flat_P_looped_R.ogg  pan=30   tune=15   volume=16
   loop_mode=loop_continuous  loop_start=43670  loop_end=88733
 // Drum 3
-<group> key=g4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=10  transpose=-2
+<group> key=g4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=-1  transpose=-2
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/3_roll_flat_F_looped_L.ogg  pan=-30  tune=-15  offset=10000  delay=0.025
   loop_mode=loop_continuous  loop_start=16719  loop_end=71304
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/3_roll_flat_F_looped_R.ogg  pan=30   tune=15
@@ -1015,7 +1015,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> lovel=1   hivel=84   sample=MDL_samples/tenor/3_roll_flat_P_looped_R.ogg  pan=30   tune=15   volume=12
   loop_mode=loop_continuous  loop_start=15169  loop_end=79789
 // Drum 2
-<group> key=g#4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=10  transpose=-1
+<group> key=g#4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=-1  transpose=-1
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/2_roll_flat_F_looped_L.ogg  pan=-30  tune=-15  offset=10000  delay=0.025
   loop_mode=loop_continuous  loop_start=35924  loop_end=78556
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/2_roll_flat_F_looped_R.ogg  pan=30   tune=15
@@ -1025,7 +1025,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> lovel=1   hivel=84   sample=MDL_samples/tenor/2_roll_flat_P_looped_R.ogg  pan=30   tune=15   volume=8
   loop_mode=loop_continuous  loop_start=10804  loop_end=87054
 // Drum 1
-<group> key=a4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=10
+<group> key=a4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=-2
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/1_roll_flat_F_looped_L.ogg  pan=-30  tune=-15  offset=10000  delay=0.025
   loop_mode=loop_continuous  loop_start=20886  loop_end=74643
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/1_roll_flat_F_looped_R.ogg  pan=30   tune=15
@@ -1035,7 +1035,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> lovel=1   hivel=84   sample=MDL_samples/tenor/1_roll_flat_P_looped_R.ogg  pan=30   tune=15   volume=6
   loop_mode=loop_continuous  loop_start=21155  loop_end=75706
 // Spock 2
-<group> key=a#4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=10
+<group> key=a#4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=-4
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/sp2_roll_flat_F_looped_L.ogg  pan=-30  tune=-15  offset=10000  delay=0.025
   loop_mode=loop_continuous  loop_start=14975  loop_end=81096
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/sp2_roll_flat_F_looped_R.ogg  pan=30   tune=15
@@ -1045,7 +1045,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> lovel=1   hivel=84   sample=MDL_samples/tenor/sp2_roll_flat_P_looped_R.ogg  pan=30   tune=15   volume=8
   loop_mode=loop_continuous  loop_start=9929  loop_end=85569
 // Spock 1
-<group> key=b4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=10
+<group> key=b4  ampeg_attack=0.002  ampeg_release=0.5  group_volume=-4
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/sp1_roll_flat_F_looped_L.ogg  pan=-30  tune=-15  offset=10000  delay=0.025
   loop_mode=loop_continuous  loop_start=15333  loop_end=80575
 <region> lovel=85  hivel=127  sample=MDL_samples/tenor/sp1_roll_flat_F_looped_R.ogg  pan=30   tune=15
@@ -1059,7 +1059,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 // ** Rim Shots **
 // ***************
 // Drum 4
-<group> key=c5  lovel=1  hivel=94  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=c5  lovel=1  hivel=94  ampeg_release=3  transpose=-3
 fil_type=lpf_1p  cutoff=300  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_rim_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1078,7 +1078,7 @@ fil_type=lpf_1p  cutoff=300  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_rim_shot_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_rim_shot_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=c#5  lovel=1  hivel=94  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=c#5  lovel=1  hivel=94  ampeg_release=3  transpose=-2
 fil_type=lpf_1p  cutoff=333  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/3_rim_shot_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1097,7 +1097,7 @@ fil_type=lpf_1p  cutoff=333  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_rim_shot_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/3_rim_shot_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 2
-<group> key=d5  lovel=1  hivel=94  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=d5  lovel=1  hivel=94  ampeg_release=4  transpose=-1
 fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/2_rim_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1116,7 +1116,7 @@ fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_rim_shot_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/2_rim_shot_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 1
-<group> key=d#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=d#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1
 fil_type=lpf_1p  cutoff=400  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/1_rim_shot_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1135,7 +1135,7 @@ fil_type=lpf_1p  cutoff=400  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_rim_shot_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/1_rim_shot_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Spock 2
-<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
 fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp2_rim_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1154,7 +1154,7 @@ fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_rim_shot_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/sp2_rim_shot_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Spock 1
-<group> key=f5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=f5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
 fil_type=lpf_1p  cutoff=466  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp1_rim_shot_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1174,7 +1174,7 @@ fil_type=lpf_1p  cutoff=466  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp1_rim_shot_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 
 // Drum 4
-<group> key=c5  lovel=95  hivel=127  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=c5  lovel=95  hivel=127  ampeg_release=3  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_rim_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/4_rim_shot_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -1192,7 +1192,7 @@ fil_type=lpf_1p  cutoff=466  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_rim_shot_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_rim_shot_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=c#5  lovel=95  hivel=127  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=c#5  lovel=95  hivel=127  ampeg_release=3  transpose=-2
 // RR1
 <region> sample=MDL_samples/tenor/3_rim_shot_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/3_rim_shot_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1210,7 +1210,7 @@ fil_type=lpf_1p  cutoff=466  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_rim_shot_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/3_rim_shot_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 2
-<group> key=d5  lovel=95  hivel=127  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=d5  lovel=95  hivel=127  ampeg_release=4  transpose=-1
 // RR1
 <region> sample=MDL_samples/tenor/2_rim_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/2_rim_shot_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -1228,7 +1228,7 @@ fil_type=lpf_1p  cutoff=466  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_rim_shot_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/2_rim_shot_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 1
-<group> key=d#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=d#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1
 // RR1
 <region> sample=MDL_samples/tenor/1_rim_shot_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/1_rim_shot_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1246,7 +1246,7 @@ fil_type=lpf_1p  cutoff=466  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_rim_shot_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/1_rim_shot_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Spock 2
-<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp2_rim_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp2_rim_shot_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -1264,7 +1264,7 @@ fil_type=lpf_1p  cutoff=466  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_rim_shot_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/sp2_rim_shot_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Spock 1
-<group> key=f5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=f5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp1_rim_shot_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp1_rim_shot_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1286,7 +1286,7 @@ fil_type=lpf_1p  cutoff=466  fil_veltrack=8000
 // ** Rims **
 // **********
 // Drum 4
-<group> key=f#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10  transpose=-3
+<group> key=f#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1  transpose=-3
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_rim_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1305,7 +1305,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_rim_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_rim_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=g5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10  transpose=-2
+<group> key=g5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1  transpose=-2
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/3_rim_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1324,7 +1324,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_rim_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/3_rim_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 2
-<group> key=g#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10  transpose=-1
+<group> key=g#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1  transpose=-1
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/2_rim_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1343,7 +1343,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_rim_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/2_rim_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 1
-<group> key=a5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=a5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-2
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/1_rim_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1362,7 +1362,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_rim_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/1_rim_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Spock 2
-<group> key=a#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=a#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-3
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp2_rim_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1381,7 +1381,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_rim_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/sp2_rim_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Spock 1
-<group> key=b5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=b5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-3
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp1_rim_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1401,7 +1401,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp1_rim_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 
 // Drum 4
-<group> key=f#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10  transpose=-3
+<group> key=f#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_rim_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/4_rim_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -1419,7 +1419,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_rim_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_rim_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=g5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10  transpose=-2
+<group> key=g5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1  transpose=-2
 // RR1
 <region> sample=MDL_samples/tenor/3_rim_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/3_rim_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1437,7 +1437,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_rim_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/3_rim_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 2
-<group> key=g#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10  transpose=-1
+<group> key=g#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1  transpose=-1
 // RR1
 <region> sample=MDL_samples/tenor/2_rim_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/2_rim_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -1455,7 +1455,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_rim_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/2_rim_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 1
-<group> key=a5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=a5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-2
 // RR1
 <region> sample=MDL_samples/tenor/1_rim_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/1_rim_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1473,7 +1473,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_rim_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/1_rim_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Spock 2
-<group> key=a#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=a#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-3
 // RR1
 <region> sample=MDL_samples/tenor/sp2_rim_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp2_rim_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -1491,7 +1491,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_rim_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/sp2_rim_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Spock 1
-<group> key=b5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=b5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-3
 // RR1
 <region> sample=MDL_samples/tenor/sp1_rim_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp1_rim_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1513,7 +1513,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // ** Rods **
 // **********
 // Drum 4
-<group> key=c6  lovel=1  hivel=104  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=c6  lovel=1  hivel=104  ampeg_release=3  transpose=-3
 fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_rod_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1532,7 +1532,7 @@ fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_rod_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/4_rod_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=c#6  lovel=1  hivel=104  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=c#6  lovel=1  hivel=104  ampeg_release=3  transpose=-2
 fil_type=lpf_1p  cutoff=233  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/3_rod_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -1551,7 +1551,7 @@ fil_type=lpf_1p  cutoff=233  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_rod_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/3_rod_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 2
-<group> key=d6  lovel=1  hivel=104  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=d6  lovel=1  hivel=104  ampeg_release=4  transpose=-1
 fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/2_rod_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1570,7 +1570,7 @@ fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_rod_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/2_rod_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 1
-<group> key=d#6  lovel=1  hivel=104  loop_mode=one_shot  group_volume=10
+<group> key=d#6  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-1
 fil_type=lpf_1p  cutoff=300  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/1_rod_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1589,7 +1589,7 @@ fil_type=lpf_1p  cutoff=300  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_rod_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/1_rod_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Spock 2
-<group> key=e6  lovel=1  hivel=104  loop_mode=one_shot  group_volume=10
+<group> key=e6  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-4
 fil_type=lpf_1p  cutoff=333  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp2_rod_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1608,7 +1608,7 @@ fil_type=lpf_1p  cutoff=333  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_rod_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/sp2_rod_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Spock 1
-<group> key=f6  lovel=1  hivel=104  loop_mode=one_shot  group_volume=10
+<group> key=f6  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-4
 fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp1_rod_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -1628,7 +1628,7 @@ fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp1_rod_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 
 // Drum 4
-<group> key=c6  lovel=105  hivel=127  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=c6  lovel=105  hivel=127  ampeg_release=3  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_rod_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/4_rod_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1646,7 +1646,7 @@ fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_rod_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/4_rod_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=c#6  lovel=105  hivel=127  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=c#6  lovel=105  hivel=127  ampeg_release=3  transpose=-2
 // RR1
 <region> sample=MDL_samples/tenor/3_rod_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/3_rod_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -1664,7 +1664,7 @@ fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_rod_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/3_rod_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 2
-<group> key=d6  lovel=105  hivel=127  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=d6  lovel=105  hivel=127  ampeg_release=4  transpose=-1
 // RR1
 <region> sample=MDL_samples/tenor/2_rod_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/2_rod_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -1682,7 +1682,7 @@ fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_rod_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/2_rod_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 1
-<group> key=d#6  lovel=105  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=d#6  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-1
 // RR1
 <region> sample=MDL_samples/tenor/1_rod_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/1_rod_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -1700,7 +1700,7 @@ fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_rod_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/1_rod_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Spock 2
-<group> key=e6  lovel=105  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=e6  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp2_rod_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp2_rod_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1718,7 +1718,7 @@ fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_rod_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/sp2_rod_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Spock 1
-<group> key=f6  lovel=105  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=f6  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp1_rod_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/sp1_rod_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -1740,7 +1740,7 @@ fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 // ** Dreads **
 // ************
 // Drum 4
-<group> key=f#6  lovel=1  hivel=94  ampeg_attack=0.007  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=f#6  lovel=1  hivel=94  ampeg_attack=0.007  ampeg_release=3  transpose=-3
 fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_dread1_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1759,7 +1759,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_dread1_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/4_dread1_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=g6  lovel=1  hivel=94  ampeg_attack=0.007  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=g6  lovel=1  hivel=94  ampeg_attack=0.007  ampeg_release=3  transpose=-2
 fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/3_dread1_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -1778,7 +1778,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_dread1_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/3_dread1_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 2
-<group> key=g#6  lovel=1  hivel=94  ampeg_attack=0.007  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=g#6  lovel=1  hivel=94  ampeg_attack=0.007  ampeg_release=4  transpose=-1
 fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/2_dread1_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1797,7 +1797,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_dread1_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/2_dread1_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 1
-<group> key=a6  lovel=1  hivel=94  ampeg_attack=0.007  loop_mode=one_shot  group_volume=10
+<group> key=a6  lovel=1  hivel=94  ampeg_attack=0.007  loop_mode=one_shot  group_volume=-1
 fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/1_dread1_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1816,7 +1816,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_dread1_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/1_dread1_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Spock 2
-<group> key=a#6  lovel=1  hivel=94  ampeg_attack=0.007  loop_mode=one_shot  group_volume=10
+<group> key=a#6  lovel=1  hivel=94  ampeg_attack=0.007  loop_mode=one_shot  group_volume=-2
 fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp2_dread1_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1835,7 +1835,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_dread1_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/sp2_dread1_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Spock 1
-<group> key=b6  lovel=1  hivel=94  ampeg_attack=0.007  loop_mode=one_shot  group_volume=10
+<group> key=b6  lovel=1  hivel=94  ampeg_attack=0.007  loop_mode=one_shot  group_volume=-2
 fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp1_dread1_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -1855,7 +1855,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp1_dread1_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 
 // Drum 4
-<group> key=f#6  lovel=95  hivel=127  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=f#6  lovel=95  hivel=127  ampeg_release=3  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_dread1_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/4_dread1_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1873,7 +1873,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_dread1_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/4_dread1_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 3
-<group> key=g6  lovel=95  hivel=127  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=g6  lovel=95  hivel=127  ampeg_release=3  transpose=-2
 // RR1
 <region> sample=MDL_samples/tenor/3_dread1_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/3_dread1_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -1891,7 +1891,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_dread1_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/3_dread1_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Drum 2
-<group> key=g#6  lovel=95  hivel=127  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=g#6  lovel=95  hivel=127  ampeg_release=4  transpose=-1
 // RR1
 <region> sample=MDL_samples/tenor/2_dread1_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/2_dread1_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -1909,7 +1909,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_dread1_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/2_dread1_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 1
-<group> key=a6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=a6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1
 // RR1
 <region> sample=MDL_samples/tenor/1_dread1_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/1_dread1_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -1927,7 +1927,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_dread1_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/1_dread1_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Spock 2
-<group> key=a#6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=a#6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-2
 // RR1
 <region> sample=MDL_samples/tenor/sp2_dread1_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp2_dread1_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -1945,7 +1945,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_dread1_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/sp2_dread1_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Spock 1
-<group> key=b6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=b6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-2
 // RR1
 <region> sample=MDL_samples/tenor/sp1_dread1_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/sp1_dread1_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -1967,7 +1967,7 @@ fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
 // ** Stick Shots **
 // *****************
 // Drum 4
-<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  transpose=-3  group_volume=10
+<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  transpose=-3
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_stick_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -1986,7 +1986,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_stick_shot_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_stick_shot_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=c#7  lovel=1  hivel=94  loop_mode=one_shot  transpose=-2  group_volume=10
+<group> key=c#7  lovel=1  hivel=94  loop_mode=one_shot  transpose=-2
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/3_stick_shot_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -2005,7 +2005,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_stick_shot_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_stick_shot_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=d7  lovel=1  hivel=94  loop_mode=one_shot  transpose=-1  group_volume=10
+<group> key=d7  lovel=1  hivel=94  loop_mode=one_shot  transpose=-1
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/2_stick_shot_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -2024,7 +2024,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_stick_shot_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/2_stick_shot_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 1
-<group> key=d#7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=d#7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/1_stick_shot_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -2043,7 +2043,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_stick_shot_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/1_stick_shot_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 2
-<group> key=e7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=e7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
 fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp2_stick_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -2063,7 +2063,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_stick_shot_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 
 // Drum 4
-<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  transpose=-3  group_volume=10
+<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_stick_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/4_stick_shot_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -2081,7 +2081,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_stick_shot_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_stick_shot_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=c#7  lovel=95  hivel=127  loop_mode=one_shot  transpose=-2  group_volume=10
+<group> key=c#7  lovel=95  hivel=127  loop_mode=one_shot  transpose=-2
 // RR1
 <region> sample=MDL_samples/tenor/3_stick_shot_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/3_stick_shot_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -2099,7 +2099,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_stick_shot_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_stick_shot_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=d7  lovel=95  hivel=127  loop_mode=one_shot  transpose=-1  group_volume=10
+<group> key=d7  lovel=95  hivel=127  loop_mode=one_shot  transpose=-1
 // RR1
 <region> sample=MDL_samples/tenor/2_stick_shot_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/2_stick_shot_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -2117,7 +2117,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_stick_shot_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/2_stick_shot_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 1
-<group> key=d#7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=d#7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1
 // RR1
 <region> sample=MDL_samples/tenor/1_stick_shot_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/1_stick_shot_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -2135,7 +2135,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_stick_shot_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/1_stick_shot_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 2
-<group> key=e7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=e7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp2_stick_shot_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp2_stick_shot_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -2156,7 +2156,7 @@ fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
 // ********************
 // ** Skank (Drum 4) **
 // ********************
-<group> key=f7  lovel=1  hivel=94  ampeg_release=2  transpose=-3  group_volume=12
+<group> key=f7  lovel=1  hivel=94  ampeg_release=2  transpose=-3
 fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_skank_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -2175,7 +2175,7 @@ fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_skank_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/4_skank_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 
-<group> key=f7  lovel=95  hivel=127  ampeg_release=2  transpose=-3  group_volume=12
+<group> key=f7  lovel=95  hivel=127  ampeg_release=2  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_skank_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/4_skank_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -2197,7 +2197,7 @@ fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
 // ** "Snenor" **
 // **************
 // Drum 4
-<group> key=f#7  lovel=1  hivel=94  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=f#7  lovel=1  hivel=94  ampeg_release=3  transpose=-3
 fil_type=lpf_1p  cutoff=300  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_snenor_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -2216,7 +2216,7 @@ fil_type=lpf_1p  cutoff=300  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_snenor_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_snenor_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=g7  lovel=1  hivel=94  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=g7  lovel=1  hivel=94  ampeg_release=3  transpose=-2
 fil_type=lpf_1p  cutoff=333  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/3_snenor_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -2235,7 +2235,7 @@ fil_type=lpf_1p  cutoff=333  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_snenor_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_snenor_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=g#7  lovel=1  hivel=94  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=g#7  lovel=1  hivel=94  ampeg_release=4  transpose=-1
 fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/2_snenor_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -2254,7 +2254,7 @@ fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_snenor_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/2_snenor_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 1
-<group> key=a7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=a7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1
 fil_type=lpf_1p  cutoff=400  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/1_snenor_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
@@ -2273,7 +2273,7 @@ fil_type=lpf_1p  cutoff=400  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_snenor_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/1_snenor_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 2
-<group> key=a#7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=10
+<group> key=a#7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
 fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/sp2_snenor_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -2293,7 +2293,7 @@ fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/sp2_snenor_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 
 // Drum 4
-<group> key=f#7  lovel=95  hivel=127  ampeg_release=3  transpose=-3  group_volume=10
+<group> key=f#7  lovel=95  hivel=127  ampeg_release=3  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_snenor_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/4_snenor_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -2311,7 +2311,7 @@ fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_snenor_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_snenor_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 // Drum 3
-<group> key=g7  lovel=95  hivel=127  ampeg_release=3  transpose=-2  group_volume=10
+<group> key=g7  lovel=95  hivel=127  ampeg_release=3  transpose=-2
 // RR1
 <region> sample=MDL_samples/tenor/3_snenor_4_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/3_snenor_1_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.01
@@ -2329,7 +2329,7 @@ fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/3_snenor_4_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.015
 <region> sample=MDL_samples/tenor/3_snenor_1_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.005
 // Drum 2
-<group> key=g#7  lovel=95  hivel=127  ampeg_release=4  transpose=-1  group_volume=10
+<group> key=g#7  lovel=95  hivel=127  ampeg_release=4  transpose=-1
 // RR1
 <region> sample=MDL_samples/tenor/2_snenor_3_R.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/2_snenor_4_L.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.015
@@ -2347,7 +2347,7 @@ fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/2_snenor_2_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.006
 <region> sample=MDL_samples/tenor/2_snenor_3_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0
 // Drum 1
-<group> key=a7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=a7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1
 // RR1
 <region> sample=MDL_samples/tenor/1_snenor_1_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0.011
 <region> sample=MDL_samples/tenor/1_snenor_2_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.006
@@ -2365,7 +2365,7 @@ fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/1_snenor_3_R.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.016
 <region> sample=MDL_samples/tenor/1_snenor_4_L.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.009
 // Spock 2
-<group> key=a#7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=10
+<group> key=a#7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
 // RR1
 <region> sample=MDL_samples/tenor/sp2_snenor_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/sp2_snenor_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016
@@ -2386,7 +2386,7 @@ fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
 // ******************************
 // ** Hand Muffle Tap (Drum 4) **
 // ******************************
-<group> key=b7  lovel=1  hivel=104  loop_mode=one_shot  transpose=-3  group_volume=10
+<group> key=b7  lovel=1  hivel=104  loop_mode=one_shot  transpose=-3
 fil_type=lpf_1p  cutoff=100  fil_veltrack=8000
 // RR1
 <region> sample=MDL_samples/tenor/4_hand_muffle_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
@@ -2405,7 +2405,7 @@ fil_type=lpf_1p  cutoff=100  fil_veltrack=8000
 <region> sample=MDL_samples/tenor/4_hand_muffle_1_L.ogg  pan=0    tune=-7  seq_position=4  seq_length=4  delay=0.01
 <region> sample=MDL_samples/tenor/4_hand_muffle_2_R.ogg  pan=30   tune=7   seq_position=4  seq_length=4  delay=0.015
 
-<group> key=b7  lovel=105  hivel=127  loop_mode=one_shot  transpose=-3  group_volume=10
+<group> key=b7  lovel=105  hivel=127  loop_mode=one_shot  transpose=-3
 // RR1
 <region> sample=MDL_samples/tenor/4_hand_muffle_2_L.ogg  pan=-30  tune=0   seq_position=1  seq_length=4  delay=0
 <region> sample=MDL_samples/tenor/4_hand_muffle_3_R.ogg  pan=0    tune=-7  seq_position=1  seq_length=4  delay=0.016

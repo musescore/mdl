@@ -1,0 +1,831 @@
+// *****************************
+// ** MuseScore Drumline v0.5 **
+// **       Solo Tenor        **
+// **   SFZ programming by    **
+// **  S. Christian Collins   **
+// *****************************
+
+// ******************
+// ** Mallet Click **
+// ******************
+<group> key=a2  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-5
+fil_type=lpf_1p  cutoff=1400  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/mallet_click_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/mallet_click_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/mallet_click_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/mallet_click_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+<group> key=a2  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-5
+<region> sample=MDL_samples/tenor/mallet_click_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/mallet_click_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/mallet_click_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/mallet_click_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// ***************************
+// ** Double Stop on Shells **
+// ***************************
+<group> key=b2  lovel=1  hivel=94  loop_mode=one_shot
+fil_type=lpf_1p  cutoff=1200  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/double_stop_shells_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/double_stop_shells_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/double_stop_shells_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/double_stop_shells_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+<group> key=b2  lovel=95  hivel=127  loop_mode=one_shot
+<region> sample=MDL_samples/tenor/double_stop_shells_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/double_stop_shells_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/double_stop_shells_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/double_stop_shells_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// ***********************
+// ** Dry Crush (short) **
+// ***********************
+// Drum 4
+<group> key=c3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-3
+fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-2
+fil_type=lpf_1p  cutoff=633  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/3_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-1
+fil_type=lpf_1p  cutoff=666  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/2_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-1
+fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/1_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-4
+fil_type=lpf_1p  cutoff=733  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp2_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=f3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-4
+fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp1_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// Drum 4
+<group> key=c3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-3
+<region> sample=MDL_samples/tenor/4_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-2
+<region> sample=MDL_samples/tenor/3_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-1
+<region> sample=MDL_samples/tenor/2_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-1
+<region> sample=MDL_samples/tenor/1_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-4
+<region> sample=MDL_samples/tenor/sp2_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=f3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-4
+<region> sample=MDL_samples/tenor/sp1_crush_short_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_short_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_short_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_short_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// **********************
+// ** Fat Crush (long) **
+// **********************
+// Drum 4
+<group> key=f#3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-3
+fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=g3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-2
+fil_type=lpf_1p  cutoff=633  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/3_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=g#3  lovel=1  hivel=94  ampeg_release=1.5  transpose=-1
+fil_type=lpf_1p  cutoff=666  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/2_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=a3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-1
+fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/1_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=a#3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-4
+fil_type=lpf_1p  cutoff=733  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp2_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=b3  lovel=1  hivel=94  ampeg_release=1.5  group_volume=-4
+fil_type=lpf_1p  cutoff=766  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp1_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// Drum 4
+<group> key=f#3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-3
+<region> sample=MDL_samples/tenor/4_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=g3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-2
+<region> sample=MDL_samples/tenor/3_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=g#3  lovel=95  hivel=127  ampeg_release=1.5  transpose=-1
+<region> sample=MDL_samples/tenor/2_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=a3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-1
+<region> sample=MDL_samples/tenor/1_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=a#3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-4
+<region> sample=MDL_samples/tenor/sp2_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=b3  lovel=95  hivel=127  ampeg_release=1.5  group_volume=-4
+<region> sample=MDL_samples/tenor/sp1_crush_long_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_long_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_long_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_crush_long_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// **********
+// ** Hits **
+// **********
+// Drum 4
+<group> key=c4  lovel=1  hivel=104  ampeg_release=3  transpose=-3
+fil_type=lpf_1p  cutoff=100  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#4  lovel=1  hivel=104  ampeg_release=3  transpose=-2
+fil_type=lpf_1p  cutoff=133  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/3_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d4  lovel=1  hivel=104  ampeg_release=4  transpose=-1
+fil_type=lpf_1p  cutoff=166  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/2_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#4  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-1
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/1_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e4  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-4
+fil_type=lpf_1p  cutoff=233  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp2_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=f4  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-4
+fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp1_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// Drum 4
+<group> key=c4  lovel=105  hivel=127  ampeg_release=3  transpose=-3
+<region> sample=MDL_samples/tenor/4_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#4  lovel=105  hivel=127  ampeg_release=3  transpose=-2
+<region> sample=MDL_samples/tenor/3_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d4  lovel=105  hivel=127  ampeg_release=4  transpose=-1
+<region> sample=MDL_samples/tenor/2_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#4  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-1
+<region> sample=MDL_samples/tenor/1_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e4  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-4
+<region> sample=MDL_samples/tenor/sp2_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=f4  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-4
+<region> sample=MDL_samples/tenor/sp1_hit_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_hit_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_hit_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_hit_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// *************************
+// ** Sustained Buzz Roll **
+// *************************
+// Drum 4
+<group> key=f#4  ampeg_release=0.5  group_volume=-1  transpose=-3
+<region> lovel=85  hivel=127  sample=MDL_samples/tenor/4_roll_flat_F_looped_L.ogg
+  loop_mode=loop_continuous  loop_start=22031  loop_end=80691
+<region> lovel=1   hivel=84   sample=MDL_samples/tenor/4_roll_flat_P_looped_L.ogg  volume=16
+  loop_mode=loop_continuous  loop_start=43670  loop_end=88733
+// Drum 3
+<group> key=g4  ampeg_release=0.5  group_volume=-1  transpose=-2
+<region> lovel=85  hivel=127  sample=MDL_samples/tenor/3_roll_flat_F_looped_L.ogg
+  loop_mode=loop_continuous  loop_start=16719  loop_end=71304
+<region> lovel=1   hivel=84   sample=MDL_samples/tenor/3_roll_flat_P_looped_L.ogg  volume=12
+  loop_mode=loop_continuous  loop_start=15169  loop_end=79789
+// Drum 2
+<group> key=g#4  ampeg_release=0.5  group_volume=-1  transpose=-1
+<region> lovel=85  hivel=127  sample=MDL_samples/tenor/2_roll_flat_F_looped_L.ogg
+  loop_mode=loop_continuous  loop_start=35924  loop_end=78556
+<region> lovel=1   hivel=84   sample=MDL_samples/tenor/2_roll_flat_P_looped_L.ogg  volume=8
+  loop_mode=loop_continuous  loop_start=10804  loop_end=87054
+// Drum 1
+<group> key=a4  ampeg_release=0.5  group_volume=-2
+<region> lovel=85  hivel=127  sample=MDL_samples/tenor/1_roll_flat_F_looped_L.ogg
+  loop_mode=loop_continuous  loop_start=20886  loop_end=74643
+<region> lovel=1   hivel=84   sample=MDL_samples/tenor/1_roll_flat_P_looped_L.ogg  volume=6
+  loop_mode=loop_continuous  loop_start=21155  loop_end=75706
+// Spock 2
+<group> key=a#4  ampeg_release=0.5  group_volume=-4
+<region> lovel=85  hivel=127  sample=MDL_samples/tenor/sp2_roll_flat_F_looped_L.ogg
+  loop_mode=loop_continuous  loop_start=14975  loop_end=81096
+<region> lovel=1   hivel=84   sample=MDL_samples/tenor/sp2_roll_flat_P_looped_L.ogg  volume=8
+  loop_mode=loop_continuous  loop_start=9929  loop_end=85569
+// Spock 1
+<group> key=b4  ampeg_release=0.5  group_volume=-4
+<region> lovel=85  hivel=127  sample=MDL_samples/tenor/sp1_roll_flat_F_looped_L.ogg
+  loop_mode=loop_continuous  loop_start=15333  loop_end=80575
+<region> lovel=1   hivel=84   sample=MDL_samples/tenor/sp1_roll_flat_P_looped_L.ogg  volume=8
+  loop_mode=loop_continuous  loop_start=16084  loop_end=81599
+
+// ***************
+// ** Rim Shots **
+// ***************
+// Drum 4
+<group> key=c5  lovel=1  hivel=94  ampeg_release=3  transpose=-3
+fil_type=lpf_1p  cutoff=300  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#5  lovel=1  hivel=94  ampeg_release=3  transpose=-2
+fil_type=lpf_1p  cutoff=333  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/3_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d5  lovel=1  hivel=94  ampeg_release=4  transpose=-1
+fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/2_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1
+fil_type=lpf_1p  cutoff=400  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/1_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
+fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp2_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=f5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
+fil_type=lpf_1p  cutoff=466  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp1_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// Drum 4
+<group> key=c5  lovel=95  hivel=127  ampeg_release=3  transpose=-3
+<region> sample=MDL_samples/tenor/4_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#5  lovel=95  hivel=127  ampeg_release=3  transpose=-2
+<region> sample=MDL_samples/tenor/3_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d5  lovel=95  hivel=127  ampeg_release=4  transpose=-1
+<region> sample=MDL_samples/tenor/2_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1
+<region> sample=MDL_samples/tenor/1_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
+<region> sample=MDL_samples/tenor/sp2_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=f5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
+<region> sample=MDL_samples/tenor/sp1_rim_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// **********
+// ** Rims **
+// **********
+// Drum 4
+<group> key=f#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1  transpose=-3
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=g5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1  transpose=-2
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/3_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=g#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1  transpose=-1
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/2_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=a5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-2
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/1_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=a#5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-3
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp2_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=b5  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-3
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp1_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// Drum 4
+<group> key=f#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1  transpose=-3
+<region> sample=MDL_samples/tenor/4_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=g5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1  transpose=-2
+<region> sample=MDL_samples/tenor/3_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=g#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1  transpose=-1
+<region> sample=MDL_samples/tenor/2_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=a5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-2
+<region> sample=MDL_samples/tenor/1_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=a#5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-3
+<region> sample=MDL_samples/tenor/sp2_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=b5  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-3
+<region> sample=MDL_samples/tenor/sp1_rim_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rim_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// **********
+// ** Rods **
+// **********
+// Drum 4
+<group> key=c6  lovel=1  hivel=104  ampeg_release=3  transpose=-3
+fil_type=lpf_1p  cutoff=200  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#6  lovel=1  hivel=104  ampeg_release=3  transpose=-2
+fil_type=lpf_1p  cutoff=233  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/3_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d6  lovel=1  hivel=104  ampeg_release=4  transpose=-1
+fil_type=lpf_1p  cutoff=266  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/2_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#6  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-1
+fil_type=lpf_1p  cutoff=300  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/1_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e6  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-4
+fil_type=lpf_1p  cutoff=333  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp2_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=f6  lovel=1  hivel=104  loop_mode=one_shot  group_volume=-4
+fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp1_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// Drum 4
+<group> key=c6  lovel=105  hivel=127  ampeg_release=3  transpose=-3
+<region> sample=MDL_samples/tenor/4_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#6  lovel=105  hivel=127  ampeg_release=3  transpose=-2
+<region> sample=MDL_samples/tenor/3_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d6  lovel=105  hivel=127  ampeg_release=4  transpose=-1
+<region> sample=MDL_samples/tenor/2_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#6  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-1
+<region> sample=MDL_samples/tenor/1_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e6  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-4
+<region> sample=MDL_samples/tenor/sp2_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=f6  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-4
+<region> sample=MDL_samples/tenor/sp1_rod_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rod_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rod_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_rod_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// ************
+// ** Dreads **
+// ************
+// Drum 4
+<group> key=f#6  lovel=1  hivel=94  ampeg_attack=0.007  ampeg_release=3  transpose=-3
+fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=g6  lovel=1  hivel=94  ampeg_attack=0.007  ampeg_release=3  transpose=-2
+fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/3_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=g#6  lovel=1  hivel=94  ampeg_attack=0.007  ampeg_release=4  transpose=-1
+fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/2_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=a6  lovel=1  hivel=94  ampeg_attack=0.007  loop_mode=one_shot  group_volume=-1
+fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/1_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=a#6  lovel=1  hivel=94  ampeg_attack=0.007  loop_mode=one_shot  group_volume=-2
+fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp2_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=b6  lovel=1  hivel=94  ampeg_attack=0.007  loop_mode=one_shot  group_volume=-2
+fil_type=lpf_1p  cutoff=700  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp1_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// Drum 4
+<group> key=f#6  lovel=95  hivel=127  ampeg_release=3  transpose=-3
+<region> sample=MDL_samples/tenor/4_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=g6  lovel=95  hivel=127  ampeg_release=3  transpose=-2
+<region> sample=MDL_samples/tenor/3_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=g#6  lovel=95  hivel=127  ampeg_release=4  transpose=-1
+<region> sample=MDL_samples/tenor/2_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=a6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1
+<region> sample=MDL_samples/tenor/1_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=a#6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-2
+<region> sample=MDL_samples/tenor/sp2_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 1
+<group> key=b6  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-2
+<region> sample=MDL_samples/tenor/sp1_dread1_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_dread1_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_dread1_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp1_dread1_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// *****************
+// ** Stick Shots **
+// *****************
+// Drum 4
+<group> key=c7  lovel=1  hivel=94  loop_mode=one_shot  transpose=-3
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#7  lovel=1  hivel=94  loop_mode=one_shot  transpose=-2
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/3_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d7  lovel=1  hivel=94  loop_mode=one_shot  transpose=-1
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/2_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/1_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
+fil_type=lpf_1p  cutoff=1000  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp2_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// Drum 4
+<group> key=c7  lovel=95  hivel=127  loop_mode=one_shot  transpose=-3
+<region> sample=MDL_samples/tenor/4_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=c#7  lovel=95  hivel=127  loop_mode=one_shot  transpose=-2
+<region> sample=MDL_samples/tenor/3_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=d7  lovel=95  hivel=127  loop_mode=one_shot  transpose=-1
+<region> sample=MDL_samples/tenor/2_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=d#7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1
+<region> sample=MDL_samples/tenor/1_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=e7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
+<region> sample=MDL_samples/tenor/sp2_stick_shot_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_stick_shot_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_stick_shot_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_stick_shot_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// ********************
+// ** Skank (Drum 4) **
+// ********************
+<group> key=f7  lovel=1  hivel=94  ampeg_release=2  transpose=-3
+fil_type=lpf_1p  cutoff=600  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_skank_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_skank_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_skank_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_skank_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+<group> key=f7  lovel=95  hivel=127  ampeg_release=2  transpose=-3
+<region> sample=MDL_samples/tenor/4_skank_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_skank_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_skank_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_skank_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// **************
+// ** "Snenor" **
+// **************
+// Drum 4
+<group> key=f#7  lovel=1  hivel=94  ampeg_release=3  transpose=-3
+fil_type=lpf_1p  cutoff=300  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=g7  lovel=1  hivel=94  ampeg_release=3  transpose=-2
+fil_type=lpf_1p  cutoff=333  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/3_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=g#7  lovel=1  hivel=94  ampeg_release=4  transpose=-1
+fil_type=lpf_1p  cutoff=366  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/2_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=a7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-1
+fil_type=lpf_1p  cutoff=400  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/1_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=a#7  lovel=1  hivel=94  loop_mode=one_shot  group_volume=-4
+fil_type=lpf_1p  cutoff=433  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/sp2_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// Drum 4
+<group> key=f#7  lovel=95  hivel=127  ampeg_release=3  transpose=-3
+<region> sample=MDL_samples/tenor/4_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 3
+<group> key=g7  lovel=95  hivel=127  ampeg_release=3  transpose=-2
+<region> sample=MDL_samples/tenor/3_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/3_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/3_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 2
+<group> key=g#7  lovel=95  hivel=127  ampeg_release=4  transpose=-1
+<region> sample=MDL_samples/tenor/2_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/2_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/2_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Drum 1
+<group> key=a7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-1
+<region> sample=MDL_samples/tenor/1_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/1_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/1_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+// Spock 2
+<group> key=a#7  lovel=95  hivel=127  loop_mode=one_shot  group_volume=-4
+<region> sample=MDL_samples/tenor/sp2_snenor_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_snenor_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_snenor_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/sp2_snenor_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+// ******************************
+// ** Hand Muffle Tap (Drum 4) **
+// ******************************
+<group> key=b7  lovel=1  hivel=104  loop_mode=one_shot  transpose=-3
+fil_type=lpf_1p  cutoff=100  fil_veltrack=8000
+<region> sample=MDL_samples/tenor/4_hand_muffle_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_hand_muffle_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_hand_muffle_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_hand_muffle_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2
+
+<group> key=b7  lovel=105  hivel=127  loop_mode=one_shot  transpose=-3
+<region> sample=MDL_samples/tenor/4_hand_muffle_1_L.ogg  lorand=0.0  hirand=0.5  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_hand_muffle_2_L.ogg  lorand=0.5  hirand=1.0  seq_position=1  seq_length=2
+<region> sample=MDL_samples/tenor/4_hand_muffle_3_L.ogg  lorand=0.0  hirand=0.5  seq_position=2  seq_length=2
+<region> sample=MDL_samples/tenor/4_hand_muffle_4_L.ogg  lorand=0.5  hirand=1.0  seq_position=2  seq_length=2

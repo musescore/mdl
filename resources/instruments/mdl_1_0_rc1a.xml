@@ -395,7 +395,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="2"/>
+                <program value="6"/>
                 <controller ctrl="7" value="103"/>
                 <controller ctrl="10" value="63"/>
                 <synti>Zerberus</synti>
@@ -665,7 +665,7 @@
                     <breve>noteShapeTriangleLeftWhite</breve>
                 </noteheads>
                 <line>-1</line>
-                <voice>1</voice>
+                <voice>0</voice>
                 <name>Metronome</name>
                 <stem>1</stem>
                 <variants>
@@ -707,7 +707,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="2"/>
+                <program value="6"/>
                 <controller ctrl="7" value="106"/>
                 <synti>Zerberus</synti>
             </Channel>
@@ -935,7 +935,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="3"/>
+                <program value="5"/>
                 <controller ctrl="7" value="108"/>
                 <synti>Zerberus</synti>
             </Channel>
@@ -1163,8 +1163,8 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="3"/>
-                <controller ctrl="7" value="111"/>
+                <program value="5"/>
+                <controller ctrl="7" value="108"/>
                 <synti>Zerberus</synti>
             </Channel>
             <genre>marching</genre>
@@ -1485,18 +1485,31 @@
                 <name>Rim Spock 1</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="27">
-                <head>3</head>
-                <line>6</line>
+            <Drum pitch="45">
+                <head>4</head>
+                <line>4</line>
                 <voice>0</voice>
-                <name>Dut</name>
+                <name>Mallet Click</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="28">
-                <head>3</head>
+            <Drum pitch="46">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteShapeTriangleLeftWhite</whole>
+                    <half>noteShapeTriangleLeftWhite</half>
+                    <quarter>noteheadSquareBlack</quarter>
+                    <breve>noteShapeTriangleLeftWhite</breve>
+                </noteheads>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Sticks In</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="47">
+                <head>8</head>
                 <line>6</line>
                 <voice>0</voice>
-                <name>Dut (unison)</name>
+                <name>Shells</name>
                 <stem>1</stem>
             </Drum>
             <Drum pitch="44">
@@ -1512,50 +1525,12 @@
                 <name>Stand Hit</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="23">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadPlusWhole</whole>
-                    <half>noteheadPlusHalf</half>
-                    <quarter>noteheadPlusBlack</quarter>
-                    <breve>noteheadPlusDoubleWhole</breve>
-                </noteheads>
-                <line>1</line>
-                <voice>0</voice>
-                <name>Hand Clap</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="47">
-                <head>8</head>
-                <line>6</line>
-                <voice>0</voice>
-                <name>Shells</name>
-                <stem>1</stem>
-            </Drum>
             <Drum pitch="32">
                 <head>7</head>
                 <line>1</line>
                 <voice>0</voice>
                 <name>Cowbell</name>
                 <stem>1</stem>
-            </Drum>
-            <Drum pitch="21">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleLeftWhite</whole>
-                    <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteShapeTriangleLeftBlack</quarter>
-                    <breve>noteShapeTriangleLeftWhite</breve>
-                </noteheads>
-                <line>7</line>
-                <voice>0</voice>
-                <name>Metronome</name>
-                <stem>1</stem>
-                <variants>
-                    <variant pitch="22">
-                        <articulation>sforzato</articulation>
-                    </variant>
-                </variants>
             </Drum>
             <Drum pitch="33">
                 <head>0</head>
@@ -1591,25 +1566,50 @@
                 <name>Agogo Hi</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="45">
-                <head>4</head>
-                <line>4</line>
+            <Drum pitch="27">
+                <head>3</head>
+                <line>6</line>
                 <voice>0</voice>
-                <name>Mallet Click</name>
+                <name>Dut</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="46">
+            <Drum pitch="28">
+                <head>3</head>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Dut (unison)</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="23">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadPlusWhole</whole>
+                    <half>noteheadPlusHalf</half>
+                    <quarter>noteheadPlusBlack</quarter>
+                    <breve>noteheadPlusDoubleWhole</breve>
+                </noteheads>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Hand Clap</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="21">
                 <head>0</head>
                 <noteheads>
                     <whole>noteShapeTriangleLeftWhite</whole>
                     <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteheadSquareBlack</quarter>
+                    <quarter>noteShapeTriangleLeftBlack</quarter>
                     <breve>noteShapeTriangleLeftWhite</breve>
                 </noteheads>
-                <line>4</line>
+                <line>7</line>
                 <voice>0</voice>
-                <name>Sticks In</name>
+                <name>Metronome</name>
                 <stem>1</stem>
+                <variants>
+                    <variant pitch="22">
+                        <articulation>sforzato</articulation>
+                    </variant>
+                </variants>
             </Drum>
             <Articulation>
                 <velocity>100</velocity>
@@ -1644,8 +1644,8 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="1"/>
-                <controller ctrl="7" value="106"/>
+                <program value="7"/>
+                <controller ctrl="7" value="103"/>
                 <controller ctrl="10" value="87"/>
                 <controller ctrl="93" value="2"/>
                 <synti>Zerberus</synti>
@@ -2001,7 +2001,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="0"/>
+                <program value="8"/>
                 <controller ctrl="7" value="105"/>
                 <controller ctrl="10" value="65"/>
                 <synti>Zerberus</synti>
@@ -2171,31 +2171,24 @@
                 <name>Rim Spock 1</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="27">
-                <head>3</head>
-                <line>6</line>
+            <Drum pitch="45">
+                <head>4</head>
+                <line>4</line>
                 <voice>0</voice>
-                <name>Dut</name>
+                <name>Mallet Click</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="28">
-                <head>3</head>
-                <line>6</line>
-                <voice>0</voice>
-                <name>Dut (unison)</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="23">
+            <Drum pitch="46">
                 <head>0</head>
                 <noteheads>
-                    <whole>noteheadPlusWhole</whole>
-                    <half>noteheadPlusHalf</half>
-                    <quarter>noteheadPlusBlack</quarter>
-                    <breve>noteheadPlusDoubleWhole</breve>
+                    <whole>noteShapeTriangleLeftWhite</whole>
+                    <half>noteShapeTriangleLeftWhite</half>
+                    <quarter>noteheadSquareBlack</quarter>
+                    <breve>noteShapeTriangleLeftWhite</breve>
                 </noteheads>
-                <line>1</line>
+                <line>4</line>
                 <voice>0</voice>
-                <name>Hand Clap</name>
+                <name>Sticks In</name>
                 <stem>1</stem>
             </Drum>
             <Drum pitch="32">
@@ -2204,24 +2197,6 @@
                 <voice>0</voice>
                 <name>Cowbell</name>
                 <stem>1</stem>
-            </Drum>
-            <Drum pitch="21">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteShapeTriangleLeftWhite</whole>
-                    <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteShapeTriangleLeftBlack</quarter>
-                    <breve>noteShapeTriangleLeftWhite</breve>
-                </noteheads>
-                <line>7</line>
-                <voice>0</voice>
-                <name>Metronome</name>
-                <stem>1</stem>
-                <variants>
-                    <variant pitch="22">
-                        <articulation>sforzato</articulation>
-                    </variant>
-                </variants>
             </Drum>
             <Drum pitch="33">
                 <head>0</head>
@@ -2257,25 +2232,50 @@
                 <name>Agogo Hi</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="45">
-                <head>4</head>
-                <line>4</line>
+            <Drum pitch="27">
+                <head>3</head>
+                <line>6</line>
                 <voice>0</voice>
-                <name>Mallet Click</name>
+                <name>Dut</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="46">
+            <Drum pitch="28">
+                <head>3</head>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Dut (unison)</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="23">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadPlusWhole</whole>
+                    <half>noteheadPlusHalf</half>
+                    <quarter>noteheadPlusBlack</quarter>
+                    <breve>noteheadPlusDoubleWhole</breve>
+                </noteheads>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Hand Clap</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="21">
                 <head>0</head>
                 <noteheads>
                     <whole>noteShapeTriangleLeftWhite</whole>
                     <half>noteShapeTriangleLeftWhite</half>
-                    <quarter>noteheadSquareBlack</quarter>
+                    <quarter>noteShapeTriangleLeftBlack</quarter>
                     <breve>noteShapeTriangleLeftWhite</breve>
                 </noteheads>
-                <line>4</line>
+                <line>7</line>
                 <voice>0</voice>
-                <name>Sticks In</name>
+                <name>Metronome</name>
                 <stem>1</stem>
+                <variants>
+                    <variant pitch="22">
+                        <articulation>sforzato</articulation>
+                    </variant>
+                </variants>
             </Drum>
             <Articulation>
                 <velocity>100</velocity>
@@ -2310,9 +2310,9 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="5"/>
+                <program value="3"/>
                 <controller ctrl="7" value="106"/>
-                <controller ctrl="10" value="65"/>
+                <controller ctrl="10" value="60"/>
                 <synti>Zerberus</synti>
             </Channel>
             <genre>marching</genre>
@@ -2333,13 +2333,6 @@
                 <stem>1</stem>
                 <shortcut>A</shortcut>
             </Drum>
-            <Drum pitch="65">
-                <head>1</head>
-                <line>6</line>
-                <voice>0</voice>
-                <name>Drum 6 Rim</name>
-                <stem>1</stem>
-            </Drum>
             <Drum pitch="43">
                 <head>0</head>
                 <line>5</line>
@@ -2347,13 +2340,6 @@
                 <name>Drum 5</name>
                 <stem>1</stem>
                 <shortcut>B</shortcut>
-            </Drum>
-            <Drum pitch="67">
-                <head>1</head>
-                <line>5</line>
-                <voice>0</voice>
-                <name>Drum 5 Rim</name>
-                <stem>1</stem>
             </Drum>
             <Drum pitch="45">
                 <head>0</head>
@@ -2363,13 +2349,6 @@
                 <stem>1</stem>
                 <shortcut>C</shortcut>
             </Drum>
-            <Drum pitch="69">
-                <head>1</head>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Drum 4 Rim</name>
-                <stem>1</stem>
-            </Drum>
             <Drum pitch="47">
                 <head>0</head>
                 <line>2</line>
@@ -2377,13 +2356,6 @@
                 <name>Drum 3</name>
                 <stem>1</stem>
                 <shortcut>D</shortcut>
-            </Drum>
-            <Drum pitch="71">
-                <head>1</head>
-                <line>2</line>
-                <voice>0</voice>
-                <name>Drum 3 Rim</name>
-                <stem>1</stem>
             </Drum>
             <Drum pitch="48">
                 <head>0</head>
@@ -2393,13 +2365,6 @@
                 <stem>1</stem>
                 <shortcut>E</shortcut>
             </Drum>
-            <Drum pitch="72">
-                <head>1</head>
-                <line>1</line>
-                <voice>0</voice>
-                <name>Drum 2 Rim</name>
-                <stem>1</stem>
-            </Drum>
             <Drum pitch="50">
                 <head>0</head>
                 <line>0</line>
@@ -2408,11 +2373,46 @@
                 <stem>1</stem>
                 <shortcut>F</shortcut>
             </Drum>
+            <Drum pitch="65">
+                <head>1</head>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Rim Drum 6</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="67">
+                <head>1</head>
+                <line>5</line>
+                <voice>0</voice>
+                <name>Rim Drum 5</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="69">
+                <head>1</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Rim Drum 4</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="71">
+                <head>1</head>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Rim Drum 3</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="72">
+                <head>1</head>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Rim Drum 2</name>
+                <stem>1</stem>
+            </Drum>
             <Drum pitch="74">
                 <head>1</head>
                 <line>0</line>
                 <voice>0</voice>
-                <name>Drum 1 Rim</name>
+                <name>Rim Drum 1</name>
                 <stem>1</stem>
             </Drum>
             <Drum pitch="76">
@@ -2474,10 +2474,10 @@
             </Channel>
             <genre>marching</genre>
         </Instrument>
-        <Instrument id="mdl-bassline">
-            <longName>MDL Bass Line</longName>
+        <Instrument id="mdl-bassline-10">
+            <longName>MDL Bass Line 10</longName>
             <shortName>B. L.</shortName>
-            <description>MDL Bass Line</description>
+            <description>MDL Bass Line (10)</description>
             <musicXMLid>drum.bass-drum</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
@@ -2582,28 +2582,6 @@
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="53">
-                        <articulation>mordent</articulation>
-                    </variant>
-                </variants>
-            </Drum>
-            <Drum pitch="60">
-                <head>5</head>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Hit Unison</name>
-                <stem>1</stem>
-                <shortcut>F</shortcut>
-                <variants>
-                    <variant pitch="96">
-                        <articulation>plusstop</articulation>
-                    </variant>
-                    <variant pitch="36">
-                        <tremolo>r16</tremolo>
-                    </variant>
-                    <variant pitch="48">
-                        <tremolo>buzzroll</tremolo>
-                    </variant>
-                    <variant pitch="48">
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2716,6 +2694,28 @@
                     </variant>
                 </variants>
             </Drum>
+            <Drum pitch="60">
+                <head>5</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Hit Unison</name>
+                <stem>1</stem>
+                <shortcut>F</shortcut>
+                <variants>
+                    <variant pitch="96">
+                        <articulation>plusstop</articulation>
+                    </variant>
+                    <variant pitch="36">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>mordent</articulation>
+                    </variant>
+                </variants>
+            </Drum>
             <Drum pitch="73">
                 <head>1</head>
                 <line>9</line>
@@ -2750,14 +2750,6 @@
                 <voice>0</voice>
                 <name>Rim Drum 6</name>
                 <stem>1</stem>
-            </Drum>
-            <Drum pitch="72">
-                <head>5</head>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Rim Unison</name>
-                <stem>0</stem>
-                <shortcut>G</shortcut>
             </Drum>
             <Drum pitch="78">
                 <head>1</head>
@@ -2794,17 +2786,13 @@
                 <name>Rim Drum 1</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="33">
-                <head>9</head>
-                <line>7</line>
+            <Drum pitch="72">
+                <head>5</head>
+                <line>4</line>
                 <voice>0</voice>
-                <name>Metronome</name>
-                <stem>1</stem>
-                <variants>
-                    <variant pitch="34">
-                        <articulation>sforzato</articulation>
-                    </variant>
-                </variants>
+                <name>Rim Unison</name>
+                <stem>0</stem>
+                <shortcut>G</shortcut>
             </Drum>
             <Drum pitch="95">
                 <head>4</head>
@@ -2847,6 +2835,18 @@
                 <name>Dut (Unison)</name>
                 <stem>1</stem>
             </Drum>
+            <Drum pitch="33">
+                <head>9</head>
+                <line>7</line>
+                <voice>0</voice>
+                <name>Metronome</name>
+                <stem>1</stem>
+                <variants>
+                    <variant pitch="34">
+                        <articulation>sforzato</articulation>
+                    </variant>
+                </variants>
+            </Drum>
             <Articulation>
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
@@ -2880,7 +2880,283 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="8"/>
+                <program value="0"/>
+                <controller ctrl="7" value="117"/>
+                <controller ctrl="10" value="36"/>
+                <synti>Zerberus</synti>
+            </Channel>
+            <genre>marching</genre>
+        </Instrument>
+        <Instrument id="mdl-bassline-5">
+            <longName>MDL Bass Line 5</longName>
+            <shortName>B. L.</shortName>
+            <description>MDL Bass Line (5)</description>
+            <musicXMLid>drum.bass-drum</musicXMLid>
+            <stafftype staffTypePreset="perc5Line">percussion</stafftype>
+            <clef>PERC</clef>
+            <drumset>1</drumset>
+            <Drum pitch="63">
+                <head>0</head>
+                <line>7</line>
+                <voice>0</voice>
+                <name>Hit Drum 5</name>
+                <stem>1</stem>
+                <shortcut>A</shortcut>
+                <variants>
+                    <variant pitch="99">
+                        <articulation>plusstop</articulation>
+                    </variant>
+                    <variant pitch="39">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>mordent</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="65">
+                <head>0</head>
+                <line>5</line>
+                <voice>0</voice>
+                <name>Hit Drum 4</name>
+                <stem>1</stem>
+                <shortcut>B</shortcut>
+                <variants>
+                    <variant pitch="101">
+                        <articulation>plusstop</articulation>
+                    </variant>
+                    <variant pitch="41">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>mordent</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="66">
+                <head>0</head>
+                <line>3</line>
+                <voice>0</voice>
+                <name>Hit Drum 3</name>
+                <stem>1</stem>
+                <shortcut>C</shortcut>
+                <variants>
+                    <variant pitch="102">
+                        <articulation>plusstop</articulation>
+                    </variant>
+                    <variant pitch="42">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>mordent</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="68">
+                <head>0</head>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Hit Drum 2</name>
+                <stem>1</stem>
+                <shortcut>D</shortcut>
+                <variants>
+                    <variant pitch="104">
+                        <articulation>plusstop</articulation>
+                    </variant>
+                    <variant pitch="44">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>mordent</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="70">
+                <head>0</head>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Hit Drum 1</name>
+                <stem>1</stem>
+                <shortcut>E</shortcut>
+                <variants>
+                    <variant pitch="106">
+                        <articulation>plusstop</articulation>
+                    </variant>
+                    <variant pitch="46">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>mordent</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="60">
+                <head>5</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Hit Unison</name>
+                <stem>1</stem>
+                <shortcut>F</shortcut>
+                <variants>
+                    <variant pitch="96">
+                        <articulation>plusstop</articulation>
+                    </variant>
+                    <variant pitch="36">
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>mordent</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="75">
+                <head>1</head>
+                <line>7</line>
+                <voice>0</voice>
+                <name>Rim Drum 5</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="77">
+                <head>1</head>
+                <line>5</line>
+                <voice>0</voice>
+                <name>Rim Drum 4</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="78">
+                <head>1</head>
+                <line>3</line>
+                <voice>0</voice>
+                <name>Rim Drum 3</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="80">
+                <head>1</head>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Rim Drum 2</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="82">
+                <head>1</head>
+                <line>-1</line>
+                <voice>0</voice>
+                <name>Rim Drum 1</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="72">
+                <head>5</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Rim Unison</name>
+                <stem>0</stem>
+                <shortcut>G</shortcut>
+            </Drum>
+            <Drum pitch="95">
+                <head>4</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Mallet Click Unison</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="84">
+                <head>10</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Sticks In</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="35">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadPlusWhole</whole>
+                    <half>noteheadPlusHalf</half>
+                    <quarter>noteheadPlusBlack</quarter>
+                    <breve>noteheadPlusDoubleWhole</breve>
+                </noteheads>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Hand Clap</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="27">
+                <head>3</head>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Dut</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="28">
+                <head>3</head>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Dut (Unison)</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="33">
+                <head>9</head>
+                <line>7</line>
+                <voice>0</voice>
+                <name>Metronome</name>
+                <stem>1</stem>
+                <variants>
+                    <variant pitch="34">
+                        <articulation>sforzato</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Articulation>
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="staccatissimo">
+                <velocity>100</velocity>
+                <gateTime>33</gateTime>
+            </Articulation>
+            <Articulation name="staccato">
+                <velocity>100</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="portato">
+                <velocity>100</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>80</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>127</velocity>
+                <gateTime>80</gateTime>
+            </Articulation>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="plusstop">
+                <velocity>100</velocity>
+                <gateTime>80</gateTime>
+            </Articulation>
+            <Channel>
+                <program value="0"/>
                 <controller ctrl="7" value="117"/>
                 <controller ctrl="10" value="36"/>
                 <synti>Zerberus</synti>
@@ -2914,58 +3190,6 @@
                     </variant>
                 </variants>
             </Drum>
-            <Drum pitch="43">
-                <head>7</head>
-                <line>8</line>
-                <voice>0</voice>
-                <name>Tap Cymbal 3</name>
-                <stem>1</stem>
-                <variants>
-                    <variant pitch="44">
-                        <articulation>staccato</articulation>
-                    </variant>
-                </variants>
-            </Drum>
-            <Drum pitch="45">
-                <head>1</head>
-                <line>8</line>
-                <voice>0</voice>
-                <name>Crunch Cymbal 3</name>
-                <stem>1</stem>
-                <shortcut>D</shortcut>
-            </Drum>
-            <Drum pitch="47">
-                <head>2</head>
-                <line>8</line>
-                <voice>0</voice>
-                <name>Sizzle Cymbal 3</name>
-                <stem>1</stem>
-                <variants>
-                    <variant pitch="48">
-                        <articulation>staccato</articulation>
-                    </variant>
-                </variants>
-            </Drum>
-            <Drum pitch="50">
-                <head>8</head>
-                <line>8</line>
-                <voice>0</voice>
-                <name>Ding Cymbal 3</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="51">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadSlashedWhole1</whole>
-                    <half>noteheadSlashedHalf1</half>
-                    <quarter>noteheadSlashedBlack1</quarter>
-                    <breve>noteheadXDoubleWhole</breve>
-                </noteheads>
-                <line>8</line>
-                <voice>0</voice>
-                <name>Zing Cymbal 1</name>
-                <stem>1</stem>
-            </Drum>
             <Drum pitch="62">
                 <head>0</head>
                 <line>4</line>
@@ -2984,58 +3208,6 @@
                         <articulation>portato</articulation>
                     </variant>
                 </variants>
-            </Drum>
-            <Drum pitch="67">
-                <head>7</head>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Tap Cymbal 2</name>
-                <stem>1</stem>
-                <variants>
-                    <variant pitch="68">
-                        <articulation>staccato</articulation>
-                    </variant>
-                </variants>
-            </Drum>
-            <Drum pitch="69">
-                <head>1</head>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Crunch Cymbal 2</name>
-                <stem>1</stem>
-                <shortcut>E</shortcut>
-            </Drum>
-            <Drum pitch="71">
-                <head>2</head>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Sizzle Cymbal 2</name>
-                <stem>1</stem>
-                <variants>
-                    <variant pitch="72">
-                        <articulation>staccato</articulation>
-                    </variant>
-                </variants>
-            </Drum>
-            <Drum pitch="74">
-                <head>8</head>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Ding Cymbal 2</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="75">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadSlashedWhole1</whole>
-                    <half>noteheadSlashedHalf1</half>
-                    <quarter>noteheadSlashedBlack1</quarter>
-                    <breve>noteheadXDoubleWhole</breve>
-                </noteheads>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Zing Cymbal 2</name>
-                <stem>1</stem>
             </Drum>
             <Drum pitch="86">
                 <head>0</head>
@@ -3056,6 +3228,54 @@
                     </variant>
                 </variants>
             </Drum>
+            <Drum pitch="45">
+                <head>1</head>
+                <line>8</line>
+                <voice>0</voice>
+                <name>Crunch Cymbal 3</name>
+                <stem>1</stem>
+                <shortcut>D</shortcut>
+            </Drum>
+            <Drum pitch="69">
+                <head>1</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Crunch Cymbal 2</name>
+                <stem>1</stem>
+                <shortcut>E</shortcut>
+            </Drum>
+            <Drum pitch="93">
+                <head>1</head>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Crunch Cymbal 1</name>
+                <stem>1</stem>
+                <shortcut>F</shortcut>
+            </Drum>
+            <Drum pitch="43">
+                <head>7</head>
+                <line>8</line>
+                <voice>0</voice>
+                <name>Tap Cymbal 3</name>
+                <stem>1</stem>
+                <variants>
+                    <variant pitch="44">
+                        <articulation>staccato</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="67">
+                <head>7</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Tap Cymbal 2</name>
+                <stem>1</stem>
+                <variants>
+                    <variant pitch="68">
+                        <articulation>staccato</articulation>
+                    </variant>
+                </variants>
+            </Drum>
             <Drum pitch="91">
                 <head>7</head>
                 <line>0</line>
@@ -3068,31 +3288,51 @@
                     </variant>
                 </variants>
             </Drum>
-            <Drum pitch="93">
-                <head>1</head>
-                <line>0</line>
+            <Drum pitch="50">
+                <head>8</head>
+                <line>8</line>
                 <voice>0</voice>
-                <name>Crunch Cymbal 1</name>
+                <name>Ding Cymbal 3</name>
                 <stem>1</stem>
-                <shortcut>F</shortcut>
             </Drum>
-            <Drum pitch="95">
-                <head>2</head>
-                <line>0</line>
+            <Drum pitch="74">
+                <head>8</head>
+                <line>4</line>
                 <voice>0</voice>
-                <name>Sizzle Cymbal 1</name>
+                <name>Ding Cymbal 2</name>
                 <stem>1</stem>
-                <variants>
-                    <variant pitch="96">
-                        <articulation>staccato</articulation>
-                    </variant>
-                </variants>
             </Drum>
             <Drum pitch="98">
                 <head>8</head>
                 <line>0</line>
                 <voice>0</voice>
                 <name>Ding Cymbal 1</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="51">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashedWhole1</whole>
+                    <half>noteheadSlashedHalf1</half>
+                    <quarter>noteheadSlashedBlack1</quarter>
+                    <breve>noteheadXDoubleWhole</breve>
+                </noteheads>
+                <line>8</line>
+                <voice>0</voice>
+                <name>Zing Cymbal 3</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="75">
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashedWhole1</whole>
+                    <half>noteheadSlashedHalf1</half>
+                    <quarter>noteheadSlashedBlack1</quarter>
+                    <breve>noteheadXDoubleWhole</breve>
+                </noteheads>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Zing Cymbal 2</name>
                 <stem>1</stem>
             </Drum>
             <Drum pitch="99">
@@ -3107,6 +3347,42 @@
                 <voice>0</voice>
                 <name>Zing Cymbal 1</name>
                 <stem>1</stem>
+            </Drum>
+            <Drum pitch="47">
+                <head>2</head>
+                <line>8</line>
+                <voice>0</voice>
+                <name>Sizzle Cymbal 3</name>
+                <stem>1</stem>
+                <variants>
+                    <variant pitch="48">
+                        <articulation>staccato</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="71">
+                <head>2</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Sizzle Cymbal 2</name>
+                <stem>1</stem>
+                <variants>
+                    <variant pitch="72">
+                        <articulation>staccato</articulation>
+                    </variant>
+                </variants>
+            </Drum>
+            <Drum pitch="95">
+                <head>2</head>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Sizzle Cymbal 1</name>
+                <stem>1</stem>
+                <variants>
+                    <variant pitch="96">
+                        <articulation>staccato</articulation>
+                    </variant>
+                </variants>
             </Drum>
             <Articulation>
                 <velocity>100</velocity>
@@ -3141,7 +3417,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="7"/>
+                <program value="1"/>
                 <controller ctrl="7" value="115"/>
                 <synti>Zerberus</synti>
             </Channel>
@@ -3344,9 +3620,9 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-drumset">
-            <longName>MDL Drumset</longName>
+            <longName>MDL Drum Set</longName>
             <shortName>D. S.</shortName>
-            <description>MDL Drumset</description>
+            <description>MDL Drum Set</description>
             <musicXMLid>drum.group.set</musicXMLid>
             <clef>PERC</clef>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
@@ -3389,90 +3665,6 @@
                 <name>Snare Rim Shot</name>
                 <stem>1</stem>
                 <shortcut>C</shortcut>
-            </Drum>
-            <Drum pitch="41">
-                <head>0</head>
-                <line>6</line>
-                <voice>0</voice>
-                <name>Tom 6</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="65">
-                <head>1</head>
-                <line>6</line>
-                <voice>0</voice>
-                <name>Tom 6 Rim</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="43">
-                <head>0</head>
-                <line>5</line>
-                <voice>0</voice>
-                <name>Tom 5</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="67">
-                <head>1</head>
-                <line>5</line>
-                <voice>0</voice>
-                <name>Tom 5 Rim</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="45">
-                <head>0</head>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Tom 4</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="69">
-                <head>1</head>
-                <line>4</line>
-                <voice>0</voice>
-                <name>Tom 4 Rim</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="47">
-                <head>0</head>
-                <line>2</line>
-                <voice>0</voice>
-                <name>Tom 3</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="71">
-                <head>1</head>
-                <line>2</line>
-                <voice>0</voice>
-                <name>Tom 3 Rim</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="48">
-                <head>0</head>
-                <line>1</line>
-                <voice>0</voice>
-                <name>Tom 2</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="72">
-                <head>1</head>
-                <line>1</line>
-                <voice>0</voice>
-                <name>Tom 2 Rim</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="50">
-                <head>0</head>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Tom 1</name>
-                <stem>1</stem>
-            </Drum>
-            <Drum pitch="74">
-                <head>1</head>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Tom 1 Rim</name>
-                <stem>1</stem>
             </Drum>
             <Drum pitch="34">
                 <head>1</head>
@@ -3554,6 +3746,90 @@
                 <name>Spash 8&quot;</name>
                 <stem>2</stem>
             </Drum>
+            <Drum pitch="41">
+                <head>0</head>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Tom 6</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="43">
+                <head>0</head>
+                <line>5</line>
+                <voice>0</voice>
+                <name>Tom 5</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="45">
+                <head>0</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Tom 4</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="47">
+                <head>0</head>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Tom 3</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="48">
+                <head>0</head>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Tom 2</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="50">
+                <head>0</head>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Tom 1</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="65">
+                <head>1</head>
+                <line>6</line>
+                <voice>0</voice>
+                <name>Rim Tom 6</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="67">
+                <head>1</head>
+                <line>5</line>
+                <voice>0</voice>
+                <name>Rim Tom 5</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="69">
+                <head>1</head>
+                <line>4</line>
+                <voice>0</voice>
+                <name>Rim Tom 4</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="71">
+                <head>1</head>
+                <line>2</line>
+                <voice>0</voice>
+                <name>Rim Tom 3</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="72">
+                <head>1</head>
+                <line>1</line>
+                <voice>0</voice>
+                <name>Rim Tom 2</name>
+                <stem>1</stem>
+            </Drum>
+            <Drum pitch="74">
+                <head>1</head>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Rim Tom 1</name>
+                <stem>1</stem>
+            </Drum>
             <Articulation>
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
@@ -3587,7 +3863,7 @@
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
-                <program value="6"/>
+                <program value="2"/>
                 <controller ctrl="7" value="114"/>
                 <controller ctrl="10" value="41"/>
                 <synti>Zerberus</synti>
