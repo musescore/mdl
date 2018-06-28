@@ -2320,7 +2320,7 @@
         <Instrument id="mdl-showtenorline">
             <longName>MDL Show Tenor Line</longName>
             <shortName>ST. L.</shortName>
-            <description>MDL Drumset</description>
+            <description>MDL Show Tenor Line</description>
             <musicXMLid>drum.group.set</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
@@ -3631,9 +3631,9 @@
             <Drum pitch="36">
                 <head>0</head>
                 <line>7</line>
-                <voice>0</voice>
+                <voice>1</voice>
                 <name>Bass Drum</name>
-                <stem>1</stem>
+                <stem>2</stem>
                 <shortcut>A</shortcut>
             </Drum>
             <Drum pitch="38">
@@ -3699,9 +3699,9 @@
             <Drum pitch="44">
                 <head>1</head>
                 <line>9</line>
-                <voice>0</voice>
+                <voice>1</voice>
                 <name>Hi-Hat (foot)</name>
-                <stem>1</stem>
+                <stem>2</stem>
                 <shortcut>G</shortcut>
             </Drum>
             <Drum pitch="51">
@@ -3749,16 +3749,16 @@
             <Drum pitch="41">
                 <head>0</head>
                 <line>6</line>
-                <voice>0</voice>
+                <voice>1</voice>
                 <name>Tom 6</name>
-                <stem>1</stem>
+                <stem>2</stem>
             </Drum>
             <Drum pitch="43">
                 <head>0</head>
                 <line>5</line>
-                <voice>0</voice>
+                <voice>1</voice>
                 <name>Tom 5</name>
-                <stem>1</stem>
+                <stem>2</stem>
             </Drum>
             <Drum pitch="45">
                 <head>0</head>

@@ -2,6 +2,6 @@
   "id": "mdl",
   "name": "MuseScore Drumline",
   "description": "MuseScore Drumline extension provides SFZ, templates and instrument files to get the best experience when you are scoring for marching percussions",
-  "version": "0.13",
+  "version": "0.15",
   "tags": "drumline, drums, sfz"
 }
