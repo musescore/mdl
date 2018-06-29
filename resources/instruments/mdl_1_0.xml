@@ -379,7 +379,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -391,7 +391,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -691,7 +691,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -703,7 +703,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -919,7 +919,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -931,7 +931,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -1147,7 +1147,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -1159,7 +1159,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -1628,7 +1628,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -1640,7 +1640,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -1968,7 +1968,7 @@
                 <name>Rim Spock 1</name>
                 <stem>1</stem>
             </Drum>
-            <Articulation>
+           <Articulation>
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
@@ -1985,7 +1985,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -1997,7 +1997,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -2294,7 +2294,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -2306,7 +2306,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -2434,10 +2434,6 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation>
-                <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
             <Articulation name="staccatissimo">
                 <velocity>100</velocity>
                 <gateTime>33</gateTime>
@@ -2451,7 +2447,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -2463,7 +2459,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -2864,7 +2860,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -2876,7 +2872,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -3123,7 +3119,7 @@
                     </variant>
                 </variants>
             </Drum>
-            <Articulation>
+           <Articulation>
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
@@ -3140,7 +3136,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -3152,7 +3148,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -3401,7 +3397,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -3413,7 +3409,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -3597,7 +3593,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -3609,7 +3605,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -3847,7 +3843,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>80</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -3859,7 +3855,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -3908,7 +3904,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>100</velocity>
+                <velocity>110</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -3918,6 +3914,10 @@
             <Articulation name="sforzato">
                 <velocity>127</velocity>
                 <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="plusstop">
+                <velocity>80</velocity>
+                <gateTime>80</gateTime>
             </Articulation>
             <Channel>
                 <controller ctrl="0" value="1"/>
