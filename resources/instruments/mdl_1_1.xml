@@ -4,9 +4,9 @@
         <name>Percussion - Marching</name>
         <Instrument id="mdl-snareline">
             <longName>MDL Snare Line</longName>
-            <shortName>SN. L.</shortName>
+            <shortName>S. L.</shortName>
             <description>MDL Snare Line</description>
-            <musicXMLid>drum.snare-drum</musicXMLid>
+            <musicXMLid>mdl.drum.snare-drum</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -21,7 +21,55 @@
                     <variant pitch="59">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="59">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="57">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>portato</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="58">
@@ -42,19 +90,6 @@
                 <name>Rim Shot</name>
                 <stem>1</stem>
                 <shortcut>B</shortcut>
-            </Drum>
-            <Drum pitch="66">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXOrnateEllipse</whole>
-                    <half>noteheadXOrnateEllipse</half>
-                    <quarter>noteheadXOrnateEllipse</quarter>
-                    <breve>noteheadXOrnateEllipse</breve>
-                </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Double Shot</name>
-                <stem>1</stem>
             </Drum>
             <Drum pitch="64">
                 <head>0</head>
@@ -235,6 +270,14 @@
                         <tremolo>r16</tremolo>
                     </variant>
                     <variant pitch="38">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="38">
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="38">
+                        <articulation>sforzato</articulation>
                         <tremolo>r32</tremolo>
                     </variant>
                 </variants>
@@ -257,6 +300,14 @@
                         <tremolo>r16</tremolo>
                     </variant>
                     <variant pitch="36">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="36">
+                        <tremolo>r32</tremolo>
+                    </variant>
+                    <variant pitch="36">
+                        <articulation>sforzato</articulation>
                         <tremolo>r32</tremolo>
                     </variant>
                     <variant pitch="37">
@@ -379,7 +430,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -406,7 +457,7 @@
             <longName>MDL Snare Line A</longName>
             <shortName>SN. L.</shortName>
             <description>MDL Snare Line A</description>
-            <musicXMLid>drum.snare-drum</musicXMLid>
+            <musicXMLid>mdl.drum.snare-drum</musicXMLid>
             <stafftype staffTypePreset="perc1Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -421,7 +472,55 @@
                     <variant pitch="59">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="59">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="57">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>portato</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="58">
@@ -442,19 +541,6 @@
                 <name>Rim Shot</name>
                 <stem>1</stem>
                 <shortcut>B</shortcut>
-            </Drum>
-            <Drum pitch="66">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXOrnateEllipse</whole>
-                    <half>noteheadXOrnateEllipse</half>
-                    <quarter>noteheadXOrnateEllipse</quarter>
-                    <breve>noteheadXOrnateEllipse</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Double Shot</name>
-                <stem>1</stem>
             </Drum>
             <Drum pitch="64">
                 <head>0</head>
@@ -691,7 +777,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -717,7 +803,7 @@
             <longName>MDL Snare</longName>
             <shortName>SN.</shortName>
             <description>MDL Snare</description>
-            <musicXMLid>drum.snare-drum</musicXMLid>
+            <musicXMLid>mdl.drum.snare-drum</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -732,7 +818,55 @@
                     <variant pitch="59">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="59">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="57">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>portato</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="58">
@@ -753,19 +887,6 @@
                 <name>Rim Shot</name>
                 <stem>1</stem>
                 <shortcut>B</shortcut>
-            </Drum>
-            <Drum pitch="66">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXOrnateEllipse</whole>
-                    <half>noteheadXOrnateEllipse</half>
-                    <quarter>noteheadXOrnateEllipse</quarter>
-                    <breve>noteheadXOrnateEllipse</breve>
-                </noteheads>
-                <line>3</line>
-                <voice>0</voice>
-                <name>Double Shot</name>
-                <stem>1</stem>
             </Drum>
             <Drum pitch="64">
                 <head>0</head>
@@ -919,7 +1040,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -945,7 +1066,7 @@
             <longName>MDL Snare A</longName>
             <shortName>SN.</shortName>
             <description>MDL Snare A</description>
-            <musicXMLid>drum.snare-drum</musicXMLid>
+            <musicXMLid>mdl.drum.snare-drum</musicXMLid>
             <stafftype staffTypePreset="perc1Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -960,7 +1081,55 @@
                     <variant pitch="59">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="59">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="57">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>portato</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="58">
@@ -981,19 +1150,6 @@
                 <name>Rim Shot</name>
                 <stem>1</stem>
                 <shortcut>B</shortcut>
-            </Drum>
-            <Drum pitch="66">
-                <head>0</head>
-                <noteheads>
-                    <whole>noteheadXOrnateEllipse</whole>
-                    <half>noteheadXOrnateEllipse</half>
-                    <quarter>noteheadXOrnateEllipse</quarter>
-                    <breve>noteheadXOrnateEllipse</breve>
-                </noteheads>
-                <line>0</line>
-                <voice>0</voice>
-                <name>Double Shot</name>
-                <stem>1</stem>
             </Drum>
             <Drum pitch="64">
                 <head>0</head>
@@ -1147,7 +1303,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -1171,9 +1327,9 @@
         </Instrument>
         <Instrument id="mdl-tenorline">
             <longName>MDL Tenor Line</longName>
-            <shortName>TN. L.</shortName>
+            <shortName>T. L.</shortName>
             <description>MDL Tenor Line</description>
-            <musicXMLid>drum.tenor-drum</musicXMLid>
+            <musicXMLid>mdl.drum.tenor-drum</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -1188,13 +1344,68 @@
                     <variant pitch="107">
                         <articulation>plusstop</articulation>
                     </variant>
+                    <variant pitch="101">
+                        <articulation>staccatissimo</articulation>
+                    </variant>
                     <variant pitch="66">
                         <tremolo>r16</tremolo>
                     </variant>
-                    <variant pitch="48">
+                    <variant pitch="66">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="54">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="54">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1210,10 +1421,62 @@
                     <variant pitch="67">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="67">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="49">
                         <tremolo>buzzroll</tremolo>
                     </variant>
-                    <variant pitch="55">
+                    <variant pitch="49">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1229,10 +1492,86 @@
                     <variant pitch="68">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="68">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="50">
                         <tremolo>buzzroll</tremolo>
                     </variant>
+                    <variant pitch="50">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
                     <variant pitch="56">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1248,10 +1587,62 @@
                     <variant pitch="69">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="69">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="51">
                         <tremolo>buzzroll</tremolo>
                     </variant>
+                    <variant pitch="50">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
                     <variant pitch="57">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1267,7 +1658,55 @@
                     <variant pitch="70">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="70">
+                        <tremolo>r16</tremolo>
+                        <articulation>sforzato</articulation>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="52">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccatissimo</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="58">
@@ -1286,10 +1725,62 @@
                     <variant pitch="71">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="71">
+                        <tremolo>r16</tremolo>
+                        <articulation>sforzato</articulation>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="53">
                         <tremolo>buzzroll</tremolo>
                     </variant>
+                    <variant pitch="53">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
                     <variant pitch="59">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1308,7 +1799,7 @@
                 <stem>1</stem>
                 <variants>
                     <variant pitch="101">
-                        <articulation>plusstop</articulation>
+                        <articulation>staccatissimo</articulation>
                     </variant>
                 </variants>
             </Drum>
@@ -1616,8 +2107,8 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+                <velocity>127</velocity>
+                <gateTime>20</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -1628,7 +2119,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -1640,7 +2131,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>80</velocity>
+                <velocity>100</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -1656,7 +2147,7 @@
             <longName>MDL Tenors</longName>
             <shortName>Tenors</shortName>
             <description>MDL Tenors</description>
-            <musicXMLid>drum.tenor-drum</musicXMLid>
+            <musicXMLid>mdl.drum.tenor-drum</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -1671,13 +2162,68 @@
                     <variant pitch="107">
                         <articulation>plusstop</articulation>
                     </variant>
+                    <variant pitch="101">
+                        <articulation>staccatissimo</articulation>
+                    </variant>
                     <variant pitch="66">
                         <tremolo>r16</tremolo>
                     </variant>
-                    <variant pitch="48">
+                    <variant pitch="66">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="54">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="54">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1693,10 +2239,62 @@
                     <variant pitch="67">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="67">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="67">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="49">
                         <tremolo>buzzroll</tremolo>
                     </variant>
-                    <variant pitch="55">
+                    <variant pitch="49">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1712,10 +2310,86 @@
                     <variant pitch="68">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="68">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="68">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="50">
                         <tremolo>buzzroll</tremolo>
                     </variant>
+                    <variant pitch="50">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
                     <variant pitch="56">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1731,10 +2405,62 @@
                     <variant pitch="69">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="69">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="69">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="51">
                         <tremolo>buzzroll</tremolo>
                     </variant>
+                    <variant pitch="50">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
                     <variant pitch="57">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1750,7 +2476,55 @@
                     <variant pitch="70">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="70">
+                        <tremolo>r16</tremolo>
+                        <articulation>sforzato</articulation>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="52">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccatissimo</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="58">
@@ -1769,10 +2543,62 @@
                     <variant pitch="71">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="71">
+                        <tremolo>r16</tremolo>
+                        <articulation>sforzato</articulation>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="53">
                         <tremolo>buzzroll</tremolo>
                     </variant>
+                    <variant pitch="53">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
                     <variant pitch="59">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -1791,7 +2617,7 @@
                 <stem>1</stem>
                 <variants>
                     <variant pitch="101">
-                        <articulation>plusstop</articulation>
+                        <articulation>staccatissimo</articulation>
                     </variant>
                 </variants>
             </Drum>
@@ -1932,6 +2758,11 @@
                 <voice>0</voice>
                 <name>Rim Drum 4</name>
                 <stem>1</stem>
+                <variants>
+                    <variant pitch="101">
+                        <articulation>staccatissimo</articulation>
+                    </variant>
+                </variants>
             </Drum>
             <Drum pitch="79">
                 <head>1</head>
@@ -1968,7 +2799,7 @@
                 <name>Rim Spock 1</name>
                 <stem>1</stem>
             </Drum>
-           <Articulation>
+            <Articulation>
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
@@ -1985,7 +2816,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -2012,7 +2843,7 @@
             <longName>MDL Flubs</longName>
             <shortName>FB.</shortName>
             <description>MDL Flubs</description>
-            <musicXMLid>drum.tenor-drum</musicXMLid>
+            <musicXMLid>mdl.drum.tenor-drum</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -2027,13 +2858,68 @@
                     <variant pitch="107">
                         <articulation>plusstop</articulation>
                     </variant>
+                    <variant pitch="101">
+                        <articulation>staccatissimo</articulation>
+                    </variant>
                     <variant pitch="66">
                         <tremolo>r16</tremolo>
                     </variant>
-                    <variant pitch="48">
+                    <variant pitch="66">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="66">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="54">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="54">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2049,7 +2935,55 @@
                     <variant pitch="70">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="70">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="70">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="52">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccatissimo</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="58">
@@ -2068,10 +3002,62 @@
                     <variant pitch="71">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="71">
+                        <tremolo>r16</tremolo>
+                        <articulation>sforzato</articulation>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="71">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="53">
                         <tremolo>buzzroll</tremolo>
                     </variant>
+                    <variant pitch="53">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
                     <variant pitch="59">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="59">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2091,7 +3077,7 @@
                 <shortcut>D</shortcut>
                 <variants>
                     <variant pitch="101">
-                        <articulation>plusstop</articulation>
+                        <articulation>staccatissimo</articulation>
                     </variant>
                 </variants>
             </Drum>
@@ -2294,7 +3280,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -2321,7 +3307,7 @@
             <longName>MDL Show Tenor Line</longName>
             <shortName>ST. L.</shortName>
             <description>MDL Show Tenor Line</description>
-            <musicXMLid>drum.group.set</musicXMLid>
+            <musicXMLid>mdl.drum.group.set</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -2447,7 +3433,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -2474,7 +3460,7 @@
             <longName>MDL Bass Line 10</longName>
             <shortName>B. L.</shortName>
             <description>MDL Bass Line (10)</description>
-            <musicXMLid>drum.bass-drum</musicXMLid>
+            <musicXMLid>mdl.drum.bass-drum</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -2491,10 +3477,62 @@
                     <variant pitch="37">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="37">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="37">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="37">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="37">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="37">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="37">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="49">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="49">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="49">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2513,7 +3551,62 @@
                         <tremolo>r16</tremolo>
                     </variant>
                     <variant pitch="38">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="38">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="38">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="38">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="38">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="38">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="50">
                         <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>sforzato</articulation>
+                        <articulation>mordent</articulation>
                     </variant>
                 </variants>
             </Drum>
@@ -2531,10 +3624,62 @@
                     <variant pitch="39">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="39">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="39">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="39">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="39">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="39">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="39">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="51">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="51">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="51">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2552,10 +3697,62 @@
                     <variant pitch="40">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="40">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="40">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="40">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="40">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="40">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="40">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="52">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="52">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2574,10 +3771,62 @@
                     <variant pitch="41">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="41">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="41">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="41">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="41">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="41">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="41">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="53">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="53">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="53">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2596,10 +3845,62 @@
                     <variant pitch="42">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="42">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="42">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="42">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="42">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="42">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="42">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="54">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="54">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="54">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2617,10 +3918,62 @@
                     <variant pitch="43">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="43">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="43">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="43">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="43">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="43">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="43">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="55">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="55">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2639,10 +3992,62 @@
                     <variant pitch="44">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="44">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="44">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="44">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="44">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="44">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="44">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="56">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="56">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2660,10 +4065,62 @@
                     <variant pitch="45">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="45">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="45">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="45">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="45">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="45">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="45">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="57">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="57">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="57">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2682,10 +4139,62 @@
                     <variant pitch="46">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="46">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="46">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="46">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="46">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="46">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="46">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="58">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="58">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2704,10 +4213,62 @@
                     <variant pitch="36">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="36">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="36">
+                        <articulation>tenuto</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="36">
+                        <articulation>marcato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="46">
+                        <articulation>portato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="36">
+                        <articulation>staccato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="36">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="48">
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="48">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>tenuto</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>sforzato</articulation>
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2783,11 +4344,17 @@
                 <stem>1</stem>
             </Drum>
             <Drum pitch="72">
-                <head>5</head>
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashX</whole>
+                    <half>noteheadSlashX</half>
+                    <quarter>noteheadSlashX</quarter>
+                    <breve>noteheadSlashX</breve>
+                </noteheads>
                 <line>4</line>
                 <voice>0</voice>
                 <name>Rim Unison</name>
-                <stem>0</stem>
+                <stem>1</stem>
                 <shortcut>G</shortcut>
             </Drum>
             <Drum pitch="95">
@@ -2860,7 +4427,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -2887,11 +4454,11 @@
             <longName>MDL Bass Line 5</longName>
             <shortName>B. L.</shortName>
             <description>MDL Bass Line (5)</description>
-            <musicXMLid>drum.bass-drum</musicXMLid>
+            <musicXMLid>mdl.drum.bass-drum</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
-            <Drum pitch="63">
+            <Drum pitch="62">
                 <head>0</head>
                 <line>7</line>
                 <voice>0</voice>
@@ -2899,21 +4466,56 @@
                 <stem>1</stem>
                 <shortcut>A</shortcut>
                 <variants>
-                    <variant pitch="99">
+                    <variant pitch="98">
                         <articulation>plusstop</articulation>
                     </variant>
-                    <variant pitch="39">
+                    <variant pitch="38">
                         <tremolo>r16</tremolo>
                     </variant>
-                    <variant pitch="51">
+                    <variant pitch="38">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="38">
+                        <articulation>legato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="50">
                         <tremolo>buzzroll</tremolo>
                     </variant>
-                    <variant pitch="51">
+                    <variant pitch="50">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>legato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="50">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="50">
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
             </Drum>
-            <Drum pitch="65">
+            <Drum pitch="64">
                 <head>0</head>
                 <line>5</line>
                 <voice>0</voice>
@@ -2921,21 +4523,56 @@
                 <stem>1</stem>
                 <shortcut>B</shortcut>
                 <variants>
-                    <variant pitch="101">
+                    <variant pitch="100">
                         <articulation>plusstop</articulation>
                     </variant>
-                    <variant pitch="41">
+                    <variant pitch="40">
                         <tremolo>r16</tremolo>
                     </variant>
-                    <variant pitch="53">
+                    <variant pitch="40">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="40">
+                        <articulation>legato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="52">
                         <tremolo>buzzroll</tremolo>
                     </variant>
-                    <variant pitch="53">
+                    <variant pitch="52">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>legato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="52">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="52">
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
             </Drum>
-            <Drum pitch="66">
+            <Drum pitch="67">
                 <head>0</head>
                 <line>3</line>
                 <voice>0</voice>
@@ -2943,16 +4580,51 @@
                 <stem>1</stem>
                 <shortcut>C</shortcut>
                 <variants>
-                    <variant pitch="102">
+                    <variant pitch="103">
                         <articulation>plusstop</articulation>
                     </variant>
-                    <variant pitch="42">
+                    <variant pitch="43">
                         <tremolo>r16</tremolo>
                     </variant>
-                    <variant pitch="54">
+                    <variant pitch="43">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="43">
+                        <articulation>legato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="55">
                         <tremolo>buzzroll</tremolo>
                     </variant>
-                    <variant pitch="54">
+                    <variant pitch="55">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>legato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="55">
+                        <articulation>mordent</articulation>
+                    </variant>
+                    <variant pitch="55">
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
@@ -2971,7 +4643,39 @@
                     <variant pitch="44">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="44">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="44">
+                        <articulation>legato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="56">
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>legato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="56">
+                        <articulation>marcato</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
                     <variant pitch="56">
@@ -2993,8 +4697,43 @@
                     <variant pitch="46">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="46">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="46">
+                        <articulation>legato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="58">
                         <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>legato</articulation>
+                        <tremolo>buzzroll</tremolo>>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="58">
+                        <articulation>mordent</articulation>
                     </variant>
                     <variant pitch="58">
                         <articulation>mordent</articulation>
@@ -3015,29 +4754,64 @@
                     <variant pitch="36">
                         <tremolo>r16</tremolo>
                     </variant>
+                    <variant pitch="36">
+                        <articulation>sforzato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
+                    <variant pitch="36">
+                        <articulation>legato</articulation>
+                        <tremolo>r16</tremolo>
+                    </variant>
                     <variant pitch="48">
                         <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>sforzato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>staccato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>staccatissimo</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>legato</articulation>
+                        <tremolo>buzzroll</tremolo>>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>portato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>marcato</articulation>
+                        <tremolo>buzzroll</tremolo>
+                    </variant>
+                    <variant pitch="48">
+                        <articulation>mordent</articulation>
                     </variant>
                     <variant pitch="48">
                         <articulation>mordent</articulation>
                     </variant>
                 </variants>
             </Drum>
-            <Drum pitch="75">
+            <Drum pitch="74">
                 <head>1</head>
                 <line>7</line>
                 <voice>0</voice>
                 <name>Rim Drum 5</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="77">
+            <Drum pitch="76">
                 <head>1</head>
                 <line>5</line>
                 <voice>0</voice>
                 <name>Rim Drum 4</name>
                 <stem>1</stem>
             </Drum>
-            <Drum pitch="78">
+            <Drum pitch="79">
                 <head>1</head>
                 <line>3</line>
                 <voice>0</voice>
@@ -3059,11 +4833,17 @@
                 <stem>1</stem>
             </Drum>
             <Drum pitch="72">
-                <head>5</head>
+                <head>0</head>
+                <noteheads>
+                    <whole>noteheadSlashX</whole>
+                    <half>noteheadSlashX</half>
+                    <quarter>noteheadSlashX</quarter>
+                    <breve>noteheadSlashX</breve>
+                </noteheads>
                 <line>4</line>
                 <voice>0</voice>
                 <name>Rim Unison</name>
-                <stem>0</stem>
+                <stem>1</stem>
                 <shortcut>G</shortcut>
             </Drum>
             <Drum pitch="95">
@@ -3119,7 +4899,7 @@
                     </variant>
                 </variants>
             </Drum>
-           <Articulation>
+            <Articulation>
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
@@ -3136,7 +4916,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -3163,7 +4943,7 @@
             <longName>MDL Cymbal Line</longName>
             <shortName>C. L.</shortName>
             <description>MDL Cymbal Line</description>
-            <musicXMLid>metal.cymbal.crash</musicXMLid>
+            <musicXMLid>mdl.metal.cymbal.crash</musicXMLid>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <clef>PERC</clef>
             <drumset>1</drumset>
@@ -3397,7 +5177,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -3426,7 +5206,7 @@
             <longName>MDL Rail</longName>
             <shortName>RL.</shortName>
             <description>MDL Rail</description>
-            <musicXMLid>drum.group.set</musicXMLid>
+            <musicXMLid>mdl.drum.group.set</musicXMLid>
             <clef>PERC</clef>
             <stafftype staffTypePreset="perc1Line">percussion</stafftype>
             <barlineSpan>1</barlineSpan>
@@ -3593,7 +5373,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -3619,7 +5399,7 @@
             <longName>MDL Drum Set</longName>
             <shortName>D. S.</shortName>
             <description>MDL Drum Set</description>
-            <musicXMLid>drum.group.set</musicXMLid>
+            <musicXMLid>mdl.drum.group.set</musicXMLid>
             <clef>PERC</clef>
             <stafftype staffTypePreset="perc5Line">percussion</stafftype>
             <barlineSpan>1</barlineSpan>
@@ -3843,7 +5623,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
@@ -3875,7 +5655,7 @@
             <longName>MDL Sampler</longName>
             <shortName>SLR.</shortName>
             <description>MDL Sampler</description>
-            <musicXMLid>drum.group.set</musicXMLid>
+            <musicXMLid>mdl.drum.group.set</musicXMLid>
             <clef>PERC</clef>
             <stafftype staffTypePreset="perc1Line">percussion</stafftype>
             <barlineSpan>1</barlineSpan>
@@ -3904,7 +5684,7 @@
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="tenuto">
-                <velocity>110</velocity>
+                <velocity>115</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
             <Articulation name="marcato">
