@@ -417,9 +417,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -427,19 +447,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -764,9 +772,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -774,19 +802,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -1027,9 +1043,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -1037,19 +1073,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -1290,9 +1314,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -1300,19 +1344,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -2106,9 +2138,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
+            <Articulation name="sforzato">
                 <velocity>127</velocity>
-                <gateTime>20</gateTime>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -2116,22 +2168,10 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -2803,9 +2843,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -2813,19 +2873,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -3420,9 +3468,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -3430,19 +3498,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -4414,9 +4470,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -4424,19 +4500,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -4903,9 +4967,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -4913,19 +4997,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -5164,9 +5236,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -5174,19 +5266,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -5360,9 +5440,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -5370,19 +5470,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -5610,9 +5698,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -5620,19 +5728,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -5671,9 +5767,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -5681,19 +5797,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
