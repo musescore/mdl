@@ -1,19 +1,16 @@
 // *****************************
-// ** MuseScore Drumline      **
-// **        v1.3.0           **
-// **         Drum set        **
+// ** MuseScore Drumline v0.5 **
+// **        Drum Set         **
 // **   SFZ programming by    **
-// **  S. Christian Collins & **
-// **       Daniel Ray        **
+// **  S. Christian Collins   **
 // *****************************
-
 <global>
 sw_lokey=c1  sw_hikey=d1  sw_default=c1
 
 // ***************
 // ** Snare Rim **
 // ***************
-<group> key=a#1  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-7  transpose=2  pan=3
+<group> key=a#1  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-2  transpose=2  pan=3
   ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
   fil_type=lpf_1p  cutoff=350  fil_veltrack=9600
 <region> sample=MDL_samples/drumset/VCSL/Snare2_taps_v4_rr1_mono.ogg  seq_position=1
@@ -22,7 +19,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** Bass Drum **
 // ***************
-<group> key=c2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  seq_length=2
+<group> key=c2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  seq_length=2 group_volume=5
 <region> lovel=0    hivel=24   sample=MDL_samples/drumset/NSA_Drumkit/Kick/1a.ogg  seq_position=1
 <region> lovel=0    hivel=24   sample=MDL_samples/drumset/NSA_Drumkit/Kick/1b.ogg  seq_position=2
 <region> lovel=25   hivel=48   sample=MDL_samples/drumset/NSA_Drumkit/Kick/2a.ogg  seq_position=1
@@ -39,13 +36,13 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // *****************
 // ** Cross Stick **
 // *****************
-<group> key=c#2  sw_lolast=c1  sw_hilast=d1  lovel=0  hivel=104  loop_mode=one_shot  group_volume=-2  transpose=2  pan=3
+<group> key=c#2  sw_lolast=c1  sw_hilast=d1  lovel=0  hivel=104  loop_mode=one_shot  group_volume=3  transpose=2  pan=3
   fil_type=lpf_1p  cutoff=1500  fil_veltrack=9600
 <region> sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/SStick_1.ogg  lorand=0.00  hirand=0.33
 <region> sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/SStick_2.ogg  lorand=0.33  hirand=0.66
 <region> sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/SStick_3.ogg  lorand=0.66  hirand=1.00
 
-<group> key=c#2  lovel=105  hivel=127  loop_mode=one_shot  group_volume=-2  transpose=2  pan=3
+<group> key=c#2  lovel=105  hivel=127  loop_mode=one_shot  group_volume=3  transpose=2  pan=3
 <region> sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/SStick_1.ogg  lorand=0.00  hirand=0.33
 <region> sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/SStick_2.ogg  lorand=0.33  hirand=0.66
 <region> sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/SStick_3.ogg  lorand=0.66  hirand=1.00
@@ -54,7 +51,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // **  Snare Hit  **
 // ** (snares on) **
 // *****************
-<group> key=d2  sw_lolast=c1  sw_hilast=c#1  loop_mode=one_shot  seq_length=2  transpose=-1  group_volume=3  pan=3
+<group> key=d2  sw_lolast=c1  sw_hilast=c#1  loop_mode=one_shot  seq_length=2  transpose=-1  group_volume=8  pan=3
 <region> lovel=0    hivel=17   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/1_LI.ogg  seq_position=1
 <region> lovel=0    hivel=17   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/1_RI.ogg  seq_position=2
 <region> lovel=18   hivel=36   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/2_LI.ogg  seq_position=1
@@ -75,7 +72,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // **  Snare Hit   **
 // ** (snares off) **
 // ******************
-<group> key=d2  sw_lolast=d1  sw_hilast=d1  loop_mode=one_shot  seq_length=2  transpose=-1  pan=3
+<group> key=d2  sw_lolast=d1  sw_hilast=d1  loop_mode=one_shot  seq_length=2  transpose=-1  pan=3  group_volume=8
 <region> lovel=1    hivel=37   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/SnareOff_1.ogg   seq_position=1
 <region> lovel=1    hivel=37   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/SnareOff_1b.ogg  seq_position=2
 <region> lovel=38   hivel=72   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/SnareOff_2.ogg   seq_position=1
@@ -90,7 +87,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ** Snare Roll  **
 // ** (snares on) **
 // *****************
-<group> key=d#2  sw_lolast=c1  sw_hilast=c#1  loop_mode=loop_sustain  ampeg_release=0.5  group_volume=-2  transpose=-1  pan=3
+<group> key=d#2  sw_lolast=c1  sw_hilast=c#1  loop_mode=loop_sustain  ampeg_release=0.5  group_volume=3  transpose=-1  pan=3
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/Roll_2.ogg
   loop_start=14193  loop_end=93455
 <region> lovel=70  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/Roll_1.ogg
@@ -101,7 +98,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // **  Snare Roll  **
 // ** (snares off) **
 // ******************
-<group> key=d#2  sw_lolast=d1  sw_hilast=d1  loop_mode=loop_sustain  ampeg_release=0.5  group_volume=0  transpose=1  pan=3
+<group> key=d#2  sw_lolast=d1  sw_hilast=d1  loop_mode=loop_sustain  ampeg_release=0.5  group_volume=5  transpose=1  pan=3
 <region> lovel=0    hivel=39   sample=MDL_samples/drumset/VCSL/Snare2_rollNS_v2_rr1_mono_looped.ogg  volume=21
   loop_start=80896  loop_end=161652
 <region> lovel=40   hivel=69   sample=MDL_samples/drumset/VCSL/Snare2_rollNS_v3_rr1_mono_looped.ogg  volume=11
@@ -116,7 +113,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ** Snare Rim Shot **
 // **  (snares on)   **
 // ********************
-<group> key=e2  sw_lolast=c1  sw_hilast=c#1  loop_mode=one_shot  seq_length=2  transpose=-1  group_volume=2  pan=3
+<group> key=e2  sw_lolast=c1  sw_hilast=c#1  loop_mode=one_shot  seq_length=2  transpose=-1  group_volume=7  pan=3
 <region> lovel=0    hivel=49   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/Rim_1.ogg   seq_position=1
 <region> lovel=0    hivel=49   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/Rim_1b.ogg  seq_position=2
 <region> lovel=50   hivel=98   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/Rim_2.ogg   seq_position=1
@@ -131,7 +128,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ** Snare Rim Shot **
 // **  (snares off)  **
 // ********************
-<group> key=e2  sw_lolast=d1  sw_hilast=d1  loop_mode=one_shot  transpose=-1  pan=3
+<group> key=e2  sw_lolast=d1  sw_hilast=d1  loop_mode=one_shot  transpose=-1  pan=3 group_volume=5
 <region> lovel=1    hivel=37   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/RimSnareOff_1.ogg
 <region> lovel=38   hivel=72   sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/RimSnareOff_2.ogg
 <region> lovel=73   hivel=101  sample=MDL_samples/drumset/NSA_Drumkit/Snare/Mono3/RimSnareOff_3.ogg
@@ -141,7 +138,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***********
 // ** Tom 6 **
 // ***********
-<group> key=f2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=-15  group=3  off_by=3
+<group> key=f2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=-15  group=3  off_by=3  group_volume=5
 <region> lovel=0    hivel=37   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom6/1_mono.ogg
 <region> lovel=38   hivel=72   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom6/2_mono.ogg
 <region> lovel=73   hivel=101  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom6/3_mono.ogg
@@ -151,7 +148,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***********
 // ** Tom 5 **
 // ***********
-<group> key=g2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=-9  group=4  off_by=4
+<group> key=g2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=-9  group=4  off_by=4  group_volume=5
 <region> lovel=0    hivel=22   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom5/1_mono.ogg
 <region> lovel=23   hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom5/2_mono.ogg
 <region> lovel=45   hivel=66   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom5/3_mono.ogg
@@ -162,7 +159,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***********
 // ** Tom 4 **
 // ***********
-<group> key=a2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=-3  group_volume=-1  group=5  off_by=5
+<group> key=a2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=-3  group_volume=4 group=5  off_by=5 
 <region> lovel=0    hivel=22   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom4/1_mono.ogg
 <region> lovel=23   hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom4/2_mono.ogg
 <region> lovel=45   hivel=66   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom4/3_mono.ogg
@@ -173,7 +170,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***********
 // ** Tom 3 **
 // ***********
-<group> key=b2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=3  group_volume=-2  group=6  off_by=6
+<group> key=b2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=3  group_volume=3  group=6  off_by=6
 <region> lovel=0    hivel=17   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/1_mono.ogg
 <region> lovel=18   hivel=35   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/2_mono.ogg
 <region> lovel=36   hivel=53   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom3/3_mono.ogg
@@ -187,7 +184,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***********
 // ** Tom 2 **
 // ***********
-<group> key=c3  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=9  group_volume=-3  group=7  off_by=7
+<group> key=c3  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=9  group_volume=2  group=7  off_by=7
 <region> lovel=0   hivel=24   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom2/1_mono.ogg
 <region> lovel=25  hivel=48   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom2/2_mono.ogg
 <region> lovel=49  hivel=70   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom2/3_mono.ogg
@@ -197,17 +194,17 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***********
 // ** Tom 1 **
 // ***********
-<group> key=d3  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=15  group_volume=-4  group=8  off_by=8
-<region> lovel=0   hivel=24   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/1_mono.ogg  volume=-1.5
-<region> lovel=25  hivel=48   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/2_mono.ogg  volume=-1.5
-<region> lovel=49  hivel=70   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/3_mono.ogg  volume=-1.5
-<region> lovel=71  hivel=94   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/4_mono.ogg  volume=-1.5
-<region> lovel=95  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/5_mono.ogg  volume=3.5
+<group> key=d3  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.25  off_mode=normal  pan=15  group_volume=1  group=8  off_by=8
+<region> lovel=0   hivel=24   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/1_mono.ogg
+<region> lovel=25  hivel=48   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/2_mono.ogg
+<region> lovel=49  hivel=70   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/3_mono.ogg
+<region> lovel=71  hivel=94   sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/4_mono.ogg
+<region> lovel=95  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Tom/Tom1/5_mono.ogg  volume=4
 
 // *******************
 // ** Hi-Hat Closed **
 // *******************
-<group> key=f#2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  seq_length=2  volume=-15  group=1  pan=20
+<group> key=f#2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  seq_length=2  volume=-9  group=1  pan=20
 <region> lovel=1   hivel=32   sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Closed1a.ogg  seq_position=1
 <region> lovel=1   hivel=32   sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Closed1b.ogg  seq_position=2
 <region> lovel=33  hivel=55   sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Closed2a.ogg  seq_position=1
@@ -220,7 +217,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // *****************
 // ** Hi-Hat Foot **
 // *****************
-<group> key=g#2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  volume=-19  group=1 pan=20
+<group> key=g#2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  volume=-14  group=1 pan=20
 <region> lovel=1   hivel=42   sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Pedal_1.ogg
 <region> lovel=43  hivel=97   sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Pedal_2.ogg
 <region> lovel=98  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Pedal_3.ogg
@@ -228,7 +225,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // *****************
 // ** Hi-Hat Open **
 // *****************
-<group> key=a#2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.3  off_mode=normal  group=2  off_by=1  seq_length=2  volume=-12  pan=20
+<group> key=a#2  sw_lolast=c1  sw_hilast=d1  loop_mode=one_shot  ampeg_release=0.3  off_mode=normal  group=2  off_by=1  seq_length=2  volume=-7  pan=20
 <region> lovel=1    hivel=100  sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Open1a.ogg  seq_position=1
 <region> lovel=1    hivel=100  sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Open1b.ogg  seq_position=2
 <region> lovel=101  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/HiHat/Mono/Open2a.ogg  seq_position=1
@@ -237,7 +234,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** 18" Crash **
 // ***************
-<group> key=c#3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  group_volume=-8  pan=-30
+<group> key=c#3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  group_volume=-3  pan=-30
 <region>  lovel=1    hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/18/tip1.ogg
 <region>  lovel=45   hivel=69   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/18/tip2.ogg
 <region>  lovel=70   hivel=104  sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/18/tip2.ogg   volume=-12  amp_veltrack=0
@@ -252,7 +249,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // **********************
 // ** Ride Cymbal Edge **
 // **********************
-<group> key=d#3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  seq_length=2  volume=-8  pan=-35
+<group> key=d#3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  seq_length=2  volume=-5  pan=-35
 <region> lovel=1   hivel=49   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bow1.ogg   seq_position=1
 <region> lovel=1   hivel=49   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/edge1.ogg  seq_position=2
 <region> lovel=50  hivel=98   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bow2.ogg   seq_position=1
@@ -263,7 +260,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ******************
 // ** China Cymbal **
 // ******************
-<group> key=e3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  group_volume=-8  pan=-40
+<group> key=e3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  group_volume=-3  pan=-40
 <region>  lovel=1    hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/China/tip1.ogg
 <region>  lovel=45   hivel=69   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/China/tip2.ogg
 <region>  lovel=70   hivel=104  sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/China/tip2.ogg   volume=-12  amp_veltrack=0
@@ -278,7 +275,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // **********************
 // ** Ride Cymbal Bell **
 // **********************
-<group> key=f3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  volume=-8  pan=-35
+<group> key=f3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  volume=-3  pan=-35
 <region> lovel=1   hivel=49   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bell1.ogg
 <region> lovel=50  hivel=98   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bell2.ogg
 <region> lovel=99  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Ride20/bell3.ogg
@@ -286,7 +283,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** 8" Splash **
 // ***************
-<group> key=g3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  group_volume=-10  pan=40
+<group> key=g3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  group_volume=-5  pan=40
 <region> lovel=1   hivel=49   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Splash8/bow1.ogg
 <region> lovel=50  hivel=98   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Splash8/bow2.ogg
 <region> lovel=99  hivel=127  sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/Splash8/bow3.ogg  volume=4
@@ -294,7 +291,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** 16" Crash **
 // ***************
-<group> key=a3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  seq_length=2  group_volume=-8  pan=35
+<group> key=a3  sw_lolast=c1  sw_hilast=d1  ampeg_release=20  seq_length=2  group_volume=-3  pan=35
 <region>  lovel=1    hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/16/tip1.ogg     seq_position=1
 <region>  lovel=1    hivel=44   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/16/tip1a.ogg    seq_position=2
 <region>  lovel=45   hivel=69   sample=MDL_samples/drumset/NSA_Drumkit/Cymbal/16/tip2.ogg     seq_position=1
@@ -311,7 +308,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** Tom 6 Rim **
 // ***************
-<group> key=f4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-1  pan=-15  transpose=-2  tune=-20
+<group> key=f4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=1  pan=-15  transpose=-2  tune=-20
   ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr1_mono.ogg  seq_position=1  volume=12
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr2_mono.ogg  seq_position=2  volume=12
@@ -321,7 +318,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** Tom 5 Rim **
 // ***************
-<group> key=g4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-1  pan=-9
+<group> key=g4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=1  pan=-9
   ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr1_mono.ogg  seq_position=1  volume=12
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr2_mono.ogg  seq_position=2  volume=12
@@ -331,7 +328,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** Tom 4 Rim **
 // ***************
-<group> key=a4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-1  pan=-3  transpose=2  tune=20
+<group> key=a4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=1  pan=-3  transpose=2  tune=20
   ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr1_mono.ogg  seq_position=1  volume=12
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomL_rimS_v2_rr2_mono.ogg  seq_position=2  volume=12
@@ -341,7 +338,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** Tom 3 Rim **
 // ***************
-<group> key=b4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-1  pan=3
+<group> key=b4  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=1  pan=3
   ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr1_mono.ogg  seq_position=1  volume=13
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr2_mono.ogg  seq_position=2  volume=13
@@ -351,7 +348,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** Tom 2 Rim **
 // ***************
-<group> key=c5  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-1  pan=9  transpose=4  tune=50
+<group> key=c5  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=1  pan=9  transpose=4  tune=50
   ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
   fil_type=lpf_1p  cutoff=9000
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr1_mono.ogg  seq_position=1  volume=13
@@ -362,7 +359,7 @@ sw_lokey=c1  sw_hikey=d1  sw_default=c1
 // ***************
 // ** Tom 1 Rim **
 // ***************
-<group> key=d5  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=-1  pan=15  transpose=8  tune=20
+<group> key=d5  sw_lolast=c1  sw_hilast=d1  seq_length=2  group_volume=1  pan=15  transpose=8  tune=20
   ampeg_decay=3  ampeg_sustain=0  ampeg_release=3
   fil_type=lpf_1p  cutoff=9000
 <region> lovel=0   hivel=69   sample=MDL_samples/drumset/VCSL/TomH_rimS_v2_rr1_mono.ogg  seq_position=1  volume=13
