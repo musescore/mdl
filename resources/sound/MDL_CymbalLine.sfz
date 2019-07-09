@@ -1,14 +1,17 @@
 // *****************************
-// ** MuseScore Drumline v0.5 **
+// *****************************
+// ** MuseScore Drumline      **
+// **        v1.3.0           **
 // **       CymbalLine        **
 // **   SFZ programming by    **
-// **  S. Christian Collins   **
+// **  S. Christian Collins & **
+// **       Daniel Ray        **
 // *****************************
 
 // ******************
 // ** Port Crash 3 **
 // ******************
-<group> key=c2  ampeg_release=20 group_volume=5
+<group> key=c2  ampeg_release=20
 <region> lovel=110  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_L.ogg    lorand=0.0  hirand=0.5
 <region> lovel=110  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_R.ogg    lorand=0.0  hirand=0.5
 <region> lovel=110  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_2_L.ogg  lorand=0.5  hirand=1.0
@@ -23,7 +26,7 @@
 // ************************
 // ** Orchestral Crash 3 **
 // ************************
-<group> key=c#2  ampeg_release=20 group_volume=5
+<group> key=c#2  ampeg_release=20
 <region> lovel=110  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_L.ogg    lorand=0.0  hirand=0.5
 <region> lovel=110  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_R.ogg    lorand=0.0  hirand=0.5
 <region> lovel=110  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_2_L.ogg  lorand=0.5  hirand=1.0
@@ -38,7 +41,7 @@
 // ******************
 // ** Flat Crash 3 **
 // ******************
-<group> key=d2  ampeg_release=20 group_volume=5
+<group> key=d2  ampeg_release=20
 <region> lovel=110  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_L.ogg    lorand=0.0  hirand=0.5
 <region> lovel=110  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_R.ogg    lorand=0.0  hirand=0.5
 <region> lovel=110  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_2_L.ogg  lorand=0.5  hirand=1.0
@@ -53,21 +56,21 @@
 // ***********************
 // ** Crash Choke Fat 3 **
 // ***********************
-<group> key=e2  ampeg_release=2  group_volume=5
+<group> key=e2  ampeg_release=2  group_volume=1.5
 <region> pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_tight_L.ogg
 <region> pan=50   sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_tight_R.ogg
 
 // ****************
 // ** Tap Edge 3 **
 // ****************
-<group> key=g2  ampeg_attack=0.05  ampeg_release=20  offset=35000  group_volume=8
+<group> key=g2  ampeg_attack=0.05  ampeg_release=20  offset=35000  group_volume=3
   fil_type=hpf_2p  cutoff=400
 <region> lovel=64  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_L.ogg  volume=8
 <region> lovel=64  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_R.ogg  volume=8
 <region> lovel=1   hivel=63   pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_pp_loose_L.ogg  volume=28
 <region> lovel=1   hivel=63   pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_pp_loose_R.ogg  volume=28
 
-<group> key=g2  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-9
+<group> key=g2  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-14
   fil_type=lpf_2p  cutoff=9500
 <region> lovel=95  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_L.ogg  offset=3200  volume=8
 <region> lovel=95  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_R.ogg  offset=3200  volume=8
@@ -77,11 +80,11 @@
 // *****************
 // ** Tap Choke 3 **
 // *****************
-<group> key=g#2  loop_mode=one_shot  ampeg_attack=0.005  group_volume=4  offset=29000
+<group> key=g#2  loop_mode=one_shot  ampeg_attack=0.005  group_volume=-1  offset=29000
 <region> pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_tight_L.ogg
 <region> pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_tight_R.ogg
 
-<group> key=g#2  group_volume=2
+<group> key=g#2  group_volume=-3
   ampeg_attack=0.004  ampeg_decay=2  ampeg_sustain=0  ampeg_release=2
   fileg_attack=0      fileg_decay=2  fileg_sustain=0  fileg_release=2  fileg_depth=6500
   fil_type=lpf_1p  cutoff=1000
@@ -94,17 +97,17 @@
 // ** Crunch Choke 3 **
 // ********************
 <group> key=a2  loop_mode=one_shot
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_verytight_L.ogg  pan=-100  volume=8
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_verytight_R.ogg  pan=50  volume=8
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_verytight_L.ogg  pan=-100  volume=3
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_verytight_R.ogg  pan=50  volume=3
 
 // ********************
 // ** Hi-Hat Choke 3 **
 // ********************
-<group> key=a#2  loop_mode=one_shot  transpose=-6  tune=50  group_volume=14
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  seq_length=2
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  seq_length=2
+<group> key=a#2  loop_mode=one_shot  seq_length=2  transpose=-6  tune=50  group_volume=9
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2
 
-<group> key=a#2  loop_mode=one_shot  group_volume=2
+<group> key=a#2  loop_mode=one_shot  group_volume=-3
   ampeg_attack=0.004  ampeg_hold=0.02  ampeg_decay=0.8  ampeg_sustain=0  ampeg_release=0.8
   fileg_attack=0      fileg_decay=2  fileg_sustain=0  fileg_release=2  fileg_depth=6500
   fil_type=lpf_1p  cutoff=3000
@@ -116,13 +119,13 @@
 // **************
 // ** Sizzle 3 **
 // **************
-<group> key=b2  loop_mode=one_shot  ampeg_release=0.5  transpose=-6  tune=50  off_mode=normal  group=2  off_by=1  group_volume=9
+<group> key=b2  loop_mode=one_shot  ampeg_release=0.5  transpose=-6  tune=50  off_mode=normal  group=2  off_by=1  group_volume=4
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr1.ogg  seq_position=1  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr2.ogg  seq_position=2  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  lorand=0.0  hirand=0.5  volume=3
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  lorand=0.5  hirand=1.0  volume=3
 
-<group> key=b2  loop_mode=one_shot  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=3
+<group> key=b2  loop_mode=one_shot  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=-2
   ampeg_attack=0.05  ampeg_decay=20  ampeg_sustain=0  ampeg_release=0.5
 <region> lovel=64  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_L.ogg  volume=8
 <region> lovel=64  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_R.ogg  volume=8
@@ -132,11 +135,11 @@
 // *******************
 // ** Vacuum Suck 3 **
 // *******************
-<group> key=c3  loop_mode=one_shot  transpose=-6  tune=50  group=1  group_volume=11
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  seq_length=2  delay=0.03
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  seq_length=2  delay=0.02
+<group> key=c3  loop_mode=one_shot  seq_length=2  transpose=-6  tune=50  group=1  group_volume=6
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  delay=0.03
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  delay=0.02
 
-<group> key=c3  loop_mode=one_shot  delay=0.045  group_volume=2
+<group> key=c3  loop_mode=one_shot  delay=0.045  group_volume=-3
   ampeg_attack=0.004  ampeg_decay=1.5  ampeg_sustain=0  ampeg_release=1.5
   fileg_attack=0      fileg_decay=1  fileg_sustain=0  fileg_release=1  fileg_depth=8500
   fil_type=lpf_1p  cutoff=200
@@ -145,7 +148,7 @@
 <region> lovel=1   hivel=84   pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_pp_loose_L.ogg  offset=800  volume=28
 <region> lovel=1   hivel=84   pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_pp_loose_R.ogg  offset=800  volume=28
 
-<group> key=c3  loop_mode=one_shot  offset=1000  group_volume=-14
+<group> key=c3  loop_mode=one_shot  offset=1000  group_volume=-19
   ampeg_attack=0.1  ampeg_decay=0.1  ampeg_sustain=0  ampeg_release=0.1
 <region> lovel=110  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_L.ogg    lorand=0.0  hirand=0.5
 <region> lovel=110  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_R.ogg    lorand=0.0  hirand=0.5
@@ -161,24 +164,24 @@
 // *******************
 // ** Sizzle-Suck 3 **
 // *******************
-<group> key=c#3  ampeg_release=0.5  transpose=-6  tune=50  off_mode=normal  group=2  off_by=1  group_volume=9
+<group> key=c#3  ampeg_release=0.5  transpose=-6  tune=50  off_mode=normal  group=2  off_by=1  group_volume=4
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr1.ogg  seq_position=1  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr2.ogg  seq_position=2  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  lorand=0.0  hirand=0.5  volume=3
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  lorand=0.5  hirand=1.0  volume=3
 
-<group> key=c#3  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=3
+<group> key=c#3  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=-2
   ampeg_attack=0.05  ampeg_decay=20  ampeg_sustain=0  ampeg_release=0.5
 <region> lovel=64  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_L.ogg  volume=8
 <region> lovel=64  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_R.ogg  volume=8
 <region> lovel=1   hivel=63   pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_pp_loose_L.ogg  volume=28
 <region> lovel=1   hivel=63   pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_pp_loose_R.ogg  volume=28
 
-<group> key=c#3  trigger=release  loop_mode=one_shot  transpose=-6  tune=50  group=1  group_volume=6
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  seq_length=2  delay=0.03
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  seq_length=2  delay=0.02
+<group> key=c#3  trigger=release  loop_mode=one_shot  seq_length=2  transpose=-6  tune=50  group=1  group_volume=6
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  delay=0.03
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  delay=0.02
 
-<group> key=c#3  trigger=release  loop_mode=one_shot  delay=0.045  group_volume=2
+<group> key=c#3  trigger=release  loop_mode=one_shot  delay=0.045  group_volume=-3
   ampeg_attack=0.004  ampeg_decay=1.5  ampeg_sustain=0  ampeg_release=1.5
   fileg_attack=0      fileg_decay=1  fileg_sustain=0  fileg_release=1  fileg_depth=8500
   fil_type=lpf_1p  cutoff=200
@@ -187,7 +190,7 @@
 <region> lovel=1   hivel=84   pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_pp_loose_L.ogg  offset=800  volume=28
 <region> lovel=1   hivel=84   pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_pp_loose_R.ogg  offset=800  volume=28
 
-<group> key=c#3  trigger=release  loop_mode=one_shot  offset=1000  group_volume=-14
+<group> key=c#3  trigger=release  loop_mode=one_shot  offset=1000  group_volume=-19
   ampeg_attack=0.1  ampeg_decay=0.1  ampeg_sustain=0  ampeg_release=0.1
 <region> lovel=110  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_L.ogg    lorand=0.0  hirand=0.5
 <region> lovel=110  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_fff_loose_R.ogg    lorand=0.0  hirand=0.5
@@ -203,11 +206,11 @@
 // ************
 // ** Ding 3 **
 // ************
-<group> key=d3  ampeg_attack=0.05  ampeg_release=20  pan=-18  tune=30  offset=1000 group_volume=5
+<group> key=d3  ampeg_attack=0.05  ampeg_release=20  pan=-18  tune=30  offset=1000
 <region> lovel=1   hivel=94   sample=MDL_samples/cymbals/suspended_cymbal/1_hit_bell_pp1.ogg
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/suspended_cymbal/1_hit_bell_mf1.ogg
 
-<group> key=d3  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-7
+<group> key=d3  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-12
   fil_type=lpf_2p  cutoff=6000
 <region> lovel=95  hivel=127  pan=-100  sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_L.ogg  offset=3200  volume=8
 <region> lovel=95  hivel=127  pan=50    sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_R.ogg  offset=3200  volume=8
@@ -218,14 +221,14 @@
 // ** Zing 3 **
 // ************
 <group> key=d#3  loop_mode=one_shot  ampeg_release=20
-<region> sample=MDL_samples/cymbals/suspended_cymbal/1_scrape_1.ogg  transpose=-2  tune=-20  pan=-18  volume=11
+<region> sample=MDL_samples/cymbals/suspended_cymbal/1_scrape_1.ogg  transpose=-2  tune=-20  pan=-18  volume=6
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_L.ogg  pan=-100  delay=0.06  ampeg_attack=0.3  offset=500  volume=-9
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_mp_loose_R.ogg  pan=50    delay=0.06  ampeg_attack=0.3  offset=500  volume=-9
 
 // ******************
 // ** Whale Call 3 **
 // ******************
-<group> key=e3  ampeg_release=10  pan=-18  transpose=-1  tune=-20 group_volume=5
+<group> key=e3  ampeg_release=10  pan=-18  transpose=-1  tune=-20
 <region> sample=MDL_samples/cymbals/suspended_cymbal/1_whale_call_simulated_looped.ogg  volume=-9
   loop_mode=loop_continuous  loop_start=77561  loop_end=347005
 
@@ -234,7 +237,7 @@
 // ******************
 // ** Port Crash 2 **
 // ******************
-<group> key=c4  ampeg_release=20 group_volume=5
+<group> key=c4  ampeg_release=20
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_fff1.ogg  lorand=0.0  hirand=0.5
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_fff2.ogg  lorand=0.5  hirand=1.0
 <region> lovel=75   hivel=99   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg                            volume=6
@@ -244,7 +247,7 @@
 // ************************
 // ** Orchestral Crash 2 **
 // ************************
-<group> key=c#4  ampeg_release=20 group_volume=5
+<group> key=c#4  ampeg_release=20
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_fff1.ogg  lorand=0.0  hirand=0.5
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_fff2.ogg  lorand=0.5  hirand=1.0
 <region> lovel=75   hivel=99   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg                            volume=6
@@ -254,7 +257,7 @@
 // ******************
 // ** Flat Crash 2 **
 // ******************
-<group> key=d4  ampeg_release=20 group_volume=5
+<group> key=d4  ampeg_release=20
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_fff1.ogg  lorand=0.0  hirand=0.5
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_fff2.ogg  lorand=0.5  hirand=1.0
 <region> lovel=75   hivel=99   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg                            volume=6
@@ -264,9 +267,9 @@
 // ***********************
 // ** Crash Choke Fat 2 **
 // ***********************
-<group> key=e4  loop_mode=one_shot  ampeg_delay=0.2  ampeg_attack=0.4  ampeg_release=2  pan=-8 group_volume=5
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short1.ogg  seq_position=1  seq_length=2
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short2.ogg  seq_position=2  seq_length=2
+<group> key=e4  loop_mode=one_shot  seq_length=2  ampeg_delay=0.2  ampeg_attack=0.4  ampeg_release=2  pan=-8
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short1.ogg  seq_position=1
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short2.ogg  seq_position=2
 
 <group> key=e4  loop_mode=one_shot  ampeg_hold=0.4  ampeg_decay=0.6  ampeg_sustain=0  ampeg_release=0.3
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_fff1.ogg  lorand=0.0  hirand=0.5
@@ -278,72 +281,72 @@
 // ****************
 // ** Tap Edge 2 **
 // ****************
-<group> key=g4  ampeg_attack=0.05  ampeg_release=20  offset=35000  group_volume=8
+<group> key=g4  ampeg_attack=0.05  ampeg_release=20  offset=35000  group_volume=3
   fil_type=hpf_2p  cutoff=400
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  lorand=0.0  hirand=0.5  volume=12
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  lorand=0.5  hirand=1.0  volume=12
 
-<group> key=g4  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-9
+<group> key=g4  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  seq_length=2  group_volume=-14
   fil_type=lpf_2p  cutoff=9500
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  seq_position=1  seq_length=2  offset=1400  volume=12
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  seq_position=2  seq_length=2  offset=2300  volume=12
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  seq_position=1  offset=1400  volume=12
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  seq_position=2  offset=2300  volume=12
 
 // *****************
 // ** Tap Choke 2 **
 // *****************
-<group> key=g#4  loop_mode=one_shot  ampeg_attack=0.005  group_volume=7  pan=-8
+<group> key=g#4  loop_mode=one_shot  ampeg_attack=0.005  group_volume=2  pan=-8
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short1.ogg  offset=16000  volume=4
 <region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short2.ogg  offset=17000  volume=4
 
-<group> key=g#4  group_volume=2
+<group> key=g#4  seq_length=2  group_volume=-3
   ampeg_attack=0.004  ampeg_decay=2  ampeg_sustain=0  ampeg_release=2
   fileg_attack=0      fileg_decay=2  fileg_sustain=0  fileg_release=2  fileg_depth=6500
   fil_type=lpf_1p  cutoff=1000
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  seq_position=1  seq_length=2  offset=1400  volume=12
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  seq_position=2  seq_length=2  offset=2300  volume=12
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  seq_position=1  offset=1400  volume=12
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  seq_position=2  offset=2300  volume=12
 
 // ********************
 // ** Crunch Choke 2 **
 // ********************
-<group> key=a4  loop_mode=one_shot  ampeg_attack=0.05  ampeg_decay=1.5  ampeg_sustain=0  ampeg_release=1.5  group_volume=-1
+<group> key=a4  loop_mode=one_shot  ampeg_attack=0.05  ampeg_decay=1.5  ampeg_sustain=0  ampeg_release=1.5  group_volume=-6
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_verytight_L.ogg  pan=92    tune=20  volume=3
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_verytight_R.ogg  pan=-100  tune=20  volume=3
 
-<group> key=a4  loop_mode=one_shot  group_volume=8
+<group> key=a4  loop_mode=one_shot  seq_length=2  group_volume=3
   ampeg_attack=0.004  ampeg_hold=0.02  ampeg_decay=0.8  ampeg_sustain=0  ampeg_release=0.8
   fileg_attack=0      fileg_decay=2  fileg_sustain=0  fileg_release=2  fileg_depth=6500
   fil_type=lpf_1p  cutoff=3000
-<region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg   seq_position=1  seq_length=2  offset=600  volume=6
-<region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg   seq_position=2  seq_length=2  offset=800  volume=6
-<region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  seq_position=1  seq_length=2  volume=12
-<region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  seq_position=2  seq_length=2  volume=12
+<region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg   seq_position=1  offset=600  volume=6
+<region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg   seq_position=2  offset=800  volume=6
+<region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  seq_position=1  volume=12
+<region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  seq_position=2  volume=12
 
 // ********************
 // ** Hi-Hat Choke 2 **
 // ********************
-<group> key=a#4  loop_mode=one_shot  transpose=-5  tune=30  pan=20  group_volume=20
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  seq_length=2
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  seq_length=2
+<group> key=a#4  loop_mode=one_shot  seq_length=2  transpose=-5  tune=30  pan=20  group_volume=15
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2
 
-<group> key=a#4  loop_mode=one_shot  group_volume=2
+<group> key=a#4  loop_mode=one_shot  seq_length=2  group_volume=-3
   ampeg_attack=0.004  ampeg_hold=0.02  ampeg_decay=0.8  ampeg_sustain=0  ampeg_release=0.8
   fileg_attack=0      fileg_decay=2  fileg_sustain=0  fileg_release=2  fileg_depth=6500
   fil_type=lpf_1p  cutoff=3000
-<region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg   seq_position=1  seq_length=2  offset=600  volume=6
-<region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg   seq_position=2  seq_length=2  offset=800  volume=6
-<region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  seq_position=1  seq_length=2  volume=12
-<region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  seq_position=2  seq_length=2  volume=12
+<region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg   seq_position=1  offset=600  volume=6
+<region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg   seq_position=2  offset=800  volume=6
+<region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  seq_position=1  volume=12
+<region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  seq_position=2  volume=12
 
 // **************
 // ** Sizzle 2 **
 // **************
-<group> key=b4  loop_mode=one_shot  ampeg_release=0.5  transpose=-5  tune=30  pan=20  off_mode=normal  group=2  off_by=1  group_volume=9
+<group> key=b4  loop_mode=one_shot  ampeg_release=0.5  transpose=-5  tune=30  pan=20  off_mode=normal  group=2  off_by=1  group_volume=4
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr1.ogg  seq_position=1  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr2.ogg  seq_position=2  seq_length=2
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  lorand=0.0  hirand=0.5  volume=8
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  lorand=0.5  hirand=1.0  volume=8
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  lorand=0.0  hirand=0.5  volume=3
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  lorand=0.5  hirand=1.0  volume=3
 
-<group> key=b4  loop_mode=one_shot  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=3
+<group> key=b4  loop_mode=one_shot  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=-2
   ampeg_attack=0.05  ampeg_decay=20  ampeg_sustain=0  ampeg_release=0.5
 <region> lovel=1  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  lorand=0.0  hirand=0.5  volume=12
 <region> lovel=1  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  lorand=0.5  hirand=1.0  volume=12
@@ -351,18 +354,18 @@
 // *******************
 // ** Vacuum Suck 2 **
 // *******************
-<group> key=c5  loop_mode=one_shot  transpose=-5  tune=30  pan=20  group=1  group_volume=17
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  seq_length=2  delay=0.03
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  seq_length=2  delay=0.01
+<group> key=c5  loop_mode=one_shot  seq_length=2  transpose=-5  tune=30  pan=20  group=1  group_volume=12
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  delay=0.03
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  delay=0.01
 
-<group> key=c5  loop_mode=one_shot  delay=0.05  group_volume=-1
+<group> key=c5  loop_mode=one_shot  delay=0.05  group_volume=-6
   ampeg_attack=0.004  ampeg_decay=1.5  ampeg_sustain=0  ampeg_release=1.5
   fileg_attack=0      fileg_decay=1  fileg_sustain=0  fileg_release=1  fileg_depth=5500
   fil_type=lpf_1p  cutoff=200
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  lorand=0.0  hirand=0.5  offset=900   volume=8
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  lorand=0.5  hirand=1.0  offset=1300  volume=8
 
-<group> key=c5  loop_mode=one_shot  offset=1000  group_volume=-18
+<group> key=c5  loop_mode=one_shot  offset=1000  group_volume=-23
   ampeg_attack=0.08  ampeg_decay=0.1  ampeg_sustain=0  ampeg_release=0.1
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg                           volume=6
 <region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  lorand=0.0  hirand=0.5  volume=12
@@ -371,29 +374,29 @@
 // *******************
 // ** Sizzle-Suck 2 **
 // *******************
-<group> key=c#5  ampeg_release=0.5  transpose=-5  tune=30  pan=20  off_mode=normal  group=2  off_by=1  group_volume=9
+<group> key=c#5  ampeg_release=0.5  transpose=-5  tune=30  pan=20  off_mode=normal  group=2  off_by=1  group_volume=4
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr1.ogg  seq_position=1  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr2.ogg  seq_position=2  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  lorand=0.0  hirand=0.5  volume=3
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  lorand=0.5  hirand=1.0  volume=3
 
-<group> key=c#5  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=3
+<group> key=c#5  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=-2
   ampeg_attack=0.05  ampeg_decay=20  ampeg_sustain=0  ampeg_release=0.5
 <region> lovel=1  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  lorand=0.0  hirand=0.5  volume=12
 <region> lovel=1  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  lorand=0.5  hirand=1.0  volume=12
 
-<group> key=c#5  trigger=release  loop_mode=one_shot  transpose=-5  tune=30  pan=20  group=1  group_volume=17
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  seq_length=2  delay=0.03
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  seq_length=2  delay=0.01
+<group> key=c#5  trigger=release  loop_mode=one_shot  seq_length=2  transpose=-5  tune=30  pan=20  group=1  group_volume=12
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  delay=0.03
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  delay=0.01
 
-<group> key=c#5  trigger=release  loop_mode=one_shot  delay=0.05  group_volume=-1
+<group> key=c#5  trigger=release  loop_mode=one_shot  delay=0.05  group_volume=-6
   ampeg_attack=0.004  ampeg_decay=1.5  ampeg_sustain=0  ampeg_release=1.5
   fileg_attack=0      fileg_decay=1  fileg_sustain=0  fileg_release=1  fileg_depth=5500
   fil_type=lpf_1p  cutoff=200
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  lorand=0.0  hirand=0.5  offset=900   volume=8
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  lorand=0.5  hirand=1.0  offset=1300  volume=8
 
-<group> key=c#5  trigger=release  loop_mode=one_shot  offset=1000  group_volume=-18
+<group> key=c#5  trigger=release  loop_mode=one_shot  offset=1000  group_volume=-23
   ampeg_attack=0.08  ampeg_decay=0.1  ampeg_sustain=0  ampeg_release=0.1
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_f1.ogg                           volume=6
 <region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  lorand=0.0  hirand=0.5  volume=12
@@ -406,7 +409,7 @@
 <region> lovel=1   hivel=79   sample=MDL_samples/cymbals/suspended_cymbal/1_hit_bell_pp1.ogg
 <region> lovel=80  hivel=127  sample=MDL_samples/cymbals/suspended_cymbal/1_hit_bell_mf1.ogg
 
-<group> key=d5  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-4
+<group> key=d5  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-9
   fil_type=lpf_2p  cutoff=6000
 <region> lovel=1    hivel=109  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  offset=2300  volume=12
 <region> lovel=110  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp2.ogg  offset=2300  volume=12
@@ -414,7 +417,7 @@
 // ************
 // ** Zing 2 **
 // ************
-<group> key=d#5  loop_mode=one_shot  ampeg_release=20 group_volume=5
+<group> key=d#5  loop_mode=one_shot  ampeg_release=20
 <region> sample=MDL_samples/cymbals/suspended_cymbal/1_scrape_1.ogg  volume=6  pan=-8
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/2_crash_mp1.ogg  delay=0.06  ampeg_attack=0.3  offset=500  volume=-6
 
@@ -422,7 +425,7 @@
 // ** Whale Call 2 **
 // ******************
 <group> key=e5  ampeg_release=10  pan=-8
-<region> sample=MDL_samples/cymbals/suspended_cymbal/1_whale_call_simulated_looped.ogg  volume=-4
+<region> sample=MDL_samples/cymbals/suspended_cymbal/1_whale_call_simulated_looped.ogg  volume=-9
   loop_mode=loop_continuous  loop_start=77561  loop_end=347005
 
 // *****************************************************************************************
@@ -430,7 +433,7 @@
 // ******************
 // ** Port Crash 1 **
 // ******************
-<group> key=c6  ampeg_release=20  group_volume=8
+<group> key=c6  ampeg_release=20  group_volume=3
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff2.ogg  lorand=0.0  hirand=0.5
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff3.ogg  lorand=0.5  hirand=1.0
 <region> lovel=75   hivel=99   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf1.ogg  lorand=0.0  hirand=0.5  volume=5
@@ -443,7 +446,7 @@
 // ************************
 // ** Orchestral Crash 1 **
 // ************************
-<group> key=c#6  ampeg_release=20  group_volume=8
+<group> key=c#6  ampeg_release=20  group_volume=3
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff2.ogg  lorand=0.0  hirand=0.5
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff3.ogg  lorand=0.5  hirand=1.0
 <region> lovel=75   hivel=99   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf1.ogg  lorand=0.0  hirand=0.5  volume=5
@@ -456,7 +459,7 @@
 // ******************
 // ** Flat Crash 1 **
 // ******************
-<group> key=d6  ampeg_release=20  group_volume=8
+<group> key=d6  ampeg_release=20  group_volume=3
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff2.ogg  lorand=0.0  hirand=0.5
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff3.ogg  lorand=0.5  hirand=1.0
 <region> lovel=75   hivel=99   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf1.ogg  lorand=0.0  hirand=0.5  volume=5
@@ -469,14 +472,14 @@
 // ***********************
 // ** Crash Choke Fat 1 **
 // ***********************
-<group> key=e6  ampeg_release=2  group_volume=11
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short1.ogg  seq_position=1  seq_length=2
-<region> sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short2.ogg  seq_position=2  seq_length=2
+<group> key=e6  ampeg_release=2  seq_length=2  group_volume=6
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short1.ogg  seq_position=1
+<region> sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short2.ogg  seq_position=2
 
 // ****************
 // ** Tap Edge 1 **
 // ****************
-<group> key=g6  ampeg_attack=0.05  ampeg_release=20  offset=35000  group_volume=11
+<group> key=g6  ampeg_attack=0.05  ampeg_release=20  offset=35000  group_volume=6
   fil_type=hpf_2p  cutoff=400
 <region> lovel=95   hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf1.ogg  volume=5
 <region> lovel=60   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mp1.ogg  lorand=0.0  hirand=0.5  volume=8
@@ -484,7 +487,7 @@
 <region> lovel=1    hivel=59   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_pp1.ogg  lorand=0.0  hirand=0.5  volume=11
 <region> lovel=1    hivel=59   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_pp2.ogg  lorand=0.5  hirand=1.0  volume=11
 
-<group> key=g6  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-6
+<group> key=g6  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-11
   fil_type=lpf_2p  cutoff=9500
 <region> lovel=95   hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf1.ogg  offset=800  volume=5
 <region> lovel=60   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mp1.ogg  offset=900  volume=8
@@ -493,11 +496,11 @@
 // *****************
 // ** Tap Choke 1 **
 // *****************
-<group> key=g#6  loop_mode=one_shot  ampeg_attack=0.005  group_volume=7
+<group> key=g#6  loop_mode=one_shot  ampeg_attack=0.005  group_volume=2
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short1.ogg  offset=12000
 <region> lovel=1   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_short2.ogg  offset=17000  volume=4
 
-<group> key=g#6  group_volume=5
+<group> key=g#6  group_volume=0
   ampeg_attack=0.004  ampeg_decay=2  ampeg_sustain=0  ampeg_release=2
   fileg_attack=0      fileg_decay=2  fileg_sustain=0  fileg_release=2  fileg_depth=6500
   fil_type=lpf_1p  cutoff=1000
@@ -508,11 +511,11 @@
 // ********************
 // ** Crunch Choke 1 **
 // ********************
-<group> key=a6  loop_mode=one_shot  ampeg_attack=0.05  ampeg_decay=3  ampeg_sustain=0  ampeg_release=3  group_volume=-4
+<group> key=a6  loop_mode=one_shot  ampeg_attack=0.05  ampeg_decay=3  ampeg_sustain=0  ampeg_release=3  group_volume=-9
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_verytight_L.ogg  pan=100   tune=20  volume=3
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/3_crash_ff_verytight_R.ogg  pan=-100  tune=20  volume=3
 
-<group> key=a6  loop_mode=one_shot  group_volume=11
+<group> key=a6  loop_mode=one_shot  group_volume=6
   ampeg_attack=0.004  ampeg_hold=0.02  ampeg_decay=0.8  ampeg_sustain=0  ampeg_release=0.8
   fileg_attack=0      fileg_decay=2  fileg_sustain=0  fileg_release=2  fileg_depth=6500
   fil_type=lpf_1p  cutoff=3000
@@ -523,11 +526,11 @@
 // ********************
 // ** Hi-Hat Choke 1 **
 // ********************
-<group> key=a#6  loop_mode=one_shot  transpose=-3  pan=25  group_volume=14
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  seq_length=2 
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  seq_length=2
+<group> key=a#6  loop_mode=one_shot  seq_length=2  transpose=-3  pan=25  group_volume=9
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1 
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2
 
-<group> key=a#6  loop_mode=one_shot  group_volume=5
+<group> key=a#6  loop_mode=one_shot  group_volume=0
   ampeg_attack=0.004  ampeg_hold=0.02  ampeg_decay=0.8  ampeg_sustain=0  ampeg_release=0.8
   fileg_attack=0      fileg_decay=2  fileg_sustain=0  fileg_release=2  fileg_depth=6500
   fil_type=lpf_1p  cutoff=3000
@@ -538,13 +541,13 @@
 // **************
 // ** Sizzle 1 **
 // **************
-<group> key=b6  loop_mode=one_shot  ampeg_release=0.5  transpose=-3  pan=25  off_mode=normal  group=2  off_by=1  group_volume=9
+<group> key=b6  loop_mode=one_shot  ampeg_release=0.5  transpose=-3  pan=25  off_mode=normal  group=2  off_by=1  group_volume=4
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr1.ogg  seq_position=1  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr2.ogg  seq_position=2  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  lorand=0.0  hirand=0.5  volume=3
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  lorand=0.5  hirand=1.0  volume=3
 
-<group> key=b6  loop_mode=one_shot  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=6
+<group> key=b6  loop_mode=one_shot  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=1
   ampeg_attack=0.05  ampeg_decay=20  ampeg_sustain=0  ampeg_release=0.5
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf1.ogg  lorand=0.0  hirand=0.5  volume=5
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf2.ogg  lorand=0.5  hirand=1.0  volume=5
@@ -556,11 +559,11 @@
 // *******************
 // ** Vacuum Suck 1 **
 // *******************
-<group> key=c7  loop_mode=one_shot  transpose=-3  pan=25  group=1  group_volume=11
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  seq_length=2  delay=0.03
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  seq_length=2  delay=0.02
+<group> key=c7  loop_mode=one_shot  seq_length=2  transpose=-3  pan=25  group=1  group_volume=6
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  delay=0.03
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  delay=0.02
 
-<group> key=c7  loop_mode=one_shot  delay=0.045  group_volume=5
+<group> key=c7  loop_mode=one_shot  delay=0.045  group_volume=0
   ampeg_attack=0.004  ampeg_decay=1.5  ampeg_sustain=0  ampeg_release=1.5
   fileg_attack=0      fileg_decay=1  fileg_sustain=0  fileg_release=1  fileg_depth=5500
   fil_type=lpf_1p  cutoff=200
@@ -568,7 +571,7 @@
 <region> lovel=60   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mp1.ogg  offset=900  volume=8
 <region> lovel=1    hivel=59   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_pp1.ogg  offset=1300  volume=11
 
-<group> key=c7  loop_mode=one_shot  offset=1000  group_volume=-11
+<group> key=c7  loop_mode=one_shot  offset=1000  group_volume=-16
   ampeg_attack=0.1  ampeg_decay=0.1  ampeg_sustain=0  ampeg_release=0.1
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff2.ogg  lorand=0.0  hirand=0.5
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff3.ogg  lorand=0.5  hirand=1.0
@@ -582,13 +585,13 @@
 // *******************
 // ** Sizzle-Suck 1 **
 // *******************
-<group> key=c#7  ampeg_release=0.5  transpose=-3  pan=25  off_mode=normal  group=2  off_by=1  group_volume=9
+<group> key=c#7  ampeg_release=0.5  transpose=-3  pan=25  off_mode=normal  group=2  off_by=1  group_volume=4
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr1.ogg  seq_position=1  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_HitO_rr2.ogg  seq_position=2  seq_length=2
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  lorand=0.0  hirand=0.5  volume=3
 <region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  lorand=0.5  hirand=1.0  volume=3
 
-<group> key=c#7  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=6
+<group> key=c#7  offset=2000  off_mode=normal  group=2  off_by=1  group_volume=1
   ampeg_attack=0.05  ampeg_decay=20  ampeg_sustain=0  ampeg_release=0.5
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf1.ogg  lorand=0.0  hirand=0.5  volume=5
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf2.ogg  lorand=0.5  hirand=1.0  volume=5
@@ -597,11 +600,11 @@
 <region> lovel=1   hivel=59   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_pp1.ogg  lorand=0.0  hirand=0.5  volume=11
 <region> lovel=1   hivel=59   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_pp2.ogg  lorand=0.5  hirand=1.0  volume=11
 
-<group> key=c#7  trigger=release  loop_mode=one_shot  transpose=-3  pan=25  group=1  group_volume=11
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  seq_length=2  delay=0.03
-<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  seq_length=2  delay=0.02
+<group> key=c#7  trigger=release  loop_mode=one_shot  seq_length=2  transpose=-3  pan=25  group=1  group_volume=6
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr1.ogg  seq_position=1  delay=0.03
+<region> sample=MDL_samples/cymbals/hi_hat/1_Close_rr2.ogg  seq_position=2  delay=0.02
 
-<group> key=c#7  trigger=release  loop_mode=one_shot  delay=0.045  group_volume=5
+<group> key=c#7  trigger=release  loop_mode=one_shot  delay=0.045  group_volume=0
   ampeg_attack=0.004  ampeg_decay=1.5  ampeg_sustain=0  ampeg_release=1.5
   fileg_attack=0      fileg_decay=1  fileg_sustain=0  fileg_release=1  fileg_depth=5500
   fil_type=lpf_1p  cutoff=200
@@ -609,7 +612,7 @@
 <region> lovel=60   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mp1.ogg  offset=900  volume=8
 <region> lovel=1    hivel=59   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_pp1.ogg  offset=1300  volume=11
 
-<group> key=c#7  trigger=release  loop_mode=one_shot  offset=1000  group_volume=-11
+<group> key=c#7  trigger=release  loop_mode=one_shot  offset=1000  group_volume=-16
   ampeg_attack=0.1  ampeg_decay=0.1  ampeg_sustain=0  ampeg_release=0.1
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff2.ogg  lorand=0.0  hirand=0.5
 <region> lovel=100  hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_ff3.ogg  lorand=0.5  hirand=1.0
@@ -623,11 +626,11 @@
 // ************
 // ** Ding 1 **
 // ************
-<group> key=d7  ampeg_attack=0.05  ampeg_release=20  transpose=5  tune=15  offset=1000 group_volume=5
+<group> key=d7  ampeg_attack=0.05  ampeg_release=20  transpose=5  tune=15  offset=1000
 <region> lovel=1   hivel=94   sample=MDL_samples/cymbals/suspended_cymbal/1_hit_bell_pp1.ogg
 <region> lovel=95  hivel=127  sample=MDL_samples/cymbals/suspended_cymbal/1_hit_bell_mf1.ogg
 
-<group> key=d7  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-4
+<group> key=d7  ampeg_attack=0.004  ampeg_decay=5  ampeg_sustain=0  ampeg_release=5  group_volume=-9
   fil_type=lpf_2p  cutoff=6000
 <region> lovel=95   hivel=127  sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mf1.ogg  offset=800  volume=5
 <region> lovel=60   hivel=94   sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mp1.ogg  offset=900  volume=8
@@ -636,13 +639,13 @@
 // ************
 // ** Zing 1 **
 // ************
-<group> key=d#7  loop_mode=one_shot  ampeg_release=20 group_volume=5
+<group> key=d#7  loop_mode=one_shot  ampeg_release=20
 <region> sample=MDL_samples/cymbals/suspended_cymbal/1_scrape_1.ogg  transpose=1  volume=6
 <region> sample=MDL_samples/cymbals/crash_cymbal_pair/1_crash_mp1.ogg  delay=0.06  ampeg_attack=0.3  offset=500  volume=-6
 
 // ******************
 // ** Whale Call 1 **
 // ******************
-<group> key=e7  ampeg_release=10  transpose=3  tune=-20 group_volume=5
+<group> key=e7  ampeg_release=10  transpose=3  tune=-20
 <region> sample=MDL_samples/cymbals/suspended_cymbal/1_whale_call_simulated_looped.ogg  volume=-9
   loop_mode=loop_continuous  loop_start=77561  loop_end=347005

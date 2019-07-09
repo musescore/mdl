@@ -3,6 +3,7 @@
     <InstrumentGroup id="marching-percussion">
         <name>Percussion - Marching</name>
         <Instrument id="mdl-snareline">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Snare Line</longName>
             <shortName>S. L.</shortName>
             <description>MDL Snare Line</description>
@@ -417,9 +418,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -427,19 +448,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -454,6 +463,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-snareline-a">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Snare Line A</longName>
             <shortName>SN. L.</shortName>
             <description>MDL Snare Line A</description>
@@ -764,9 +774,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -774,19 +804,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -800,6 +818,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-snaresolo">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Snare</longName>
             <shortName>SN.</shortName>
             <description>MDL Snare</description>
@@ -1027,9 +1046,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -1037,19 +1076,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -1063,6 +1090,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-snaresolo-a">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Snare A</longName>
             <shortName>SN.</shortName>
             <description>MDL Snare A</description>
@@ -1290,9 +1318,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -1300,19 +1348,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -1326,6 +1362,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-tenorline">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Tenor Line</longName>
             <shortName>T. L.</shortName>
             <description>MDL Tenor Line</description>
@@ -2106,9 +2143,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
+            <Articulation name="sforzato">
                 <velocity>127</velocity>
-                <gateTime>20</gateTime>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -2116,22 +2173,10 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
-                <velocity>100</velocity>
+                <velocity>80</velocity>
                 <gateTime>80</gateTime>
             </Articulation>
             <Channel>
@@ -2144,6 +2189,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-tenorsolo">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Tenors</longName>
             <shortName>Tenors</shortName>
             <description>MDL Tenors</description>
@@ -2803,9 +2849,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -2813,19 +2879,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -2840,6 +2894,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-flubs">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Flubs</longName>
             <shortName>FB.</shortName>
             <description>MDL Flubs</description>
@@ -3304,6 +3359,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-showtenorline">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Show Tenor Line</longName>
             <shortName>ST. L.</shortName>
             <description>MDL Show Tenor Line</description>
@@ -3420,9 +3476,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -3430,19 +3506,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -3457,6 +3521,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-bassline-10">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Bass Line 10</longName>
             <shortName>B. L.</shortName>
             <description>MDL Bass Line (10)</description>
@@ -4414,9 +4479,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -4424,19 +4509,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -4451,6 +4524,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-bassline-5">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Bass Line 5</longName>
             <shortName>B. L.</shortName>
             <description>MDL Bass Line (5)</description>
@@ -4903,9 +4977,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -4913,19 +5007,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -4940,6 +5022,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-cymballine">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Cymbal Line</longName>
             <shortName>C. L.</shortName>
             <description>MDL Cymbal Line</description>
@@ -5164,9 +5247,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -5174,19 +5277,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -5203,6 +5294,7 @@
     <InstrumentGroup id="unpitched-percussion">
         <name>Percussion - Unpitched</name>
         <Instrument id="mdl-rail">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Rail</longName>
             <shortName>RL.</shortName>
             <description>MDL Rail</description>
@@ -5360,9 +5452,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -5370,19 +5482,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -5396,6 +5496,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-drumset">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Drum Set</longName>
             <shortName>D. S.</shortName>
             <description>MDL Drum Set</description>
@@ -5610,9 +5711,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -5620,19 +5741,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
@@ -5652,6 +5761,7 @@
             <genre>marching</genre>
         </Instrument>
         <Instrument id="mdl-sampler">
+            <singleNoteDynamics>0</singleNoteDynamics>
             <longName>MDL Sampler</longName>
             <shortName>SLR.</shortName>
             <description>MDL Sampler</description>
@@ -5671,9 +5781,29 @@
                 <velocity>100</velocity>
                 <gateTime>100</gateTime>
             </Articulation>
-            <Articulation name="staccatissimo">
-                <velocity>100</velocity>
-                <gateTime>33</gateTime>
+            <Articulation name="sforzato">
+                <velocity>127</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="sforzatoStaccato">
+                <velocity>127</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="marcato">
+                <velocity>137</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="marcatoStaccato">
+                <velocity>137</velocity>
+                <gateTime>50</gateTime>
+            </Articulation>
+            <Articulation name="tenuto">
+                <velocity>115</velocity>
+                <gateTime>100</gateTime>
+            </Articulation>
+            <Articulation name="tenutoStaccato">
+                <velocity>115</velocity>
+                <gateTime>50</gateTime>
             </Articulation>
             <Articulation name="staccato">
                 <velocity>100</velocity>
@@ -5681,19 +5811,7 @@
             </Articulation>
             <Articulation name="portato">
                 <velocity>100</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="tenuto">
-                <velocity>115</velocity>
-                <gateTime>100</gateTime>
-            </Articulation>
-            <Articulation name="marcato">
-                <velocity>127</velocity>
-                <gateTime>80</gateTime>
-            </Articulation>
-            <Articulation name="sforzato">
-                <velocity>127</velocity>
-                <gateTime>100</gateTime>
+                <gateTime>75</gateTime>
             </Articulation>
             <Articulation name="plusstop">
                 <velocity>80</velocity>
