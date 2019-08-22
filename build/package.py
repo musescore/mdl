@@ -34,16 +34,18 @@ recursive_zip(myzip, os.path.abspath('../resources/templates'), "templates")
 recursive_zip(myzip, os.path.abspath('../resources/workspaces'), "workspaces")
 myzip.write('../resources/metadata.json', 'metadata.json')
 myzip.close()
+print("Packaging successful")
 
 # compute zip size
 fileSize = os.path.getsize(zipPath)
+print(fileSize)
 
 # compute SHA1 hash
-f = open(zipPath)
-hashf = hashlib.sha1()
-hashf.update(f.read())
+f = open(zipPath, newline='\n', encoding='utf-8')
+fileread = f.read()
+hashfunc = hashlib.sha1(fileread)
 f.close()
-h = str(hashf.hexdigest())
+h = str(hashfunc.hexdigest())
 print(h)
 
 ### create details.json
