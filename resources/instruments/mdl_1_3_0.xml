@@ -1651,7 +1651,7 @@
                     <variant pitch="51">
                         <tremolo>buzzroll</tremolo>
                     </variant>
-                    <variant pitch="50">
+                    <variant pitch="51">
                         <articulation>sforzato</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
@@ -2478,7 +2478,7 @@
                     <variant pitch="51">
                         <tremolo>buzzroll</tremolo>
                     </variant>
-                    <variant pitch="50">
+                    <variant pitch="51">
                         <articulation>sforzato</articulation>
                         <tremolo>buzzroll</tremolo>
                     </variant>
